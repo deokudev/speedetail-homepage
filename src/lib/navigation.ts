@@ -1,6 +1,6 @@
 export const navigation = [
   {
-    title: 'New to Inkdrop',
+    title: 'New to Speedetail',
     links: [
       {
         title: 'Get started',
@@ -39,8 +39,8 @@ export const navigation = [
       },
       {
         title: 'How tech notes can boost your productivity',
-        href: 'https://www.inkdrop.app/note-taking-tips/',
-        cover: 'https://www.inkdrop.app/og-cover-image_tips.jpg',
+        href: 'https://www.speedetail.app/note-taking-tips/',
+        cover: 'https://www.speedetail.app/og-cover-image_tips.jpg',
       },
       {
         title: 'How to take notes while learning a new technology',
@@ -152,7 +152,7 @@ export const navigation = [
     title: 'About',
     links: [
       { title: 'Frequently asked questions', href: '/faq' },
-      { title: 'How secure is Inkdrop?', href: '/security' },
+      { title: 'How secure is Speedetail?', href: '/security' },
       { title: 'Contact the author', href: '/contact' },
       { title: 'Terms of Service', href: '/terms' },
       { title: 'Privacy Policy', href: '/privacy' },

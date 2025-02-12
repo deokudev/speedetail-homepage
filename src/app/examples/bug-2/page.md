@@ -6,11 +6,12 @@ nextjs:
   metadata:
     title: App hangs when caps lock enabled on Sonoma
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
-I took this note when I get a bug report on the user forum, which is about a platform-specific issue of Inkdrop.
+I took this note when I get a bug report on the user forum, which is about a platform-specific issue of Speedetail.
 
 What I took for fixing this bug was:
 
@@ -28,7 +29,7 @@ What I took for fixing this bug was:
 
 {% /callout %}
 
-- bug report: [Inkdrop hangs on MacOS Sonoma with caps lock active - 💁🏻‍♂️Support - Inkdrop Forum](https://forum.inkdrop.app/t/inkdrop-hangs-on-macos-sonoma-with-caps-lock-active/4347)
+- bug report: [Speedetail hangs on MacOS Sonoma with caps lock active - 💁🏻‍♂️Support - Speedetail Forum](https://forum.speedetail.app/t/speedetail-hangs-on-macos-sonoma-with-caps-lock-active/4347)
 
 Errors output on the main process like so:
 
@@ -42,7 +43,7 @@ No, that was not anything to the bug.
 ## It often hangs when handling onChange event on `input`
 
 So, React might cause the issue??
-I guess `inkdrop-keymap` is not a culprit.
+I guess `speedetail-keymap` is not a culprit.
 
 ## 🤔 It is highly likely an Electron's bug
 
@@ -50,7 +51,7 @@ It doesn't hang while recording a performance profiling of Developer Tools!!
 
 ## 👀 Try upgrading Electron to the latest
 
-- [Bump up Electron to 28](inkdrop://note/w_9nD08LC)
+- [Bump up Electron to 28](speedetail://note/w_9nD08LC)
 
 ## Reproduction
 
@@ -151,7 +152,7 @@ Now it makes sense why `WindowControlButtons` causes the issue since it accesses
 
 When searching notes, it also randomly happens.
 
-In `@inkdropapp/redux-store/src/utils/notes.ts`:
+In `@speedetailapp/redux-store/src/utils/notes.ts`:
 
 ```ts
    6   export function loadWithKeyword(
@@ -168,10 +169,10 @@ So, it is hard to solve at the moment.
 
 ### Avoid accessing remote objects when editing a note
 
-- {% check v=true /%} Commit: [fix(app): avoid using remote objects in `useNote`](https://github.com/inkdropapp/desktop/commit/3d3d0e63562bbfafefc31be0e97d4897605a23f3)
+- {% check v=true /%} Commit: [fix(app): avoid using remote objects in `useNote`](https://github.com/speedetailapp/desktop/commit/3d3d0e63562bbfafefc31be0e97d4897605a23f3)
 
 ## Test it on the user's environment
 
 It looks like it's working fine:
 
-- {% check v=true /%} [Inkdrop hangs on MacOS Sonoma with caps lock active - #10 by Alessandro_Baldoni - 💁🏻‍♂️Support - Inkdrop Forum](https://forum.inkdrop.app/t/inkdrop-hangs-on-macos-sonoma-with-caps-lock-active/4347/10?u=craftzdog)
+- {% check v=true /%} [Speedetail hangs on MacOS Sonoma with caps lock active - #10 by Alessandro_Baldoni - 💁🏻‍♂️Support - Speedetail Forum](https://forum.speedetail.app/t/speedetail-hangs-on-macos-sonoma-with-caps-lock-active/4347/10?u=craftzdog)

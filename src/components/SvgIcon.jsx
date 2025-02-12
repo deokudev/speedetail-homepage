@@ -28,6 +28,11 @@ import InfoCircle from '@/components/icons/information-circle.svg'
 import Login from '@/components/icons/login-1.svg'
 import SettingsCogs from '@/components/icons/settings-cogs.svg'
 import Server from '@/components/icons/server.svg'
+import Ios from '@/components/icons/ios.svg'
+import Android from '@/components/icons/android.svg'
+import Mac from '@/components/icons/mac.svg'
+import Windows from '@/components/icons/windows.svg'
+import Excel from '@/components/icons/excel.svg'
 
 const svgIcons = {
   'arrow-down-1': ArrowDown1,
@@ -59,6 +64,11 @@ const svgIcons = {
   'tags-double': TagsDouble,
   'settings-cogs': SettingsCogs,
   server: Server,
+  ios: Ios,
+  android: Android,
+  mac: Mac,
+  windows: Windows,
+  excel: Excel,
 }
 
 export function SvgIcon(props) {

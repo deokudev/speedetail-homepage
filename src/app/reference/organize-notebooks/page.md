@@ -4,13 +4,14 @@ coverImage: '/images/organize-notebooks_cover.png'
 nextjs:
   metadata:
     title: Organize notebooks
-    description: How to organize notebooks in Inkdrop
+    description: How to organize notebooks in Speedetail
     openGraph:
-      images: ['https://docs.inkdrop.app/images/organize-notebooks_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/organize-notebooks_cover.png']
 ---
 
 One of the ways to think about notebooks is like separate projects. Every notebook covers a specific topic and can be divided into sub-notebooks. Every (sub)notebook has a list of notes, and every note can have [tags](/reference/write-notes#tag-notes) and [statuses](/reference/note-statuses). When the number of notebooks or their content grows, notebooks management can become a nightmare.
-Inkdrop lets you gracefully organize the notebooks, declutter your workspace, and display the information that belongs to a specific notebook.{% .lead %}
+Speedetail lets you gracefully organize the notebooks, declutter your workspace, and display the information that belongs to a specific notebook.{% .lead %}
 
 ## Use your sidebar
 
@@ -40,7 +41,7 @@ To create a new note, you can either click the {% icon name="pencil-write" /%} i
 
 When creating a new note in the **All Notes** section, it will be created in the default notebook.
 You may want to change it after creating notebooks.
-It can be changed from **Inkdrop** > **Preferences** > **General** > **Default notebook**.
+It can be changed from **Speedetail** > **Preferences** > **General** > **Default notebook**.
 
 ![preferences](/images/organize-notebooks_default-notebook.png)
 
@@ -60,7 +61,7 @@ When a notebook is collapsed, the note list shows direct notes from the collapse
 
 ## View notebook-specific statuses and tags
 
-{% video src="https://site-cdn.inkdrop.app/docs/manual/workspace-view.mp4" poster="https://site-cdn.inkdrop.app/docs/manual/workspace-view.jpg" /%}
+{% video src="https://site-cdn.speedetail.app/docs/manual/workspace-view.mp4" poster="https://site-cdn.speedetail.app/docs/manual/workspace-view.jpg" /%}
 
 By default, the sidebar shows all notebooks, statuses, and tags fetched from the database.
 They're mixed together, and it can be challenging to understand which entity belongs to which notebook.

@@ -6,7 +6,7 @@ nextjs:
     description: Create sophisticated formatting for your prose and code with simple syntax
 ---
 
-Create sophisticated formatting for your tech notes on Inkdrop with simple syntax.{% .lead %}
+Create sophisticated formatting for your tech notes on Speedetail with simple syntax.{% .lead %}
 
 This is intended as a quick reference and showcase.
 For more complete info, see [John Gruber's original spec](https://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown spec page](https://github.github.com/gfm/).
@@ -101,17 +101,17 @@ This will display the code block with syntax highlighting:
 
 You can create an inline link by wrapping link text in brackets `[ ]`, and then wrapping the URL in parentheses `( )`. You can also use the keyboard shortcut {% kbd s="Command+K" /%}(Mac) or {% kbd s="Ctrl+K" /%}(Windows/Linux) to create a link. When you have text selected, you can paste a URL from your clipboard to automatically create a link from the selection.
 
-`This note was written using [Inkdrop](https://www.inkdrop.app/).`
+`This note was written using [Speedetail](https://www.speedetail.app/).`
 
-![Screenshot of rendered GitHub Markdown showing how text within brackets, "Inkdrop," appears as a blue hyperlink.](/images/markdown-cheatsheet_link.png)
+![Screenshot of rendered GitHub Markdown showing how text within brackets, "Speedetail," appears as a blue hyperlink.](/images/markdown-cheatsheet_link.png)
 
 ## Images
 
 You can display an image by adding `!` and wrapping the alt text in `[ ]`. Alt text is a short text equivalent of the information in the image. Then, wrap the link for the image in parentheses `()`.
 
-`![Inu-san is sleeping.](https://docs.inkdrop.app/images/inu-san_sleeping.png)`
+`![Inu-san is sleeping.](https://docs.speedetail.app/images/inu-san_sleeping.png)`
 
-![Inu-san is sleeping.](https://docs.inkdrop.app/images/inu-san_sleeping.png)
+![Inu-san is sleeping.](https://docs.speedetail.app/images/inu-san_sleeping.png)
 
 ## Lists
 
@@ -169,7 +169,7 @@ To create a task list, preface list items with a hyphen and space followed by `
 
 ## Using emoji
 
-If you would prefer using GitHub-style emojis, then install [markdown-emoji](https://my.inkdrop.app/plugins/markdown-emoji) plugin.
+If you would prefer using GitHub-style emojis, then install [markdown-emoji](https://my.speedetail.app/plugins/markdown-emoji) plugin.
 It allows you to add emoji to your writing by typing `:EMOJICODE:`, a colon followed by the name of the emoji.
 
 `:white_check_mark: I've finished working on this feature. It's ready to merge! :tada:`
@@ -217,7 +217,7 @@ Footnotes are not supported in wikis.
 
 ## Alerts
 
-Alerts are a Markdown extension based on the blockquote syntax that you can use to emphasize critical information. On Inkdrop, they are displayed with distinctive colors and icons to indicate the significance of the content.
+Alerts are a Markdown extension based on the blockquote syntax that you can use to emphasize critical information. On Speedetail, they are displayed with distinctive colors and icons to indicate the significance of the content.
 
 Use alerts only when they are crucial for user success and limit them to one or two per article to prevent overloading the reader. Additionally, you should avoid placing alerts consecutively. Alerts cannot be nested within other elements.
 
@@ -246,7 +246,7 @@ Here are the rendered alerts:
 
 ## Hiding content with comments
 
-You can tell Inkdrop to hide content from the rendered Markdown by placing the content in an HTML comment.
+You can tell Speedetail to hide content from the rendered Markdown by placing the content in an HTML comment.
 
 ```
 <!-- This content will not appear in the rendered Markdown -->
@@ -254,7 +254,7 @@ You can tell Inkdrop to hide content from the rendered Markdown by placing the c
 
 ## Ignoring Markdown formatting
 
-You can tell Inkdrop to ignore (or escape) Markdown formatting by using `\` before the Markdown character.
+You can tell Speedetail to ignore (or escape) Markdown formatting by using `\` before the Markdown character.
 
 `Let's rename \*our-new-project\* to \*our-old-project\*.`
 

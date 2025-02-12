@@ -5,7 +5,8 @@ nextjs:
   metadata:
     title: Export PDF support
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
@@ -106,7 +107,7 @@ It works!!!
 ```java
 WebView webView = (WebView) uiManagerModule.resolveView(this.webViewReactTag);
 PrintManager printManager = (PrintManager) this.reactContext.getCurrentActivity().getSystemService(Context.PRINT_SERVICE);
-String jobName = "Inkdrop note";
+String jobName = "Speedetail note";
 PrintDocumentAdapter printAdapter = webView.createPrintDocumentAdapter(jobName);
 if (printAdapter!= null) {
     printManager.print(jobName, printAdapter, new PrintAttributes.Builder().build());
@@ -124,7 +125,7 @@ public void exportAsPDF() {
             UIManagerModule uiManagerModule = self.reactContext.getNativeModule(UIManagerModule.class);
             WebView webView = (WebView) uiManagerModule.resolveView(self.webViewReactTag);
             PrintManager printManager = (PrintManager) self.reactContext.getCurrentActivity().getSystemService(Context.PRINT_SERVICE);
-            String jobName = "Inkdrop note";
+            String jobName = "Speedetail note";
             PrintDocumentAdapter printAdapter = webView.createPrintDocumentAdapter(jobName);
             if (printAdapter!= null) {
                 printManager.print(jobName, printAdapter, new PrintAttributes.Builder().build());
@@ -136,4 +137,4 @@ public void exportAsPDF() {
 
 ## ✅ Merged
 
-- https://github.com/inkdropapp/xxxxxx/pull/3
+- https://github.com/speedetailapp/xxxxxx/pull/3

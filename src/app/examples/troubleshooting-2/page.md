@@ -5,7 +5,8 @@ nextjs:
   metadata:
     title: Nvim memory usage is too high
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
@@ -313,7 +314,7 @@ ripgrep 14.1.0
 
 ## Disable plugins
 
-- [Rodrigo Jaroszewski on X: "@inkdrop_app I stopped using a few months ago because it was making my Neovim sluggish, but I never checked the memory usage. Just thought "screw it, I don't need the eye candy"" / X](https://twitter.com/rodrigolj/status/1768526797329531218)
+- [Rodrigo Jaroszewski on X: "@speedetail_app I stopped using a few months ago because it was making my Neovim sluggish, but I never checked the memory usage. Just thought "screw it, I don't need the eye candy"" / X](https://twitter.com/rodrigolj/status/1768526797329531218)
 
 Anyway, let's try disabling plugins:
 
@@ -414,9 +415,9 @@ Looks like most are language servers 😇 alright
 │ │  │  ├─ 14524 node (node /Users/nora/.local/share/nvim/mason/bin/vscode-json-language-server --stdio)                                                    7 nora         55M ⣀⣀⣀⣀⣀  0.0
 │ │  │  ├─ 4732 node (node /Users/nora/.local/share/nvim/lazy/copilot.lua/copilot/index.js)                                                                12 nora        248M ⣀⣀⣀⣀⣀  0.0
 │ │  │ [-]─3970 node (node /Users/nora/.local/share/nvim/mason/bin/typescript-language-server --stdio)                                                     11 nora         62M ⣀⣀⣀⣀⣀  0.0
-│ │  │  │ [-]─3983 node (/opt/homebrew/Cellar/node/21.7.1/bin/node /Users/nora/Developments/inkdrop/fts-store/node_modules/typescript/lib/tsserver.js -)   13 nora        371M ⣀⣀⣀⣀⣀  0.0
-│ │  │  │  │  └─ 3996 node (/opt/homebrew/Cellar/node/21.7.1/bin/node /Users/nora/Developments/inkdrop/fts-store/node_modules/typescript/lib/typingsIns)    7 nora         93M ⣀⣀⣀⣀⣀  0.0
-│ │  │  │  └─ 3982 node (/opt/homebrew/Cellar/node/21.7.1/bin/node /Users/nora/Developments/inkdrop/fts-store/node_modules/typescript/lib/tsserver.js -)    7 nora        171M ⣀⣀⣀⣀⣀  0.0
+│ │  │  │ [-]─3983 node (/opt/homebrew/Cellar/node/21.7.1/bin/node /Users/nora/Developments/speedetail/fts-store/node_modules/typescript/lib/tsserver.js -)   13 nora        371M ⣀⣀⣀⣀⣀  0.0
+│ │  │  │  │  └─ 3996 node (/opt/homebrew/Cellar/node/21.7.1/bin/node /Users/nora/Developments/speedetail/fts-store/node_modules/typescript/lib/typingsIns)    7 nora         93M ⣀⣀⣀⣀⣀  0.0
+│ │  │  │  └─ 3982 node (/opt/homebrew/Cellar/node/21.7.1/bin/node /Users/nora/Developments/speedetail/fts-store/node_modules/typescript/lib/tsserver.js -)    7 nora        171M ⣀⣀⣀⣀⣀  0.0
 │ │  │  ├─ 3969 node (node /Users/nora/.local/share/nvim/mason/bin/tailwindcss-language-server --stdio)                                                    14 nora         79M ⣀⣀⣀⣀⣀  0.0
 │ │  │  └─ 3968 node (node /Users/nora/.local/share/nvim/mason/bin/vscode-eslint-language-server --stdio)                                                   7 nora        232M ⣀⣀⣀⣀⣀  0.0
 ```

@@ -5,7 +5,8 @@ nextjs:
   metadata:
     title: Improve revision history view
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
@@ -23,7 +24,7 @@ What I took for adding this new feature was:
 
 ![overview](/images/example-note_feature-1_structure.png)
 
-- 🗃️ Repo (private): https://github.com/inkdropapp/revision-utils
+- 🗃️ Repo (private): https://github.com/speedetailapp/revision-utils
 
 It is annoying to choose a revision from the list to view the old note versions.
 It'd be useful to support displaying the revision history like `git log -p`.
@@ -32,14 +33,16 @@ It'd be useful to support displaying the revision history like `git log -p`.
 
 ```js
 let noteId = `note:KyDZ-1BlP`
-let note = await inkdrop.main.dataStore.local.notes.get(noteId, {
+let note = await speedetail.main.dataStore.local.notes.get(noteId, {
   revs_info: true,
 })
 let revs = await Promise.all(
   note._revs_info
     .filter((info) => info.status === 'available')
     .map((info) => {
-      return inkdrop.main.dataStore.local.notes.get(noteId, { rev: info.rev })
+      return speedetail.main.dataStore.local.notes.get(noteId, {
+        rev: info.rev,
+      })
     }),
 )
 ```
@@ -50,7 +53,7 @@ Alternatively:
 
 ```js
 let noteId = `note:KyDZ-1BlP`
-inkdrop.main.dataStore.localPouch
+speedetail.main.dataStore.localPouch
   .changes({ doc_ids: [noteId], since: 0 })
   .on('change', (info) => {
     console.log(info)
@@ -98,7 +101,7 @@ Now you can get diff infos something like this:
                     " ## Rebuild UI",
                     " ",
                     " * [oblador/react-native-animatable: Standard set of easy to use animations and declarative transitions for React Native](https://github.com/oblador/react-native-animatable)",
-                    "+* [Create a UI mockup using Restyle](inkdrop://note/FmIrJlT-O)",
+                    "+* [Create a UI mockup using Restyle](speedetail://note/FmIrJlT-O)",
                     " ",
                     " ## Bug tracking",
                     " ",

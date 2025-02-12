@@ -5,11 +5,12 @@ nextjs:
   metadata:
     title: Configure DMARC record
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
-I configured the DMARC record for the `inkdrop.app` domain to improve email deliverability.
+I configured the DMARC record for the `speedetail.app` domain to improve email deliverability.
 First, I learned how to configure DMARC, then, check my current domain configuration, and finally, set up the DMARC record.
 {% /callout %}
 
@@ -18,14 +19,14 @@ First, I learned how to configure DMARC, then, check my current domain configura
 - [Define your DMARC record - Google Workspace Admin Help](https://support.google.com/a/answer/10032169)
 - [Add your DMARC record - Google Workspace Admin Help](https://support.google.com/a/answer/2466563#dmarc-record-tags)
 
-## Define DMARC record for `inkdrop.app`
+## Define DMARC record for `speedetail.app`
 
 - [Complying with DMARC using Amazon SES - Amazon Simple Email Service](https://docs.aws.amazon.com/ses/latest/dg/send-email-authentication-dmarc.html)
 
 `_dmarc TXT`:
 
 ```
-v=DMARC1;p=none;rua=mailto:***@inkdrop.app;pct=100;adkim=s;aspf=s
+v=DMARC1;p=none;rua=mailto:***@speedetail.app;pct=100;adkim=s;aspf=s
 ```
 
 - `v`: Required DMARC version. Must be DMARC1.
@@ -39,12 +40,12 @@ v=DMARC1;p=none;rua=mailto:***@inkdrop.app;pct=100;adkim=s;aspf=s
 ### Check
 
 ```sh
-❯ nslookup -type=TXT _dmarc.inkdrop.app
+❯ nslookup -type=TXT _dmarc.speedetail.app
 Server:         xxxx:xxxx:xxxx::a
 Address:        xxxx:xxxx:xxxx::a#53
 
 Non-authoritative answer:
-_dmarc.inkdrop.app      text = "v=DMARC1;p=none;rua=mailto:***@inkdrop.app;pct=100;adkim=s;aspf=s"
+_dmarc.speedetail.app      text = "v=DMARC1;p=none;rua=mailto:***@speedetail.app;pct=100;adkim=s;aspf=s"
 
 Authoritative answers can be found from:
 
@@ -54,14 +55,14 @@ Now I can see `dmarc` in the ARC-Authentication-Results header:
 
 ```
 ARC-Authentication-Results: i=1; mx.google.com;
-       dkim=pass header.i=@inkdrop.app header.s=axxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx header.b=xxxx+xxx;
+       dkim=pass header.i=@speedetail.app header.s=axxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx header.b=xxxx+xxx;
        dkim=pass header.i=@amazonses.com header.s=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx header.b=xxxxxxxx;
        spf=pass (google.com: domain of xxxxxxxxxxxxxxxx-xxxxxxxx-b2e2-4544-8e7f-xxxxxxxxxxxx-000000@xxxxx.amazonses.com designates xx.xxx.xx.xx as permitted sender) smtp.mailfrom=xxxxxxxxxxxxxxxx-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx-xxxxxx@xxxxx.amazonses.com;
-       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=inkdrop.app
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=speedetail.app
 ```
 
-- {% check v=true /%} Inkdrop Forum
-- {% check v=true /%} Amazon SES from the Inkdrop server
+- {% check v=true /%} Speedetail Forum
+- {% check v=true /%} Amazon SES from the Speedetail server
 - {% check v=true /%} Gmail
 
 ## Change SPF record
@@ -114,7 +115,7 @@ v=DMARC1;p=quarantine;rua=mailto:***@craftz.dog;pct=100;adkim=s;aspf=s
     </date_range>
   </report_metadata>
   <policy_published>
-    <domain>inkdrop.app</domain>
+    <domain>speedetail.app</domain>
     <adkim>s</adkim>
     <aspf>s</aspf>
     <p>none</p>
@@ -132,11 +133,11 @@ v=DMARC1;p=quarantine;rua=mailto:***@craftz.dog;pct=100;adkim=s;aspf=s
       </policy_evaluated>
     </row>
     <identifiers>
-      <header_from>inkdrop.app</header_from>
+      <header_from>speedetail.app</header_from>
     </identifiers>
     <auth_results>
       <dkim>
-        <domain>inkdrop.app</domain>
+        <domain>speedetail.app</domain>
         <result>pass</result>
         <selector>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</selector>
       </dkim>
@@ -159,7 +160,7 @@ v=DMARC1;p=quarantine;rua=mailto:***@craftz.dog;pct=100;adkim=s;aspf=s
 Looks like I should set the DMARC SPF alignment test to relaxed (`r`).
 
 ```
-v=DMARC1;p=none;rua=mailto:***@inkdrop.app;pct=100;adkim=s;aspf=r
+v=DMARC1;p=none;rua=mailto:***@speedetail.app;pct=100;adkim=s;aspf=r
 ```
 
 No, that's not enough.
@@ -190,11 +191,11 @@ No, that's not enough.
     </policy_evaluated>
   </row>
   <identifiers>
-    <header_from>inkdrop.app</header_from>
+    <header_from>speedetail.app</header_from>
   </identifiers>
   <auth_results>
     <dkim>
-      <domain>inkdrop.app</domain>
+      <domain>speedetail.app</domain>
       <result>pass</result>
       <selector>google</selector>
     </dkim>
@@ -233,43 +234,43 @@ hmmmmmm
 ```
 
 ```
-"v=spf1 redirect=inkdrop.app"
+"v=spf1 redirect=speedetail.app"
 ```
 
 ### Set up a custom MAIL FROM domain
 
 - {% check v=false /%} [Using a custom MAIL FROM domain - Amazon Simple Email Service](https://docs.aws.amazon.com/ses/latest/dg/mail-from.html)
 
-Let's use `mail.inkdrop.app`.
+Let's use `mail.speedetail.app`.
 
-- `mail.inkdrop.app`: `MX 10 feedback-smtp.xxxxx.amazonses.com`
-- `mail.inkdrop.app`: `TXT "v=spf1 include:amazonses.com ~all"`
+- `mail.speedetail.app`: `MX 10 feedback-smtp.xxxxx.amazonses.com`
+- `mail.speedetail.app`: `TXT "v=spf1 include:amazonses.com ~all"`
 
 ## Enable quarantine
 
 Enabled `q=quarantine` on 2023/04/20.
 
 ```
-v=DMARC1;p=quarantine;rua=mailto:***@inkdrop.app;pct=100;adkim=s;aspf=r
+v=DMARC1;p=quarantine;rua=mailto:***@speedetail.app;pct=100;adkim=s;aspf=r
 ```
 
-### Sent a test newsletter from the inkdrop server
+### Sent a test newsletter from the speedetail server
 
 - View it on Gmail: https://mail.google.com/mail/u/2/?xxxxxxxxxxxxxxxx
 
 ```
 ARC-Authentication-Results: i=1; mx.google.com;
-       dkim=pass header.i=@inkdrop.app header.s=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx header.b=RKZOHoMk;
+       dkim=pass header.i=@speedetail.app header.s=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx header.b=RKZOHoMk;
        dkim=pass header.i=@amazonses.com header.s=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx header.b=XM5180Fd;
        spf=pass (google.com: domain of xxxxxxxxxeaaxxbd-axxxxbxe-aexx-xxxx-xxxe-exxxafxxeaed-xxxxxx@us-west-x.amazonses.com designates xx.xxx.xx.xx as permitted sender) smtp.mailfrom=xxxxxxxxxeaaxxbd-axxxxbxe-aexx-xxxx-xxxe-exxxafxxeaed-xxxxxx@us-west-x.amazonses.com;
-       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=inkdrop.app
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=speedetail.app
 ...
 Received-SPF: pass (google.com: domain of xxxxxxxxxxxxxxxx-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx-xxxxxx@us-west-x.amazonses.com designates xx.xxx.xx.xx as permitted sender) client-ip=xx.xxx.xx.xx;
 Authentication-Results: mx.google.com;
-       dkim=pass header.i=@inkdrop.app header.s=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx header.b=RKZOHoMk;
+       dkim=pass header.i=@speedetail.app header.s=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx header.b=RKZOHoMk;
        dkim=pass header.i=@amazonses.com header.s=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx header.b=XMxxxxFd;
        spf=pass (google.com: domain of xxxxxxxxxeaaxxbd-axxxxbxe-aexx-xxxx-xxxe-exxxafxxeaed-xxxxxx@us-west-x.amazonses.com designates xx.xxx.xx.xx as permitted sender) smtp.mailfrom=xxxxxxxxxeaaxxbd-axxxxbxe-aexx-xxxx-xxxe-exxxafxxeaed-xxxxxx@us-west-x.amazonses.com;
-       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=inkdrop.app
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=speedetail.app
 ```
 
 ### Sent from an email client
@@ -280,15 +281,15 @@ Looks ok.
 
 ```
 ARC-Authentication-Results: i=1; mx.google.com;
-       dkim=pass header.i=@inkdrop.app header.s=google header.b=eouxygLZ;
+       dkim=pass header.i=@speedetail.app header.s=google header.b=eouxygLZ;
        spf=pass (google.com: domain of t@***.com designates xxx.xx.xxx.xx as permitted sender) smtp.mailfrom=t@***.com;
-       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=inkdrop.app
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=speedetail.app
 ...
 Received-SPF: pass (google.com: domain of t@***.com designates xxx.xx.xxx.xx as permitted sender) client-ip=xxx.xx.xxx.xx;
 Authentication-Results: mx.google.com;
-       dkim=pass header.i=@inkdrop.app header.s=google header.b=eouxygLZ;
+       dkim=pass header.i=@speedetail.app header.s=google header.b=eouxygLZ;
        spf=pass (google.com: domain of t@***.com designates xxx.xx.xxx.xx as permitted sender) smtp.mailfrom=t@***.com;
-       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=inkdrop.app
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=speedetail.app
 ```
 
 ### Sent from the user forum
@@ -297,14 +298,14 @@ Authentication-Results: mx.google.com;
 
 ```
 ARC-Authentication-Results: i=1; mx.google.com;
-       dkim=pass header.i=@inkdrop.app header.s=xxonxxxtvbfxxbydhgbzxfaomwuxbixx header.b=Luvprxx+;
+       dkim=pass header.i=@speedetail.app header.s=xxonxxxtvbfxxbydhgbzxfaomwuxbixx header.b=Luvprxx+;
        dkim=pass header.i=@amazonses.com header.s=hsbnpxpxensaochzwyqxwwmceodymuwv header.b=rxRefyx+;
        spf=pass (google.com: domain of xxxxxxxxxebxxxex-xxaxxxfx-bxxa-xdxa-xxxx-xxbxaxxxbxex-xxxxxx@us-west-x.amazonses.com designates xx.xxx.xx.xxx as permitted sender) smtp.mailfrom=xxxxxxxxxebxxxex-xxaxxxfx-bxxa-xdxa-xxxx-xxbxaxxxbxex-xxxxxx@us-west-x.amazonses.com;
-       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=inkdrop.app
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=speedetail.app
 Received-SPF: pass (google.com: domain of xxxxxxxxxebxxxex-xxaxxxfx-bxxa-xdxa-xxxx-xxbxaxxxbxex-xxxxxx@us-west-x.amazonses.com designates xx.xxx.xx.xxx as permitted sender) client-ip=xx.xxx.xx.xxx;
 Authentication-Results: mx.google.com;
-       dkim=pass header.i=@inkdrop.app header.s=xxonxxxtvbfxxbydhgbzxfaomwuxbixx header.b=Luvprxx+;
+       dkim=pass header.i=@speedetail.app header.s=xxonxxxtvbfxxbydhgbzxfaomwuxbixx header.b=Luvprxx+;
        dkim=pass header.i=@amazonses.com header.s=hsbnpxpxensaochzwyqxwwmceodymuwv header.b=rxRefyx+;
        spf=pass (google.com: domain of xxxxxxxxxebxxxex-xxaxxxfx-bxxa-xdxa-xxxx-xxbxaxxxbxex-xxxxxx@us-west-x.amazonses.com designates xx.xxx.xx.xxx as permitted sender) smtp.mailfrom=xxxxxxxxxebxxxex-xxaxxxfx-bxxa-xdxa-xxxx-xxbxaxxxbxex-xxxxxx@us-west-x.amazonses.com;
-       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=inkdrop.app
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=speedetail.app
 ```

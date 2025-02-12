@@ -1,15 +1,15 @@
 ---
-title: Get acquainted with Inkdrop interface
+title: Get acquainted with Speedetail interface
 coverImage: '/images/basic-usage_cover.png'
 nextjs:
   metadata:
     title: Basic usage
-    description: How to interact with Inkdrop
+    description: How to interact with Speedetail
 ---
 
 ## Main user interface
 
-Inkdrop interface is broken up into 3 main sections.
+Speedetail interface is broken up into 3 main sections.
 
 - **Sidebar** is the leftmost section. It lists notebooks, statuses, and tags.
   - Notebooks are like folders that store your notes. You can nest notebooks in one another as deeply as needed.
@@ -46,7 +46,7 @@ To create a sub-notebook:
 
 ## Browse viewed notes
 
-As you view your notes, Inkdrop remembers in what order you opened them. It lets you go through the history of the viewed notes back and forth.
+As you view your notes, Speedetail remembers in what order you opened them. It lets you go through the history of the viewed notes back and forth.
 
 There're several options to see the viewed notes:
 
@@ -67,7 +67,7 @@ To navigate between notes via the app menu:
 
 You can use third and fourth buttons on your mouse to navigate back and forth through your viewed notes.
 
-{% video src="https://site-cdn.inkdrop.app/docs/manual/navigate-with-mouse-buttons.mp4" poster="https://site-cdn.inkdrop.app/docs/manual/navigate-with-mouse-buttons.jpg" /%}
+{% video src="https://site-cdn.speedetail.app/docs/manual/navigate-with-mouse-buttons.mp4" poster="https://site-cdn.speedetail.app/docs/manual/navigate-with-mouse-buttons.jpg" /%}
 
 Some computer mouses have additional buttons that you can bind to navigate back and forth through your viewed notes.
 For example, the MX Anywhere 3 mouse has two side buttons that you can use for this purpose as follows:
@@ -93,11 +93,11 @@ Depending on the macOS version, you can find the trackpad settings in different 
 1. Go to **System Settings** > **Trackpad**.
 2. Select the **More Gestures** tab.
 3. Next to the **Swipe between pages** action, select a gesture from the list. For example, **Swipe with Three Fingers**.  
-   Use this gesture to navigate via the viewed notes in Inkdrop.
+   Use this gesture to navigate via the viewed notes in Speedetail.
 
 Watch a video showing how to navigate via the viewed notes using a touchpad on macOS.
 
-{% video src="https://site-cdn.inkdrop.app/docs/manual/navigating-notes_history.mp4" poster="https://site-cdn.inkdrop.app/docs/manual/navigating-notes_history.png" /%}
+{% video src="https://site-cdn.speedetail.app/docs/manual/navigating-notes_history.mp4" poster="https://site-cdn.speedetail.app/docs/manual/navigating-notes_history.png" /%}
 
 #### Hack Windows gestures
 
@@ -121,16 +121,16 @@ Note that this workaround doesn't break browser navigation with the gestures.
 
 You can [set custom keyboard shortcuts](reference/key-customizations) for navigation through the visited notes. The commands for the navigation are:
 
-- [`core:navigate-back`](https://developers.inkdrop.app/guides/list-of-commands#core-navigate-back): To go to the previous note.
-- [`core:navigate-forward`](https://developers.inkdrop.app/guides/list-of-commands#core-navigate-forward): To go to the next note.
+- [`core:navigate-back`](https://developers.speedetail.app/guides/list-of-commands#core-navigate-back): To go to the previous note.
+- [`core:navigate-forward`](https://developers.speedetail.app/guides/list-of-commands#core-navigate-forward): To go to the next note.
 
 ## Settings and preferences
 
-Inkdrop has the **Preferences** view where you can fine-tune look and feel of the app. To open the **Preferences** view, take the following steps:
+Speedetail has the **Preferences** view where you can fine-tune look and feel of the app. To open the **Preferences** view, take the following steps:
 
 ### macOS
 
-Go to **Inkdrop** > **Preferences** in the menu bar. Alternatively, you can use the {% kbd %}Command+,{% /kbd %} shortcut.
+Go to **Speedetail** > **Preferences** in the menu bar. Alternatively, you can use the {% kbd %}Command+,{% /kbd %} shortcut.
 
 ### Windows and Linux
 

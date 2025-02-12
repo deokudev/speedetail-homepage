@@ -26,11 +26,11 @@ const lexend = localFont({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Inkdrop User Manual',
-    default: 'Inkdrop User Manual',
+    template: '%s - Speedetail User Manual',
+    default: 'Speedetail User Manual',
   },
   description:
-    'Help, tutorials & documentation on how to unleash your coding productivity with Inkdrop',
+    'Help, tutorials & documentation on how to unleash your coding productivity with Speedetail',
 }
 
 export default function RootLayout({

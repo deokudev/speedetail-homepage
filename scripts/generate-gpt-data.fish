@@ -1,6 +1,6 @@
 set FILENAME pages.txt
 touch $FILENAME
-set BASEURL https://docs.inkdrop.app
+set BASEURL https://docs.speedetail.app
 rm $FILENAME
 for i in (fd --full-path 'src/app/' -e md)
     set DOCPATH (echo $i | sed -e "s/^src\/app\///" | sed -e "s/page.md//" |  sed -e "s/\.md\$//")

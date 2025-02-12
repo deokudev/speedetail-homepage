@@ -1,8 +1,6 @@
-# Inkdrop User Manual
+# Speedetail User Manual
 
-<https://docs.inkdrop.app/>
-
-The old documentation is [available here](https://github.com/inkdropapp/docs-old).
+<https://docs.speedetail.app/>
 
 ## Stack
 

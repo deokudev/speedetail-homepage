@@ -5,14 +5,15 @@ nextjs:
   metadata:
     title: App crashes when exporting as PDF on iPad
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
 I took this note when I get a bug report on the user forum, which is about exporting as PDF on iPad.
 {% /callout %}
 
-- Bug report: <https://forum.inkdrop.app/t/pdf-export-crashes-inkdrop-on-ipad/4279>
+- Bug report: <https://forum.speedetail.app/t/pdf-export-crashes-speedetail-on-ipad/4279>
 
 ## Exception
 
@@ -34,10 +35,10 @@ Exception	NSException *	"UIPopoverPresentationController (<UIPopoverPresentation
 It works!
 
 ```diff
-diff --git a/ios/Inkdrop/PDFExporter.m b/ios/Inkdrop/PDFExporter.m
+diff --git a/ios/Speedetail/PDFExporter.m b/ios/Speedetail/PDFExporter.m
 index 8a2047a..2115ae6 100644
---- a/ios/Inkdrop/PDFExporter.m
-+++ b/ios/Inkdrop/PDFExporter.m
+--- a/ios/Speedetail/PDFExporter.m
++++ b/ios/Speedetail/PDFExporter.m
 @@ -37,6 +37,11 @@ RCT_EXPORT_METHOD(exportAsPDF:(NSString* __nonnull)title
            UIActivityViewController* activityViewController = [[UIActivityViewController alloc] initWithActivityItems:dataToShare applicationActivities:nil];
            if (activityViewController != nil) {
@@ -52,4 +53,4 @@ index 8a2047a..2115ae6 100644
            }
 ```
 
-- Commit: https://github.com/inkdropapp/xxxxxx/commit/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- Commit: https://github.com/speedetailapp/xxxxxx/commit/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

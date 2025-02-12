@@ -6,13 +6,14 @@ nextjs:
     title: Key note categories for tech issues
     description: Create sophisticated formatting for your prose and code with simple syntax
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
-To practice [the issue-driven tech note-taking method](/start-guide/issue-driven-note-taking) in Inkdrop, it'd be nice to know the key categories for tech issues you might encounter in your workflow.
+To practice [the issue-driven tech note-taking method](/start-guide/issue-driven-note-taking) in Speedetail, it'd be nice to know the key categories for tech issues you might encounter in your workflow.
 This page provides several real-world examples for each category so you can get a better idea of when and what to write in your notes.{% .lead %}
 
-As we discussed on [this page](/start-guide/issue-driven-note-taking), Inkdrop has an opinionated note-taking workflow that encourages you to focus on writing **one note per issue**, while managing them as tasks with [note statuses](/reference/note-statuses).
+As we discussed on [this page](/start-guide/issue-driven-note-taking), Speedetail has an opinionated note-taking workflow that encourages you to focus on writing **one note per issue**, while managing them as tasks with [note statuses](/reference/note-statuses).
 This workflow would help you effectively build your knowledge base while keeping track of your progress and tasks.
 However, if you are new to software engineering, it might still be unclear what kind of issues or information you should document.
 So, this guide aims to clarify when and what to write, with real-world example notes across **9 key issue categories**.
@@ -186,7 +187,7 @@ Document performance bottlenecks, optimization strategies, and techniques used t
   - Any ongoing monitoring or considerations
 - **Examples**:
   - [Slow launch speed](/examples/performance-1)
-  - [Code splitting my.inkdrop.app for faster page load](/examples/performance-2)
+  - [Code splitting my.speedetail.app for faster page load](/examples/performance-2)
   - [Changing orientation is so slow on tablets](/examples/performance-3)
 
 ## {% icon name="server" size=64 /%} Operation procedures/logs
@@ -220,7 +221,7 @@ Capture information related to the preparation, deployment, maintenance, and ope
 
 ## Other types
 
-This list wouldn't limit what you can write in Inkdrop.
+This list wouldn't limit what you can write in Speedetail.
 
 Other possibilities would be:
 
@@ -231,5 +232,5 @@ Other possibilities would be:
 - Code reviews
 - etc.
 
-Just note that Inkdrop is a plain-text Markdown editor, which may not fit every type of note but would work best for coding-related notes. This is because of the decision of '[The right tool for the right task](https://www.inkdrop.app/note-taking-tips/)' philosophy.
+Just note that Speedetail is a plain-text Markdown editor, which may not fit every type of note but would work best for coding-related notes. This is because of the decision of '[The right tool for the right task](https://www.speedetail.app/note-taking-tips/)' philosophy.
 So, you might want to consider using another app for writing non-linear thoughts and image-heavy notes.

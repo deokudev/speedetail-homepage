@@ -23,7 +23,7 @@ You will get HTML files on your disk.
 
 ## Import Notes from HTML Files
 
-Now let’s import them. Select ‘_Inkdrop -> Import -> from HTML files…_’ from menu.
+Now let’s import them. Select ‘_Speedetail -> Import -> from HTML files…_’ from menu.
 
 ![Import Notes from HTML](/images/how-to-import-notes-from-evernote_import-from-html.png)
 

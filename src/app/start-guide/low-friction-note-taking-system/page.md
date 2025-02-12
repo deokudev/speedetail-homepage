@@ -6,12 +6,12 @@ nextjs:
     title: Take notes just as you breathe
     description: Design a low-friction note-taking system for your tech knowledge base
     openGraph:
-      images: ['https://docs.inkdrop.app/images/foster-knowledge_cover.png']
+      images: ['https://docs.speedetail.app/images/foster-knowledge_cover.png']
 ---
 
 It is intriguing to design a perfectly structured knowledge base when starting out, but it is impossible to decide everything beforehand.
 Instead of worrying about how you organize your notes, you should focus on taking useful notes first.
-Here are some practical tips to design a **low-friction note-taking system** on Inkdrop.{% .lead %}
+Here are some practical tips to design a **low-friction note-taking system** on Speedetail.{% .lead %}
 
 ## Embrace your uncertainty. You can't know everything beforehand!
 
@@ -62,7 +62,7 @@ Let's reduce the friction of creating notes further — Create a notebook '**Inb
 ![Inbox notebook](/images/low-friction-note-taking-system_inbox.png)
 
 Make it as the default notebook so that new notes are automatically created in it.
-Go to **Inkdrop** > **Preferences** > **General** > **Default notebook**. Then, select the notebook 'Inbox'.
+Go to **Speedetail** > **Preferences** > **General** > **Default notebook**. Then, select the notebook 'Inbox'.
 
 ![preferences](/images/organize-notebooks_default-notebook.png)
 
@@ -71,8 +71,8 @@ After creating some notes, you can move them to the right notebook anytime.
 You should review them regularly to keep your inbox empty before you forget what they are about or for.
 
 {% callout title="Advanced tip: Use global hotkeys" %}
-Even annoying to switch to Inkdrop to create a new note?
-Inkdrop supports [a global hotkey](/reference/key-customizations#create-a-note-and-show-it-in-a-separate-window) that allows you to create a new note whenever you are on other apps.
+Even annoying to switch to Speedetail to create a new note?
+Speedetail supports [a global hotkey](/reference/key-customizations#create-a-note-and-show-it-in-a-separate-window) that allows you to create a new note whenever you are on other apps.
 {% /callout %}
 
 Congratulations! You have designed a low-friction note-taking system for your workflow.

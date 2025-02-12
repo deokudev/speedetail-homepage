@@ -3,11 +3,11 @@ title: Write notes
 nextjs:
   metadata:
     title: Write notes
-    description: How to write notes in Inkdrop
+    description: How to write notes in Speedetail
 ---
 
-Notes are the central piece in the Inkdrop universe. You can perform all CRUD operations (create, read, update, and delete) with them, duplicate, and export notes in various formats.
-Inkdrop supports both standard Markdown syntax and the
+Notes are the central piece in the Speedetail universe. You can perform all CRUD operations (create, read, update, and delete) with them, duplicate, and export notes in various formats.
+Speedetail supports both standard Markdown syntax and the
 [GitHub Flavored Markdown (GFM)](/writing/basic-writing-and-formatting-syntax) with inline formatting.{% .lead %}
 
 ## Create notes
@@ -23,21 +23,21 @@ An untitled empty note is created. Name the note, so it'll be easier to look for
 
 To delete a note, right-click the note and select the **Move to trash** option. Alternatively, you can select a note with a left-click and use the {% kbd s="Command+Del" /%} / {% kbd s="Delete" /%} shortcut.
 
-Inkdrop also lets you delete multiple notes at once. To do this:
+Speedetail also lets you delete multiple notes at once. To do this:
 
 1. Holding the {% kbd s="Command" /%} / {% kbd s="Ctrl" /%} key, select the notes you want to delete.  
-   Inkdrop shows the number of selected notes in the rightmost area.
+   Speedetail shows the number of selected notes in the rightmost area.
 2. On the right screen, click **{% icon name="bin-1" /%} Move to Trash**.
 
 ### Restore deleted notes
 
-Inkdrop lets you restore the deleted notes.
+Speedetail lets you restore the deleted notes.
 
 To restore notes:
 
 1. In the sidebar, click **{% icon name="bin-1" /%} Trash**.
 2. Select the notes you want to restore and click **{% icon name="book-close-2" /%} Move to Notebook** in the rightmost area.  
-   ![Restore multiple notes in Inkdrop](/images/writing-note-select-multiple.png)
+   ![Restore multiple notes in Speedetail](/images/writing-note-select-multiple.png)
 3. In the **Move to Notebook** dialog, select a notebook where you want to restore the notes.  
    The notes are restored to the selected notebook.
 
@@ -55,7 +55,7 @@ To delete notes permanently:
 
 ## Copy notes
 
-Inkdrop lets you make a complete copy of notes. The copy has title, content, and tags of its original note.
+Speedetail lets you make a complete copy of notes. The copy has title, content, and tags of its original note.
 
 To duplicate notes:
 
@@ -76,16 +76,16 @@ To tag a note:
 
 1. Open the note you want to tag.
 2. Under the note's title, enter the tag name in the **Add Tags** field.  
-   Inkdrop suggests already existing tags as you enter.
+   Speedetail suggests already existing tags as you enter.
 3. Press {% kbd s="Enter" /%} to add the tag to the note.
 
-![Tag image in Inkdrop](/images/add_tag.png)
+![Tag image in Speedetail](/images/add_tag.png)
 
-If it's a new tag, Inkdrop automatically adds it to the **{% icon name="tags-double" / %} Tags** list. You can find the list in the sidebar.
+If it's a new tag, Speedetail automatically adds it to the **{% icon name="tags-double" / %} Tags** list. You can find the list in the sidebar.
 
 ## Live preview
 
-Inkdrop lets you preview notes to see what they eventually look like.
+Speedetail lets you preview notes to see what they eventually look like.
 
 To preview a note:
 

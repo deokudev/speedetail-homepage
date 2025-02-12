@@ -9,7 +9,7 @@ nextjs:
     openGraph:
       images:
         [
-          'https://inkdrop-user-guide.vercel.app/images/issue-driven-note-taking_cover_2.jpg',
+          'https://speedetail-user-guide.vercel.app/images/issue-driven-note-taking_cover_2.jpg',
         ]
 ---
 
@@ -20,9 +20,9 @@ Let's delve into the art of tech note-taking. {% .lead %}
 ## A simple rule: One note per issue
 
 Note-taking apps basically allow you to write anything, but without a focused approach, it's easy to feel overwhelmed and confused.
-Inkdrop is specifically designed to improve your engineering process. It's ideal for managing technical tasks and project-related notes rather than daily-life chores, glossaries, or travel plans. For those, you might find other apps more suitable.
+Speedetail is specifically designed to improve your engineering process. It's ideal for managing technical tasks and project-related notes rather than daily-life chores, glossaries, or travel plans. For those, you might find other apps more suitable.
 
-When taking tech notes on Inkdrop, it is highly recommended to follow the simple rule: **One note per issue.**
+When taking tech notes on Speedetail, it is highly recommended to follow the simple rule: **One note per issue.**
 An issue can be a problem, task, or any matter that you encounter in your projects.
 Software developers commonly manage their tasks using issue trackers like GitHub Issues.
 For instance, consider [the issues in the React Native repository on GitHub](https://github.com/facebook/react-native/issues):
@@ -31,13 +31,13 @@ For instance, consider [the issues in the React Native repository on GitHub](htt
 
 Here, developers track bug reports, performance issues, feature requests, and roadmap discussions.
 When working on your project, you'll likely encounter similar challenges, ideas, or questions.
-Inkdrop encourages you to create one note for each of these instances.
+Speedetail encourages you to create one note for each of these instances.
 For a bug, start a new note; for a fresh idea, another note.
 For example, please take a look at the following screenshot:
 
 ![Example notes](/images/issue-driven-note-taking_example-notes.png)
 
-These are my personal notes for developing Inkdrop, where I take notes for each issue.
+These are my personal notes for developing Speedetail, where I take notes for each issue.
 Do not hesitate to hit the **Create Note** {% icon name="pencil-write" /%} button and start writing down your issues.
 Each note can be short and incomplete.
 
@@ -85,7 +85,7 @@ Just like writing diaries, it'd be nice to **express how you feel while tackling
 This way, even if you are working alone, it makes you feel like you are collaborating with yourself.
 That would help you clarify your thoughts and maintain motivation at the same time.
 
-So, Inkdrop could be your companion by expressing your feelings.
+So, Speedetail could be your companion by expressing your feelings.
 Enjoy the process of solving issues!
 
 ## Keep track of issues with note statuses
@@ -97,7 +97,7 @@ You can still show closed issues by clicking the **Closed** tab, which is handy 
 
 ![GitHub Issues closed issues](/images/issue-driven-note-taking_github-closed-issues.png)
 
-Similarly, Inkdrop can have several statuses for your notes, including 'Active', 'On Hold', 'Completed', and 'Dropped'.
+Similarly, Speedetail can have several statuses for your notes, including 'Active', 'On Hold', 'Completed', and 'Dropped'.
 And the notes with 'Completed' and 'Dropped' statuses are hidden in the note list by default when you view them via a notebook so you can focus on the active issues.
 You can view them by clicking the **Completed** and **Dropped** tabs on the sidebar.
 
@@ -118,8 +118,8 @@ To add a status to a note:
 
 Watch a video showing a basic use case:
 
-{% video src="https://site-cdn.inkdrop.app/docs/manual/managing-tasks-with-status.mp4" poster="https://site-cdn.inkdrop.app/docs/manual/managing-tasks-with-status.jpg" /%}
+{% video src="https://site-cdn.speedetail.app/docs/manual/managing-tasks-with-status.mp4" poster="https://site-cdn.speedetail.app/docs/manual/managing-tasks-with-status.jpg" /%}
 
 ---
 
-Overall, the key to effective note-taking in Inkdrop is the disciplined approach of 'One note per issue' coupled with the strategic use of note statuses. This method not only keeps your project notes organized and manageable but also aligns your engineering process with best practices in software development.
+Overall, the key to effective note-taking in Speedetail is the disciplined approach of 'One note per issue' coupled with the strategic use of note statuses. This method not only keeps your project notes organized and manageable but also aligns your engineering process with best practices in software development.

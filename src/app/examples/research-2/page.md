@@ -6,11 +6,12 @@ nextjs:
   metadata:
     title: Rebuild mobile app
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
-I took this note when I was planning to rebuild my React Native app for Inkdrop. I created a check list of promising libraries and resources. Some ideas are also included.
+I took this note when I was planning to rebuild my React Native app for Speedetail. I created a check list of promising libraries and resources. Some ideas are also included.
 {% /callout %}
 
 - {% check v=true /%} Read [Blog · React Native](https://reactnative.dev/blog)
@@ -42,12 +43,12 @@ I took this note when I was planning to rebuild my React Native app for Inkdrop.
 ## Bug fix
 
 - {% check v=true /%} Crashes when deleting a notebook
-- {% check v=true /%} [Fix URL scheme for note links](inkdrop://note/JMI4LaqB8)
+- {% check v=true /%} [Fix URL scheme for note links](speedetail://note/JMI4LaqB8)
 
 ## Rebuild UI
 
 - [oblador/react-native-animatable: Standard set of easy to use animations and declarative transitions for React Native](https://github.com/oblador/react-native-animatable)
-- [Create a UI mockup using Restyle](inkdrop://note/FmIrJlT-O)
+- [Create a UI mockup using Restyle](speedetail://note/FmIrJlT-O)
 
 ## Bug tracking
 

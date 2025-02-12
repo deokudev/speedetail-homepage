@@ -5,15 +5,15 @@ youtubeVideoId: 'k0NbSPIOX54?list=PLFzcienOaLeP-tVCPYCThLfqG6NNg0HBF'
 nextjs:
   metadata:
     title: What is Markdown and how to write it
-    description: What is Markdown and how to write it on Inkdrop
+    description: What is Markdown and how to write it on Speedetail
     openGraph:
       images:
         [
-          'https://docs.inkdrop.app/images/how-to-write-markdown-notes_cover.jpg',
+          'https://docs.speedetail.app/images/how-to-write-markdown-notes_cover.jpg',
         ]
 ---
 
-After installing Inkdrop, you may notice that the examples in the app contain symbols like `#` or `**`. These are Markdown syntax — a simple yet powerful way to format text. If you're new to this, no worries. This page introduces you to the world of Markdown and explains why it's such a favorite among developers and tech enthusiasts.{% .lead %}
+After installing Speedetail, you may notice that the examples in the app contain symbols like `#` or `**`. These are Markdown syntax — a simple yet powerful way to format text. If you're new to this, no worries. This page introduces you to the world of Markdown and explains why it's such a favorite among developers and tech enthusiasts.{% .lead %}
 
 ## What is Markdown? 🤔
 
@@ -27,7 +27,7 @@ Well, basically everywhere. Markdown is used in many places, including the follo
 - **Slack and Discord**: Slack and Discord allow you to format messages with Markdown.
 - **Discourse**: Discourse, a popular forum software, adopts Markdown for its posts.
 - **Websites and Blogs**: Many static site generators like Docusaurus, Jekyll, and Gatsby use Markdown as their primary content format.
-- **Inkdrop**: Supports vanilla Markdown as well as its modifications.
+- **Speedetail**: Supports vanilla Markdown as well as its modifications.
 
 ## Why should I try it? 🔮
 
@@ -35,11 +35,11 @@ Imagine you're an architect. You have ideas brimming in your mind, designs waiti
 Now, you could sketch these on any piece of paper, but you choose a drafting table.
 Why? Because it's tailored for your work.
 It has the right tools and features for productive work.
-With Markdown, you don't write notes, you craft them. And, Inkdrop is the best tool for crafting.
+With Markdown, you don't write notes, you craft them. And, Speedetail is the best tool for crafting.
 
 ## What can I do with Markdown? 📝
 
-Inkdrop lets you format text in many ways. Here are some basic examples:
+Speedetail lets you format text in many ways. Here are some basic examples:
 
 - `# Headings`. The more `#` you use, the smaller the heading. `## Heading` gives you a second-level heading.
 - \*_Italicized_\* and \*\*bold\*\* text-> _Italicized_ and **bold** text.
@@ -85,7 +85,7 @@ hello_world()
 
 {% /snippet %}
 
-- **Mermaid**: An amazing feature that lets you generate diagrams and flowcharts from text-based descriptions. This is particularly useful for jotting down complex ideas visually. (Requires [Mermaid plugin](https://my.inkdrop.app/plugins/mermaid))
+- **Mermaid**: An amazing feature that lets you generate diagrams and flowcharts from text-based descriptions. This is particularly useful for jotting down complex ideas visually. (Requires [Mermaid plugin](https://my.speedetail.app/plugins/mermaid))
 
 {% snippet lang="md" filename="Diagrams" %}
 
@@ -99,7 +99,7 @@ graph TD;
 
 {% /snippet %}
 
-- **Math Expressions**: For those in more technical or scientific fields, GFM's support for math notation can be a lifesaver, allowing for LaTeX-style mathematical expressions. (Requires [Math plugin](https://my.inkdrop.app/plugins/math))
+- **Math Expressions**: For those in more technical or scientific fields, GFM's support for math notation can be a lifesaver, allowing for LaTeX-style mathematical expressions. (Requires [Math plugin](https://my.speedetail.app/plugins/math))
 
 {% snippet lang="md" filename="Math expressions" %}
 
@@ -111,11 +111,11 @@ E = mc^2
 
 {% /snippet %}
 
-In Inkdrop, these examples are rendered like the following:
+In Speedetail, these examples are rendered like the following:
 
 ![GFM example](/images/what-is-markdown_gfm-example.png)
 
-It looks powerful yet simple, right? Inkdrop supports GFM, ensuring that your notes can be as technical, detailed, and intricate as needed. This makes it perfect for jotting down everything from code snippets and algorithms to complex mathematical theories and flowcharts.
+It looks powerful yet simple, right? Speedetail supports GFM, ensuring that your notes can be as technical, detailed, and intricate as needed. This makes it perfect for jotting down everything from code snippets and algorithms to complex mathematical theories and flowcharts.
 
 ## Create your first note
 
@@ -154,7 +154,7 @@ You can even hide the toolbar with controls for quick formatting. For this, take
 
 ### Live preview
 
-Inkdrop lets you preview notes to see what they eventually look like.
+Speedetail lets you preview notes to see what they eventually look like.
 
 To preview a note:
 
@@ -173,8 +173,8 @@ There're 2 more ways to toggle preview. In the lower right corner of the editor:
 Note that the icons are hidden by default. Hover the mouse cursor over the editor and icons will appear in the lower right corner of the editor.
 {% /callout %}
 
-## Markdown role in Inkdrop 📚
+## Markdown role in Speedetail 📚
 
-The essence of Inkdrop is to provide a seamless note-taking experience, and Markdown plays a crucial role in it. As you get comfortable with Inkdrop and Markdown, you'll realize the power of the duo. It lets you jot down thoughts, code snippets, to-do lists, and more in no time and with minimal effort.
+The essence of Speedetail is to provide a seamless note-taking experience, and Markdown plays a crucial role in it. As you get comfortable with Speedetail and Markdown, you'll realize the power of the duo. It lets you jot down thoughts, code snippets, to-do lists, and more in no time and with minimal effort.
 
 Moreover, as you progress in your software development journey (if that's a path you're on or considering), mastering Markdown becomes an invaluable skill. But even if you're not venturing into software, the sheer convenience of Markdown will enhance your digital note-taking endeavors.

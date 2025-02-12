@@ -6,16 +6,16 @@ nextjs:
     description: Work behind a corporate or local web proxy
 ---
 
-If you are working behind a company proxy or you have a local proxy running, it's necessary to tell Inkdrop to go through it.
+If you are working behind a company proxy or you have a local proxy running, it's necessary to tell Speedetail to go through it.
 Here is a quick tip for those dealing with a proxy.
 
 You can configure the web proxy settings by editing `config.json`. This config file is in following directory:
 
-- on macOS: `~/Library/Application Support/inkdrop/config.json`
-- on Windows: `%APPDATA%\inkdrop\config.json`
-- on Linux: `~/.config/inkdrop/config.json`
+- on macOS: `~/Library/Application Support/speedetail/config.json`
+- on Windows: `%APPDATA%\speedetail\config.json`
+- on Linux: `~/.config/speedetail/config.json`
 
-Quit Inkdrop before you edit it.
+Quit Speedetail before you edit it.
 
 ```js
 {
@@ -43,7 +43,7 @@ NG: http://david@company.com:password@webproxy:8080/
 OK: http://david%40company.com:password@webproxy:8080/
 ```
 
-Now open Inkdrop and you should be able to authenticate and get synced!
+Now open Speedetail and you should be able to authenticate and get synced!
 
 ## Configuring ipm
 
@@ -82,7 +82,7 @@ ipm config set strict-ssl false
 ### Client network socket disconnected before secure TLS connection was established
 
 If you got an error like that, your proxy server may be using TLSv1.0 which is obsolete.
-You have to update your proxy server to support newer protocols like TLSv1.2 since Inkdrop does not support TLSv1.0.
+You have to update your proxy server to support newer protocols like TLSv1.2 since Speedetail does not support TLSv1.0.
 
 ### Run network diagnosis
 

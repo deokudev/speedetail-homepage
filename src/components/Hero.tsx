@@ -55,18 +55,48 @@ export function Hero() {
               </p>
               <p className="mt-3 font-proxyma text-2xl tracking-tight text-slate-400">
                 Learn how to unleash your coding productivity by taking and
-                organizing tech notes with Inkdrop.
+                organizing tech notes with Speedetail.
               </p>
-              <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
+              <div className="lg: mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 md:justify-center lg:grid-cols-3 lg:justify-start">
                 <Button
-                  href="https://my.inkdrop.app/"
-                  className="inline-flex items-center justify-center gap-1"
+                  href="https://my.speedetail.app/"
+                  variant="secondary"
+                  className="inline-flex items-center justify-center gap-2"
                 >
-                  <SvgIcon name="login" />
-                  Log in
+                  <SvgIcon name="android" />
+                  Android
                 </Button>
-                <Button href="https://www.inkdrop.app/" variant="secondary">
-                  What is Inkdrop?
+                <Button
+                  href="https://my.speedetail.app/"
+                  variant="secondary"
+                  className="inline-flex items-center justify-center gap-2"
+                >
+                  <SvgIcon name="ios" />
+                  iOS
+                </Button>
+                <Button
+                  href="https://my.speedetail.app/"
+                  variant="secondary"
+                  className="inline-flex items-center justify-center gap-2"
+                >
+                  <SvgIcon name="windows" />
+                  Windows
+                </Button>
+                <Button
+                  href="https://my.speedetail.app/"
+                  variant="secondary"
+                  className="inline-flex items-center justify-center gap-2"
+                >
+                  <SvgIcon name="mac" />
+                  Mac
+                </Button>
+                <Button
+                  href="https://my.speedetail.app/"
+                  variant="secondary"
+                  className="inline-flex items-center justify-center gap-2"
+                >
+                  <SvgIcon name="excel" />
+                  Excel
                 </Button>
               </div>
             </div>
@@ -96,7 +126,7 @@ export function Hero() {
               />
               <Image
                 src={heroImage}
-                alt="A dog hacking Inkdrop"
+                alt="A dog hacking Speedetail"
                 priority
                 className="scale-150"
               />

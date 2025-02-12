@@ -3,14 +3,14 @@ title: Restore previous revisions of note
 nextjs:
   metadata:
     title: Restore previous revisions of note
-    description: Inkdrop automatically creates a new revision each time you stop writing a note, allowing you to quickly restore any previous version with ease
+    description: Speedetail automatically creates a new revision each time you stop writing a note, allowing you to quickly restore any previous version with ease
 ---
 
-Inkdrop keeps a history of changes made in your notes. Whenever you stop writing a note, Inkdrop automatically creates a new revision. You can quickly restore any previous revision.
+Speedetail keeps a history of changes made in your notes. Whenever you stop writing a note, Speedetail automatically creates a new revision. You can quickly restore any previous revision.
 
 ## Which revisions can be restored
 
-Inkdrop synchronizes only the latest revision of a note across multiple devices. For example, if you have older revisions made in a mobile app, you can't access them in the desktop app. Only the latest revision is available in the desktop app. Inkdrop's database deletes old revisions automatically to save the storage capacity.
+Speedetail synchronizes only the latest revision of a note across multiple devices. For example, if you have older revisions made in a mobile app, you can't access them in the desktop app. Only the latest revision is available in the desktop app. Speedetail's database deletes old revisions automatically to save the storage capacity.
 
 ## Restore previous revisions of note
 

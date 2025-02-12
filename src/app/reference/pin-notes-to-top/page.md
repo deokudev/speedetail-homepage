@@ -6,7 +6,7 @@ nextjs:
     description: Make notes stick to the top of their notes list
 ---
 
-Let's say you sometimes have trouble remembering which notes you were working on in Inkdrop.
+Let's say you sometimes have trouble remembering which notes you were working on in Speedetail.
 It's time to use "Pin to Top" feature, which allows you to make notes stick to the top of your notes list.
 
 ![Pinned note](/images//pin-notes-to-top_overview.png)

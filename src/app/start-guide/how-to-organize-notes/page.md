@@ -7,10 +7,10 @@ nextjs:
     title: How to organize notes
     description: Design a low-friction note-taking system for your tech knowledge base
     openGraph:
-      images: ['https://docs.inkdrop.app/images/foster-knowledge_cover.png']
+      images: ['https://docs.speedetail.app/images/foster-knowledge_cover.png']
 ---
 
-Now that you understand how to create notes using Markdown in Inkdrop, let's move on to the next step: organizing your notes efficiently. Inkdrop makes this process easier with features like notebooks, statuses, and tags, allowing you to focus on capturing and developing your ideas while keeping track of your tasks.{% .lead %}
+Now that you understand how to create notes using Markdown in Speedetail, let's move on to the next step: organizing your notes efficiently. Speedetail makes this process easier with features like notebooks, statuses, and tags, allowing you to focus on capturing and developing your ideas while keeping track of your tasks.{% .lead %}
 
 ## Sidebar: A note organization portal
 
@@ -18,7 +18,7 @@ Now that you understand how to create notes using Markdown in Inkdrop, let's mov
 
 The sidebar is the leftmost section of the app.
 It is more than just a section of the app; it's where all your organizational tools are located.
-Inkdrop provides three ways to organize your notes:
+Speedetail provides three ways to organize your notes:
 
 - **Notebooks** are like folders that store your notes. You can nest notebooks in one another as deeply as needed.
 - **Statuses** help you treat notes as tasks and, for example, display only active or completed ones.
@@ -58,13 +58,13 @@ There are a few ways to move notes into a notebook (See the above screenshot):
 
 When creating a new note in the **All Notes** section, it will be created in the default notebook.
 You may want to change it after creating notebooks.
-It can be changed from **Inkdrop** > **Preferences** > **General** > **Default notebook**.
+It can be changed from **Speedetail** > **Preferences** > **General** > **Default notebook**.
 
 ![preferences](/images/organize-notebooks_default-notebook.png)
 
 ## Note statuses
 
-Inkdrop can have several statuses for your notes, including 'Active', 'On Hold', 'Completed', and 'Dropped', which help you treat notes as tasks.
+Speedetail can have several statuses for your notes, including 'Active', 'On Hold', 'Completed', and 'Dropped', which help you treat notes as tasks.
 
 - **Active**: For tasks you’re currently working.
 - **On Hold**: When you’ve paused work on a task.
@@ -99,7 +99,7 @@ To tag a note:
 
 1. Open the note you want to tag.
 2. Under the note's title, enter the tag name in the **Add Tags** field.  
-   Inkdrop suggests already existing tags as you enter.
+   Speedetail suggests already existing tags as you enter.
 3. Press {% kbd s="Enter" /%} to add the tag to the note.
 
 ![Tags](/images/how-to-organize-notes_tags.png)
@@ -109,7 +109,7 @@ By selecting multiple tags, you can narrow down your note list to include only t
 
 ## Go back/forth with keyboard, mouse, or trackpad
 
-As you view your notes, Inkdrop remembers in what order you opened them. It lets you go through the history of the viewed notes back and forth.
+As you view your notes, Speedetail remembers in what order you opened them. It lets you go through the history of the viewed notes back and forth.
 There're several options to see the viewed notes.
 
 For the instructions on how to configure, see [this page](/reference/main-user-interface#browse-viewed-notes).
@@ -131,17 +131,17 @@ To navigate between notes via the app menu:
 
 You can use third and fourth buttons on your mouse to navigate back and forth through your viewed notes.
 
-{% video src="https://site-cdn.inkdrop.app/docs/manual/navigate-with-mouse-buttons.mp4" poster="https://site-cdn.inkdrop.app/docs/manual/navigate-with-mouse-buttons.jpg" /%}
+{% video src="https://site-cdn.speedetail.app/docs/manual/navigate-with-mouse-buttons.mp4" poster="https://site-cdn.speedetail.app/docs/manual/navigate-with-mouse-buttons.jpg" /%}
 
 ### Via touchpad gestures
 
-{% video src="https://site-cdn.inkdrop.app/docs/manual/navigating-notes_history.mp4" poster="https://site-cdn.inkdrop.app/docs/manual/navigating-notes_history.png" /%}
+{% video src="https://site-cdn.speedetail.app/docs/manual/navigating-notes_history.mp4" poster="https://site-cdn.speedetail.app/docs/manual/navigating-notes_history.png" /%}
 
 You can use gestures on the touchpad to navigate the history of viewed notes.
 
 ## Workspace view
 
-{% video src="https://site-cdn.inkdrop.app/docs/manual/workspace-view.mp4" poster="https://site-cdn.inkdrop.app/docs/manual/workspace-view.jpg" /%}
+{% video src="https://site-cdn.speedetail.app/docs/manual/workspace-view.mp4" poster="https://site-cdn.speedetail.app/docs/manual/workspace-view.jpg" /%}
 
 By default, the sidebar shows all notebooks, statuses, and tags fetched from the database.
 They're mixed together, and it can be challenging to understand which entity belongs to which notebook.

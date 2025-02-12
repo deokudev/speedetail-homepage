@@ -3,11 +3,11 @@ title: Resize images
 nextjs:
   metadata:
     title: Resize images
-    description: Inkdrop allows resizing images in Markdown notes by defining custom styles in the styles.less file for different size specifications
+    description: Speedetail allows resizing images in Markdown notes by defining custom styles in the styles.less file for different size specifications
 ---
 
-Inkdrop basically follows GitHub-flavored Markdown which does not support specifying image size.
-To change image sizes in your notes, you have to define [custom stylesheet](https://developers.inkdrop.app/guides/style-tweaks).
+Speedetail basically follows GitHub-flavored Markdown which does not support specifying image size.
+To change image sizes in your notes, you have to define [custom stylesheet](https://developers.speedetail.app/guides/style-tweaks).
 Add following rules to your `styles.less`:
 
 ```css
@@ -36,10 +36,10 @@ With these rules defined, your images with `alt` attribute ending with `#small` 
 You can insert images in Markdown as following:
 
 ```markdown
-![image.jpg](inkdrop://file:srPsQH8nx)
-![image.jpg #small](inkdrop://file:srPsQH8nx)
-![image.jpg #x-small](inkdrop://file:srPsQH8nx)
-![image.jpg #xx-small](inkdrop://file:srPsQH8nx)
+![image.jpg](speedetail://file:srPsQH8nx)
+![image.jpg #small](speedetail://file:srPsQH8nx)
+![image.jpg #x-small](speedetail://file:srPsQH8nx)
+![image.jpg #xx-small](speedetail://file:srPsQH8nx)
 ```
 
 The app will render like so:

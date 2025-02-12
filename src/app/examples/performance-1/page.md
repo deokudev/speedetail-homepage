@@ -6,11 +6,12 @@ nextjs:
   metadata:
     title: Slow launch speed
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
-I took this note when I needed to improve the launch speed of the desktop app for Inkdrop.
+I took this note when I needed to improve the launch speed of the desktop app for Speedetail.
 {% /callout %}
 
 ## Loading modules is still slow
@@ -23,7 +24,7 @@ Loading `browser-main.js` already takes 210ms..
 
 `loadPackages()` requires main scripts, that causes slowing down.
 
-- Commit: https://github.com/inkdropapp/desktop/commit/6fa202b56eef80507e1d6e4ec2d7da900d69f991
+- Commit: https://github.com/speedetailapp/desktop/commit/6fa202b56eef80507e1d6e4ec2d7da900d69f991
 
 Pre-loading package can defer running the main script.
 
@@ -44,7 +45,7 @@ Pre-loading package can defer running the main script.
 - {% check v=true /%} `lodash/pick`
   - 2.5ms - 5ms
 - {% check v=true /%} `yaml`
-  - `@inkdropapp/yeason`  
+  - `@speedetailapp/yeason`  
     ![#x-small](/images/example-note_performance-1_05_yaml.png)
   - Convert CSON to JSON. Do not use YAML by default.
 

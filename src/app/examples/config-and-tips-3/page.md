@@ -5,7 +5,8 @@ nextjs:
   metadata:
     title: Install rbenv
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
@@ -26,7 +27,7 @@ Scanning for pods...
 [!] Invalid `Podfile` file:
 [!] Invalid `RNGestureHandler.podspec` file: undefined method `exists?' for File:Class.
 
- #  from /Users/nora/Developments/inkdrop/inkdrop-mobile-next/node_modules/react-native-gesture-handler/RNGestureHandler.podspec:5
+ #  from /Users/nora/Developments/speedetail/speedetail-mobile-next/node_modules/react-native-gesture-handler/RNGestureHandler.podspec:5
  #  -------------------------------------------
  #
  >  isUserApp = File.exists?(File.join(__dir__, "..", "..", "node_modules", "react-native", "package.json"))
@@ -34,9 +35,9 @@ Scanning for pods...
  #  -------------------------------------------
 .
 
- #  from /Users/nora/Developments/inkdrop/inkdrop-mobile-next/ios/Podfile:8
+ #  from /Users/nora/Developments/speedetail/speedetail-mobile-next/ios/Podfile:8
  #  -------------------------------------------
- #  target 'Inkdrop' do
+ #  target 'Speedetail' do
  >    config = use_native_modules!
  #
  #  -------------------------------------------
@@ -46,7 +47,7 @@ Couldn't install Pods. Updating the Pods project and trying again...
 [!] Invalid `Podfile` file:
 [!] Invalid `RNGestureHandler.podspec` file: undefined method `exists?' for File:Class.
 
- #  from /Users/nora/Developments/inkdrop/inkdrop-mobile-next/node_modules/react-native-gesture-handler/RNGestureHandler.podspec:5
+ #  from /Users/nora/Developments/speedetail/speedetail-mobile-next/node_modules/react-native-gesture-handler/RNGestureHandler.podspec:5
  #  -------------------------------------------
  #
  >  isUserApp = File.exists?(File.join(__dir__, "..", "..", "node_modules", "react-native", "package.json"))
@@ -54,9 +55,9 @@ Couldn't install Pods. Updating the Pods project and trying again...
  #  -------------------------------------------
 .
 
- #  from /Users/nora/Developments/inkdrop/inkdrop-mobile-next/ios/Podfile:8
+ #  from /Users/nora/Developments/speedetail/speedetail-mobile-next/ios/Podfile:8
  #  -------------------------------------------
- #  target 'Inkdrop' do
+ #  target 'Speedetail' do
  >    config = use_native_modules!
  #
  #  -------------------------------------------
@@ -65,7 +66,7 @@ Command `pod install` failed.
 └─ Cause: Invalid `Podfile` file:
 [!] Invalid `RNGestureHandler.podspec` file: undefined method `exists?' for File:Class.
 
- #  from /Users/nora/Developments/inkdrop/inkdrop-mobile-next/node_modules/react-native-gesture-handler/RNGestureHandler.podspec:5
+ #  from /Users/nora/Developments/speedetail/speedetail-mobile-next/node_modules/react-native-gesture-handler/RNGestureHandler.podspec:5
  #  -------------------------------------------
  #
  >  isUserApp = File.exists?(File.join(__dir__, "..", "..", "node_modules", "react-native", "package.json"))
@@ -73,9 +74,9 @@ Command `pod install` failed.
  #  -------------------------------------------
 .
 
- #  from /Users/nora/Developments/inkdrop/inkdrop-mobile-next/ios/Podfile:8
+ #  from /Users/nora/Developments/speedetail/speedetail-mobile-next/ios/Podfile:8
  #  -------------------------------------------
- #  target 'Inkdrop' do
+ #  target 'Speedetail' do
  >    config = use_native_modules!
  #
  #  -------------------------------------------
@@ -158,7 +159,7 @@ npm http fetch GET 200 https://registry.npmjs.org/pod-install 78ms (cache revali
 Scanning for pods...
 1.11.3
 > pod install
-Auto-linking React Native modules for target `Inkdrop`: RNCAsyncStorage, RNCClipboard, RNDeviceInfo, RNFS, RNGestureHandler, RNReactNativeHapticFeedback, RNReanimated, RNSVG, RNScreens, react-native-aes-gcm-crypto, react-native-aes-gcm-simple, react-native-get-random-values, react-native-image-picker, react-native-japanese-tokenizer, react-native-mmkv, react-native-quick-base64, react-native-quick-md5, react-native-quick-sqlite, react-native-safe-area-context, react-native-simple-crypto, and react-native-webview
+Auto-linking React Native modules for target `Speedetail`: RNCAsyncStorage, RNCClipboard, RNDeviceInfo, RNFS, RNGestureHandler, RNReactNativeHapticFeedback, RNReanimated, RNSVG, RNScreens, react-native-aes-gcm-crypto, react-native-aes-gcm-simple, react-native-get-random-values, react-native-image-picker, react-native-japanese-tokenizer, react-native-mmkv, react-native-quick-base64, react-native-quick-md5, react-native-quick-sqlite, react-native-safe-area-context, react-native-simple-crypto, and react-native-webview
 [Codegen] Generating ./build/generated/ios/React-Codegen.podspec.json
 Analyzing dependencies
 [Codegen] Found FBReactNativeSpec
@@ -168,7 +169,7 @@ Installing RNReanimated 2.14.2 (was 2.13.0)
 Installing react-native-image-picker (5.0.0)
 Generating Pods project
 Setting REACT_NATIVE build settings
-Setting CLANG_CXX_LANGUAGE_STANDARD to c++17 on /Users/nora/Developments/inkdrop/inkdrop-mobile-next/ios/Inkdrop.xcodeproj
+Setting CLANG_CXX_LANGUAGE_STANDARD to c++17 on /Users/nora/Developments/speedetail/speedetail-mobile-next/ios/Speedetail.xcodeproj
 Pod install took 13 [s] to run
 Update config react-native-quick-sqlite Release
 Update config react-native-quick-sqlite Debug

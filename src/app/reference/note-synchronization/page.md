@@ -6,35 +6,35 @@ nextjs:
     description: Cloud-based note data synchronization
 ---
 
-Inkdrop lets you sync notes across multiple computers via Cloud.
-By default, Inkdrop stores your data in Inkdrop sync server.
+Speedetail lets you sync notes across multiple computers via Cloud.
+By default, Speedetail stores your data in Speedetail sync server.
 You can configure synchronizations in the Preferences window like this:
 
 ![Sync Preferences](/images/sync_preferences.png)
 
 There are three sync options:
 
-- **Don't Sync** - Store Inkdrop data only in your local computer
-- **Inkdrop Sync Server** - Sync with Inkdrop's own service
+- **Don't Sync** - Store Speedetail data only in your local computer
+- **Speedetail Sync Server** - Sync with Speedetail's own service
 - **Advanced (CouchDB)** - Sync with your own compatible server
 
 ## How to Set Up Your Own Sync Server
 
-Inkdrop lets you store your notes in your own database compatible with [CouchDB](http://couchdb.apache.org/) API instead of Inkdrop's own service.
+Speedetail lets you store your notes in your own database compatible with [CouchDB](http://couchdb.apache.org/) API instead of Speedetail's own service.
 CouchDB is just another open-source NoSQL database so you can deploy it on your environment for free. See CouchDB's [installation guide](http://docs.couchdb.org/en/1.6.1/install/index.html) for more informations.
 Using DBaaS instead of operating database by yourself is good choice. For instance, [Cloudant](https://cloudant.com/) is one of fully-managed DBaaS providers.
 
 {% callout type="warning" %}
-Use this feature at your own risk. Inkdrop itself doesn't protect data from other people on your server. To protect your data, read [Security](#configure-security) section at the bottom of this page.improvements.
+Use this feature at your own risk. Speedetail itself doesn't protect data from other people on your server. To protect your data, read [Security](#configure-security) section at the bottom of this page.improvements.
 {% /callout %}
 
 ### Create a database
 
 Once you got your CouchDB server, let's create a database for storing your notes.
-You need only one database for Inkdrop. For example, run below command to create a database:
+You need only one database for Speedetail. For example, run below command to create a database:
 
 ```bash
-> curl -X PUT http://localhost:5984/my-inkdrop-notes
+> curl -X PUT http://localhost:5984/my-speedetail-notes
 ```
 
 {% callout type="note" title="Note" %}
@@ -45,13 +45,13 @@ Retrieving the list of databases shows some useful results this time:
 
 ```bash
 > curl -X GET http://127.0.0.1:5984/_all_dbs
-["my-inkdrop-notes"]
+["my-speedetail-notes"]
 ```
 
-Return to the Inkdrop sync preferences, you can input the URL to your database to the **Address** section:
+Return to the Speedetail sync preferences, you can input the URL to your database to the **Address** section:
 
 ```url
-http://localhost:5984/my-inkdrop-notes
+http://localhost:5984/my-speedetail-notes
 ```
 
 ![Sync with custom server on the desktop app](/images/sync_custom-server.png)
@@ -72,16 +72,16 @@ Now let’s create an admin user. We’ll call her `anna`, and her password is `
 > curl -X PUT http://127.0.0.1:5984/_config/admins/anna -d '"secret"'
 ```
 
-Now we have an admin user named `anna`, let's give her an admin access to `my-inkdrop-notes`:
+Now we have an admin user named `anna`, let's give her an admin access to `my-speedetail-notes`:
 
 ```bash
-> curl -X PUT http://127.0.0.1:5984/my-inkdrop-notes/_security -d '{ "admins": { "names": [ "anna" ] } }'
+> curl -X PUT http://127.0.0.1:5984/my-speedetail-notes/_security -d '{ "admins": { "names": [ "anna" ] } }'
 ```
 
 It restricts access from people without the valid credentials:
 
 ```bash
-> curl -X PUT http://127.0.0.1:5984/my-inkdrop-notes
+> curl -X PUT http://127.0.0.1:5984/my-speedetail-notes
 {"error":"unauthorized","reason":"You are not a server admin."}
 ```
 
@@ -89,16 +89,16 @@ That looks about right. Now we try again with the correct credentials:
 
 ```bash
 > HOST="http://anna:secret@127.0.0.1:5984"
-> curl -X PUT $HOST/my-inkdrop-notes
+> curl -X PUT $HOST/my-speedetail-notes
 {"ok":true}
 ```
 
 Looks good!
 
-Return to the Inkdrop sync preferences, you can input the URL to your database to the **Address** section:
+Return to the Speedetail sync preferences, you can input the URL to your database to the **Address** section:
 
 ```url
-http://anna:secret@127.0.0.1:5984/my-inkdrop-notes
+http://anna:secret@127.0.0.1:5984/my-speedetail-notes
 ```
 
 Please don't omit the port number.
@@ -142,11 +142,11 @@ server {
 Your server URL would be like so:
 
 ```url
-https://anna:secret@your-server.com:6984/my-inkdrop-notes
+https://anna:secret@your-server.com:6984/my-speedetail-notes
 ```
 
 {% callout type="warning" title="Note" %}
-You can neither create design documents nor add attachments on the Inkdrop-hosted database.
+You can neither create design documents nor add attachments on the Speedetail-hosted database.
 {% /callout %}
 
 ### Support mobile sync

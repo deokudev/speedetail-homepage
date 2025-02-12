@@ -3,12 +3,12 @@ title: Recover lost password
 nextjs:
   metadata:
     title: Recover lost password
-    description: Inkdrop does not offer a way to recover or reset your login password
+    description: Speedetail does not offer a way to recover or reset your login password
 ---
 
-## Inkdrop cannot reset your password
+## Speedetail cannot reset your password
 
-For [securing your data](/security), your notes are encrypted and Inkdrop must need your password to decrypt your data.
+For [securing your data](/security), your notes are encrypted and Speedetail must need your password to decrypt your data.
 This means that if you forget your login password, we cannot recover your data and we can't even reset your password.
 
 ## See also

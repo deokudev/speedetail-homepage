@@ -5,7 +5,8 @@ nextjs:
   metadata:
     title: Review a pull request locally
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
@@ -28,7 +29,7 @@ gh pr checkout <pr>
 ```sh
 ❯ g push origin pull/9/head
 error: src refspec pull/9/head does not match any
-error: failed to push some refs to 'github.com:inkdropapp/docs-next.git'
+error: failed to push some refs to 'github.com:speedetailapp/docs-next.git'
 ```
 
 hmmmm

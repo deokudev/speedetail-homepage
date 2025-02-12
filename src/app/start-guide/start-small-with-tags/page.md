@@ -8,11 +8,11 @@ nextjs:
     openGraph:
       images:
         [
-          'https://inkdrop-user-guide.vercel.app/images/start-small-with-tags_cover.png',
+          'https://speedetail-user-guide.vercel.app/images/start-small-with-tags_cover.png',
         ]
 ---
 
-Now, you understand how to take tech notes effectively to improve your engineering workflow for your projects in Inkdrop.
+Now, you understand how to take tech notes effectively to improve your engineering workflow for your projects in Speedetail.
 Then, you will likely want to organize them so that you can quickly find and recognize them and know what you should work on. {% .lead %}
 
 ## The note-taking system that transforms as your knowledge base grows

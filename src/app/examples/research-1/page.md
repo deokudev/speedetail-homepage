@@ -6,7 +6,8 @@ nextjs:
   metadata:
     title: Improve nvim
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
@@ -14,10 +15,10 @@ I took this note when I research promising plugins for Neovim in 2023.
 {% /callout %}
 
 - {% check v=true /%} 😕 [GitHub - AstroNvim/AstroNvim: AstroNvim is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins](https://github.com/AstroNvim/AstroNvim)
-  - [Try AstroNvim](inkdrop://note/ye5KzfrfD)
+  - [Try AstroNvim](speedetail://note/ye5KzfrfD)
 - {% check v=true /%} 👍 [GitHub - folke/dot: ☕️ My Dot Files](https://github.com/folke/dot)
 - {% check v=true /%} [GitHub - LazyVim/LazyVim: Neovim config for the lazy](https://github.com/LazyVim/LazyVim)
-  - [Try LazyVim](inkdrop://note/_Ii_GM0EI)
+  - [Try LazyVim](speedetail://note/_Ii_GM0EI)
 - {% check v=true /%} [yutkat on Twitter: "PluginManager: lazy LSP: nvim-lsp+mason completion: nvim-cmp Linter: null-ls FF: telescope easymotion: flash snippet: LuaSnip comment: Comment statusline: lualine bufferline: bufferline terminal: toggleterm startup: alpha UI: noice colorscheme: catppuccin,nightfox,kanagawa" / Twitter](https://twitter.com/yutkat/status/1673604412227584000?s=46&t=UMw_xKhPtTJTVex-6ah1ug)
 - {% check v=true /%} 😕 [GitHub - yutkat/dotfiles: The best and strongest dotfiles. Editor: Neovim; Shell: zsh(zinit, powerlevel10k); Terminal: wezterm; Desktop: sway, ulauncher, dunst; OS: ArchLinux (Ubuntu/Fedora/CentOS)](https://github.com/yutkat/dotfiles)
   - Very very complicated🫠

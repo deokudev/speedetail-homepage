@@ -5,11 +5,12 @@ nextjs:
   metadata:
     title: Bump up Electron to 28
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
-I documented the process and issues I encountered while I try to bump up Electron to the latest version for Inkdrop.
+I documented the process and issues I encountered while I try to bump up Electron to the latest version for Speedetail.
 {% /callout %}
 
 ## Mica/Acrylic support
@@ -50,7 +51,7 @@ In file included from /Users/nora/.electron-gyp/28.1.3/include/node/v8-array-buf
 1 warning and 1 error generated.
 make: *** [Release/obj.target/fse/fsevents.o] Error 1
 Error: `make` failed with exit code: 2
-    at ChildProcess.onExit (/Users/nora/Developments/inkdrop/desktop/node_modules/node-gyp/lib/build.js:203:23)
+    at ChildProcess.onExit (/Users/nora/Developments/speedetail/desktop/node_modules/node-gyp/lib/build.js:203:23)
     at ChildProcess.emit (node:events:519:28)
     at ChildProcess._handle.onexit (node:internal/child_process:294:12)
 
@@ -66,13 +67,13 @@ Upadting `nan` from `2.17.0` to `2.18.0` solved.
 npm info using npm@10.2.4
 npm info using node@v21.4.0
 
-> inkdrop@5.6.2 start
+> speedetail@5.6.2 start
 > electron build
 
 2024-01-15 09:55:10.269 Electron[79398:7414266] WARNING: Secure coding is automatically enabled for restorable state! However, not on all supported macOS versions of this application. Opt-in to secure coding explicitly by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState:.
 Failed to init app: TypeError: Cannot read properties of undefined (reading 'filename')
-    at launchApp (/Users/nora/Developments/inkdrop/desktop/build/main.js:4044:98)
-    at /Users/nora/Developments/inkdrop/desktop/build/main.js:9971:15
+    at launchApp (/Users/nora/Developments/speedetail/desktop/build/main.js:4044:98)
+    at /Users/nora/Developments/speedetail/desktop/build/main.js:9971:15
   app:debug Loaded! +0ms
 ```
 

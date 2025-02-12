@@ -6,13 +6,13 @@ nextjs:
     description: Where the note data is stored
 ---
 
-Inkdrop stores your data and config locally at the following path:
+Speedetail stores your data and config locally at the following path:
 
-- on macOS: `~/Library/Application Support/inkdrop/`
-- on Windows: `%APPDATA%\inkdrop\`
+- on macOS: `~/Library/Application Support/speedetail/`
+- on Windows: `%APPDATA%\speedetail\`
 - on Linux:
-  - deb/rpm: `~/.config/inkdrop/`
-  - Snap: `~/snap/inkdrop/current/.config/inkdrop/`
+  - deb/rpm: `~/.config/speedetail/`
+  - Snap: `~/snap/speedetail/current/.config/speedetail/`
 
 To open it in a file manager, go to **Preferences** > **General** and select **Open Config Folder**.
 

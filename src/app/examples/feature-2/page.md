@@ -5,7 +5,8 @@ nextjs:
   metadata:
     title: Remember the sort option for search results
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
@@ -52,7 +53,7 @@ The following actions should be removed:
 No! `loadWithQueryContext` calls them internally 😂
 ...well, the app should stop calling `load**` directly, then.
 
-Okay, cleaned up! - https://github.com/inkdropapp/desktop/commit/7e1bcd0159a8ce265e67258ac093db9a1ff5efb7
+Okay, cleaned up! - https://github.com/speedetailapp/desktop/commit/7e1bcd0159a8ce265e67258ac093db9a1ff5efb7
 Now, the app calls like so:
 
 ```js
@@ -60,8 +61,8 @@ dispatch(actions.queryContext.setFilterKeyword(qc, keyword, qc.filterSort))
 await dispatch(actions.notes.reloadWithQueryContext())
 ```
 
-- Desktop: https://github.com/inkdropapp/desktop/commit/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-- Mobile: https://github.com/inkdropapp/mobile/commit/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- Desktop: https://github.com/speedetailapp/desktop/commit/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- Mobile: https://github.com/speedetailapp/mobile/commit/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Refer to `queryContext.sort` for loading notes
 
@@ -73,12 +74,12 @@ And the `notes` actions should refer to `queryContext.sort` instead of calling `
 
 ### Desktop
 
-- {% check v=true /%} https://github.com/inkdropapp/redux-store/pull/xxx
+- {% check v=true /%} https://github.com/speedetailapp/redux-store/pull/xxx
 - Update note list header sort dropdown:
-  - [feat(note-list): refer to query context for the current sort order](https://github.com/inkdropapp/desktop/commit/c11a97a7aab90c669e28396a3c79c0a53a05e6ed)
+  - [feat(note-list): refer to query context for the current sort order](https://github.com/speedetailapp/desktop/commit/c11a97a7aab90c669e28396a3c79c0a53a05e6ed)
 - Preserve sort order when filtering by a tag
-  - https://github.com/inkdropapp/desktop/commit/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  - https://github.com/speedetailapp/desktop/commit/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Mobile
 
-- {% check v=true /%} [feat(search): preserve sort order when filtering by a tag](https://github.com/inkdropapp/mobile/commit/b0a96a63f40534518d9762917df903b6a647ca98)
+- {% check v=true /%} [feat(search): preserve sort order when filtering by a tag](https://github.com/speedetailapp/mobile/commit/b0a96a63f40534518d9762917df903b6a647ca98)

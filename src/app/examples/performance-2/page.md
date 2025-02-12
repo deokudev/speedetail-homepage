@@ -1,21 +1,22 @@
 ---
-title: Code splitting my.inkdrop.app for faster page load
+title: Code splitting my.speedetail.app for faster page load
 parentPage: '/start-guide/key-note-categories-and-examples'
 nextjs:
   metadata:
-    title: Code splitting my.inkdrop.app for faster page load
+    title: Code splitting my.speedetail.app for faster page load
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
-I took this note when the page load performance of my.inkdrop.app was pretty bad.
+I took this note when the page load performance of my.speedetail.app was pretty bad.
 {% /callout %}
 
 ## Performance is pretty bad!
 
-![Bad performance on my.inkdrop.app](/images/example-note_performance-2_01_low-score.png)
-File: [HTML report](file:///Users/nora/Google%20Drive/Documents/inkdrop/site/performance/my.inkdrop.app-20200409T105637.html)
+![Bad performance on my.speedetail.app](/images/example-note_performance-2_01_low-score.png)
+File: [HTML report](file:///Users/nora/Google%20Drive/Documents/speedetail/site/performance/my.speedetail.app-20200409T105637.html)
 
 ### Split code
 
@@ -158,4 +159,4 @@ ok, much better!
 ## Next: Optimize Semantic UI
 
 But the `app.css` is very large and it is taking 221ms to load.
-The work for this is going to be on [Optimize semantic-ui CSS](inkdrop://note:aMGkBaFQe).
+The work for this is going to be on [Optimize semantic-ui CSS](speedetail://note:aMGkBaFQe).

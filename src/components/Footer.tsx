@@ -18,13 +18,13 @@ export const Footer = () => {
     <div className="relative mx-auto flex w-full flex-auto justify-center sm:px-2 lg:px-8 xl:px-12">
       <div className="absolute h-px w-full bg-slate-100 dark:bg-slate-800" />
       <div className="my-4 flex max-w-[100rem] flex-wrap gap-6 p-6">
-        <FooterLink href="https://www.inkdrop.app/">
-          &copy; {year} Inkdrop
+        <FooterLink href="https://www.speedetail.com">
+          &copy; {year} Speedetail
         </FooterLink>
-        <FooterLink href="https://x.com/inkdrop_app">&#x1D54F;</FooterLink>
-        <FooterLink href="https://forum.inkdrop.app/">User Forum</FooterLink>
-        <FooterLink href="https://www.inkdrop.app/pricing">Pricing</FooterLink>
-        <FooterLink href="https://my.inkdrop.app/plugins">Plugins</FooterLink>
+        <FooterLink href="https://x.com/speedetail_app">&#x1D54F;</FooterLink>
+        <FooterLink href="https://www.speedetail.app/pricing">
+          Pricing
+        </FooterLink>
         <FooterLink href="/faq">FAQ</FooterLink>
         <FooterLink href="/contact">Contact</FooterLink>
       </div>

@@ -6,40 +6,40 @@ nextjs:
     description: How to search notes quickly
 ---
 
-Inkdrop has a robust search to find the needed notes quickly. You can look for the content among all notes or narrow the search to a specific notebook. Inkdrop also supports special qualifiers for more accurate results.
+Speedetail has a robust search to find the needed notes quickly. You can look for the content among all notes or narrow the search to a specific notebook. Speedetail also supports special qualifiers for more accurate results.
 
 ## Understand difference between searching and filtering
 
 First, let's define the difference between searching for and filtering notes.
 
-- **Searching**: Inkdrop looks for notes among all the records in the database. You can think of it as a global search.
-- **Filtering**: Inkdrop looks for the notes only within a specific notebook. You can think of it as a local search.
+- **Searching**: Speedetail looks for notes among all the records in the database. You can think of it as a global search.
+- **Filtering**: Speedetail looks for the notes only within a specific notebook. You can think of it as a local search.
 
 ## Search for notes across all notebooks
 
-The {% icon name="search" /%} icon in the search box means that Inkdrop will search for the query through all your notes.
+The {% icon name="search" /%} icon in the search box means that Speedetail will search for the query through all your notes.
 
-![Inkdrop can search for notes globally](/images/searching-notes_search-bar-global.png)
+![Speedetail can search for notes globally](/images/searching-notes_search-bar-global.png)
 
 To search globally, take the following steps:
 
 1. In the sidebar, go to **All Notes**.
 1. At the top of the note list, in the search box, enter a word or phrase.  
-   As you enter, Inkdrop looks for the notes and displays the ones matching your query.
+   As you enter, Speedetail looks for the notes and displays the ones matching your query.
 1. Optional. Go to a matched note in the note list.  
    The matched words and phrases are highlighted. The color varies depending on your current theme.
 
 ## Filter notes within specific notebook
 
-The {% icon name="filter-1" /%} icon in the search box means that Inkdrop will filter notes of the current notebook.
+The {% icon name="filter-1" /%} icon in the search box means that Speedetail will filter notes of the current notebook.
 
-![Inkdrop can search for notes globally](/images/searching-notes_search-bar-local.png)
+![Speedetail can search for notes globally](/images/searching-notes_search-bar-local.png)
 
 To search locally, take the following steps:
 
 1. Select a notebook.
 1. At the top of the note list, in the search box, enter a word or phrase.  
-   As you enter, Inkdrop looks for the notes and displays the ones matching your query.
+   As you enter, Speedetail looks for the notes and displays the ones matching your query.
 1. Optional. Go to a matched note in the note list.  
    The matched words and phrases are highlighted. The color varies depending on your current theme.
 
@@ -60,9 +60,9 @@ Read how to [reassign the default keyboard shortcuts](/reference/key-customizati
 
 Commands related to the search box:
 
-- [`core:find`](https://developers.inkdrop.app/guides/list-of-commands#core-find): Focus the search box.
-- [`core:find-global`](https://developers.inkdrop.app/guides/list-of-commands#core-find-global): Switch to global search.
-- [`core:find-clear`](https://developers.inkdrop.app/guides/list-of-commands#core-find-clear): Clear the search box.
+- [`core:find`](https://developers.speedetail.app/guides/list-of-commands#core-find): Focus the search box.
+- [`core:find-global`](https://developers.speedetail.app/guides/list-of-commands#core-find-global): Switch to global search.
+- [`core:find-clear`](https://developers.speedetail.app/guides/list-of-commands#core-find-clear): Clear the search box.
 
 ## Use special qualifiers to narrow down results
 
@@ -71,7 +71,7 @@ You can use special qualifiers to get more accurate results. See the qualifiers 
 - **book**  
   `book:Blog`: Searches for notes in the 'Blog' notebook.
 - **tag**  
-  `tag:JavaScript`: Searches for all notes having the 'JavaScript' tag. Read more about [tags](https://docs.inkdrop.app/manual/write-notes#tag-notes).
+  `tag:JavaScript`: Searches for all notes having the 'JavaScript' tag. Read more about [tags](https://docs.speedetail.app/manual/write-notes#tag-notes).
 - **status**  
   `status:onHold`: Searches for all notes with the 'On hold' status. Read more about [statuses](/reference/note-statuses).
 - **title**  
@@ -122,10 +122,10 @@ Make sure to enter a text to search for after the exclusion modifier.
   `-book:Backend "closure functions"`
 
 - ⛔️ Won't work  
-   `-book:Backend`. There's no query. Inkdrop doesn't understand what to search for.
+   `-book:Backend`. There's no query. Speedetail doesn't understand what to search for.
 
 {% /callout %}
 
-## Caveats: Limitations of Inkdrop's search engine
+## Caveats: Limitations of Speedetail's search engine
 
-Inkdrop uses SQLite full-text search engine to look for notes in a most efficient way. It's achieved by tokenizing text into words and ranking them based on [TF-IDF](https://sqlite.org/fts5.html). A limitation of the technology is that it doesn't support partial-match keywords. For example, you can't find notes containing 'string' while searching for 'trin'.
+Speedetail uses SQLite full-text search engine to look for notes in a most efficient way. It's achieved by tokenizing text into words and ranking them based on [TF-IDF](https://sqlite.org/fts5.html). A limitation of the technology is that it doesn't support partial-match keywords. For example, you can't find notes containing 'string' while searching for 'trin'.

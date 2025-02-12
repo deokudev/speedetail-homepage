@@ -19,7 +19,7 @@ I will disclose it promptly if requested because I am a sole proprietor.
 
 ## お問い合わせ / Contact
 
-- Email: contact@inkdrop.app
+- Email: contact@speedetail.app
 - Tel: +815071086381
 
 基本的に電話でのお問い合わせは受け付けておりません。
@@ -40,11 +40,11 @@ Please use the appropriate contact information according to the content from the
 
 販売ページ及び購入手続きの画面において、消費税・手数料を含む価格で表示されています。
 本サービスの利用に必要となるインターネット通信料金はお客様のご負担となります。
-詳しくは[価格ページ](https://www.inkdrop.app/pricing)をご覧ください。
+詳しくは[価格ページ](https://www.speedetail.app/pricing)をご覧ください。
 
 The price including consumption tax and fees is displayed on the sales page and purchase procedure screen.
 The internet communication fee required to use this service will be borne by the customer.
-For more information, please refer to the [pricing page](https://www.inkdrop.app/pricing).
+For more information, please refer to the [pricing page](https://www.speedetail.app/pricing).
 
 ## 提供時期 / Delivery Time
 
@@ -61,10 +61,10 @@ The payment of the usage fee is made in advance for each usage period, and the p
 ## 解約・返金について / Cancelling and Returning of Product(s)
 
 すでにお支払いが完了した代金については、当社に重大な過失がない限り返金することはできません。
-アカウントの削除は[こちら](https://my.inkdrop.app/account/delete)からいつでも行えます。
+アカウントの削除は[こちら](https://my.speedetail.app/account/delete)からいつでも行えます。
 
 In principle, order cancelations and product returns or exchange are not accepted.
-You can delete your account from [here](https://my.inkdrop.app/account/delete) anytime.
+You can delete your account from [here](https://my.speedetail.app/account/delete) anytime.
 
 ## 利用環境 / Supported platforms
 

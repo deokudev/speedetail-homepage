@@ -5,7 +5,8 @@ nextjs:
   metadata:
     title: Incorrect FROM name
     openGraph:
-      images: ['https://docs.inkdrop.app/images/key-note-categories_cover.png']
+      images:
+        ['https://docs.speedetail.app/images/key-note-categories_cover.png']
 ---
 
 {% callout title="This is an example note" %}
@@ -19,7 +20,7 @@ I took this note when I found that the `From` field in the emails sent from the 
 In the emails sent from the app server, the `From` field has the following name:
 
 ```
-From: "'Takuya at Inkdrop' via Contact desk" <contact@**MASKED**.info>
+From: "'Takuya at Speedetail' via Contact desk" <contact@**MASKED**.info>
 ```
 
 Why is it still sent from `**MASKED**.info`?
@@ -34,17 +35,17 @@ So, you have to set up a custom MAIL FROM domain..
 >
 > - [ ] [Using a custom MAIL FROM domain - Amazon Simple Email Service](https://docs.aws.amazon.com/ses/latest/dg/mail-from.html)
 >
-> Let's use `mail.inkdrop.app`.
+> Let's use `mail.speedetail.app`.
 >
-> - `mail.inkdrop.app`: `MX 10 ***.amazonses.com`
-> - `mail.inkdrop.app`: `TXT "v=spf1 include:amazonses.com ~all"`
+> - `mail.speedetail.app`: `MX 10 ***.amazonses.com`
+> - `mail.speedetail.app`: `TXT "v=spf1 include:amazonses.com ~all"`
 
 ## Looks like it is displayed when the recipient is Gmail
 
 When sending to my iCloud email, the `From` header looks as expected:
 
 ```
-From: Takuya at Inkdrop <****@inkdrop.app>
+From: Takuya at Speedetail <****@speedetail.app>
 ```
 
 And, no 'via' label.
@@ -59,11 +60,11 @@ On Spark:
 
 ## It doesn't happen when sending via Loops
 
-- [Try Loops](inkdrop://note/WPweN_aW5)
+- [Try Loops](speedetail://note/WPweN_aW5)
 
 ![Screenshot 2024-01-13 at 00.18.46](/images/example-note_troubleshooting-3_04_loops.png)
 
-## ✅ Changed the group name from 'Contact desk' to 'Inkdrop'
+## ✅ Changed the group name from 'Contact desk' to 'Speedetail'
 
 Now it looks like so:
 

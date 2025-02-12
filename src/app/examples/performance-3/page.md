@@ -120,4 +120,4 @@ index a44e7e8..6ea9d56 100644
    }
 ```
 
-- Commit: https://github.com/inkdropapp/mobile/commit/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+- Commit: https://github.com/speedetailapp/mobile/commit/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
