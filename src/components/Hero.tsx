@@ -1,38 +1,11 @@
-import { Fragment } from 'react'
 import Image from 'next/image'
-import clsx from 'clsx'
-import { Highlight } from 'prism-react-renderer'
 import { SvgIcon } from '@/components/SvgIcon'
-
 import { Button } from '@/components/Button'
 import { HeroBackground } from '@/components/HeroBackground'
 import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
 import heroImage from '@/images/hero.png'
-
-const codeLanguage = 'javascript'
-const code = `export default {
-  strategy: 'predictive',
-  engine: {
-    cpus: 12,
-    backups: ['./storage/cache.wtf'],
-  },
-}`
-
-const tabs = [
-  { name: 'cache-advance.config.js', isActive: true },
-  { name: 'package.json', isActive: false },
-]
-
-function TrafficLightsIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
-  return (
-    <svg aria-hidden="true" viewBox="0 0 42 10" fill="none" {...props}>
-      <circle cx="5" cy="5" r="4.5" />
-      <circle cx="21" cy="5" r="4.5" />
-      <circle cx="37" cy="5" r="4.5" />
-    </svg>
-  )
-}
+import { DownloadUtil } from '@/utils/download.util'
 
 export function Hero() {
   return (
@@ -59,7 +32,8 @@ export function Hero() {
               </p>
               <div className="lg: mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 md:justify-center lg:grid-cols-3 lg:justify-start">
                 <Button
-                  href="https://my.speedetail.app/"
+                  href="https://play.google.com/store/apps/details?id=com.speedetail.speedetailapp&pcampaignid=web_share"
+                  target="_blank"
                   variant="secondary"
                   className="inline-flex items-center justify-center gap-2"
                 >
@@ -67,7 +41,8 @@ export function Hero() {
                   Android
                 </Button>
                 <Button
-                  href="https://my.speedetail.app/"
+                  href="https://apps.apple.com/kr/app/speedetail/id6502599511"
+                  target="_blank"
                   variant="secondary"
                   className="inline-flex items-center justify-center gap-2"
                 >
@@ -75,7 +50,8 @@ export function Hero() {
                   iOS
                 </Button>
                 <Button
-                  href="https://my.speedetail.app/"
+                  href=""
+                  target="_blank"
                   variant="secondary"
                   className="inline-flex items-center justify-center gap-2"
                 >
@@ -83,7 +59,8 @@ export function Hero() {
                   Windows
                 </Button>
                 <Button
-                  href="https://my.speedetail.app/"
+                  href=""
+                  target="_blank"
                   variant="secondary"
                   className="inline-flex items-center justify-center gap-2"
                 >
@@ -91,9 +68,11 @@ export function Hero() {
                   Mac
                 </Button>
                 <Button
-                  href="https://my.speedetail.app/"
                   variant="secondary"
                   className="inline-flex items-center justify-center gap-2"
+                  onClick={() => {
+                    DownloadUtil.downloadExcelFile()
+                  }}
                 >
                   <SvgIcon name="excel" />
                   Excel
