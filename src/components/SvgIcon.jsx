@@ -33,6 +33,8 @@ import Android from '@/components/icons/android.svg'
 import Mac from '@/components/icons/mac.svg'
 import Windows from '@/components/icons/windows.svg'
 import Excel from '@/components/icons/excel.svg'
+import Blog from '@/components/icons/blog.svg'
+import Youtube from '@/components/icons/youtube.svg'
 
 const svgIcons = {
   'arrow-down-1': ArrowDown1,
@@ -69,6 +71,8 @@ const svgIcons = {
   mac: Mac,
   windows: Windows,
   excel: Excel,
+  blog: Blog,
+  youtube: Youtube,
 }
 
 export function SvgIcon(props) {

@@ -72,7 +72,8 @@ export function collectSections(
     if (isH2Node(node) || isH3Node(node)) {
       let title = getNodeText(node)
       if (title) {
-        let id = slugify(title)
+        // let id = slugify(title)
+        let id = title
         if (isH3Node(node)) {
           if (!sections[sections.length - 1]) {
             throw new Error(

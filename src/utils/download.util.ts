@@ -5,7 +5,6 @@ import {
   endOfWeek,
   format,
   startOfWeek,
-  endOfMonth,
   addDays,
   getDate,
   getMonth,

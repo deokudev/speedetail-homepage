@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import Link from 'next/link'
+import { SvgIcon } from './SvgIcon'
 
 const FooterLink = (props: React.ComponentProps<typeof Link>) => {
   return (
@@ -21,10 +22,20 @@ export const Footer = () => {
         <FooterLink href="https://www.speedetail.com">
           &copy; {year} Speedetail
         </FooterLink>
-        <FooterLink href="https://x.com/speedetail_app">&#x1D54F;</FooterLink>
-        <FooterLink href="https://www.speedetail.app/pricing">
-          Pricing
+        <FooterLink
+          href="https://www.youtube.com/watch?v=dnnLZyxuuBg&list=PLw8oFCVbjkPnjySbVFhNVdk7v22gg9mon"
+          className="flex items-center"
+        >
+          <SvgIcon name="youtube" className="flex h-5 items-center" />
         </FooterLink>
+        <FooterLink
+          href="https://blog.naver.com/speedetail"
+          className="flex items-center"
+        >
+          <SvgIcon name="blog" className="flex h-5 items-center" />
+        </FooterLink>
+        <FooterLink href="/terms">Terms of Service</FooterLink>
+        <FooterLink href="/privacy">Privacy Policy</FooterLink>
         <FooterLink href="/faq">FAQ</FooterLink>
         <FooterLink href="/contact">Contact</FooterLink>
       </div>

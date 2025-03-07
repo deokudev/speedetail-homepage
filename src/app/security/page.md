@@ -1,37 +1,21 @@
 ---
-title: How secure is Speedetail?
+title: Speedetail은 얼마나 안전한가요?
 nextjs:
   metadata:
-    title: How secure is Speedetail?
-    description: Speedetail uses use industry-standard transport and end-to-end encryption technologies
+    title: Speedetail은 얼마나 안전한가요?
+    description: Speedetail App은 업계 표준 전송 암호화와 종단간 암호화 기술을 사용합니다
 ---
 
-At Speedetail, the security of your data is our highest priority.
+Speedetail에서는 여러분의 데이터 보안을 최우선으로 생각합니다.
 
-![E2EE](/images/security_e2ee.png)
+## 전송 암호화
 
-## Transport Encryption
+Speedetail은 전송 중인 데이터를 보호하기 위해 암호화 기술을 사용합니다. 이는 일반적으로 전송 계층 보안(TLS) 또는 보안 소켓 계층(SSL) 기술이라고 합니다. 한 시스템이나 기기에서 다른 시스템으로 데이터가 전송되는 동안 제3자가 데이터에 접근하는 것을 방지하는 보안 통신 방식입니다.
+이 방식으로 암호화된 데이터는 네트워크를 도청하거나 디스크에 접근하더라도 원본 데이터를 확인하는 것이 거의 불가능합니다. 모든 할일, 일정은 Speedetail 서버로 전송될 때 사용자의 기기에서 AES-256 암호화를 통해 암호화됩니다.
 
-Speedetail uses industry standard encryption to protect your data in transit. This is commonly referred to as transport layer security (“TLS”) or secure socket layer (“SSL”) technology.
+## 백업을 해두세요
 
-## End-to-end Encryption
-
-End-to-end encryption (E2EE) is a method of secure communication that prevents third-parties from accessing data while it's transferred from one end system or device to another.
-Having data encrypted with this method will make it almost impossible for someone to tap your network, to access or steal our disk and get access to the original data.
-All your notes, notebooks, tags and attachments are encrypted using AES-256 encryption on your own device when transporting them to the Speedetail server.
-A common key is generated when you sign up to Speedetail.
-This key, along with an initialization vector, is used to encrypt your data in GCM (Galois/Counter Mode).
-The key is also encrypted while stored on disk, with a 256-bit AES key derived with PBKDF2 from your login password.
-
-## Don't Forget Your Password
-
-We never store a copy of this common key without encryption and don't use any escrow mechanism to recover your encrypted data. This means that if you forget your login password, we cannot recover your data and we can't even reset your password.
-So we strongly recommend you to use a password manager to store your password of Speedetail.
-
-## Take a Back-up
-
-We humans are not perfect.
-No matter how much you are careful to manage your password, you possibly lose it for various reasons.
-No matter how much we are carefully operating our servers, we possibly lose your data.
-So, please do take a backup!
-The desktop app supports [backing up your data](/reference/data-backup) continuously.
+우리는 완벽하지 않습니다.
+저희가 서버를 아무리 신중하게 운영해도 데이터가 손실될 수 있습니다.
+그러니 꼭 백업을 해두시기 바랍니다!
+앱에서는 [데이터 백업](/app-version/data-backup)을 지속적으로 수행할 수 있습니다.

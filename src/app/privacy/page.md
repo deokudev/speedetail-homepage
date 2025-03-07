@@ -1,382 +1,349 @@
 ---
-title: Privacy Policy
+title: 개인정보 처리방침
 nextjs:
   metadata:
-    title: Privacy Policy
+    title: 개인정보 처리방침
 ---
 
-Speedetail is owned and operated by Takuya Matsuyama, based in Japan.
-Speedetail values your privacy and the protection of your personal data.
-This privacy policy describes what information we collect from you, how we collect it, how we use it, how we obtain your consent, how long we keep it in our databases and, if necessary, with whom we share it.
+Speedetail은 한국에 기반을 둔 Speedetail Team이 소유하고 운영합니다.
+Speedetail Team은 귀하의 프라이버시와 개인정보 보호를 중요하게 생각합니다.
+이 개인정보 처리방침은 당사가 귀하로부터 어떤 정보를 수집하고, 어떻게 수집하며, 어떻게 사용하고, 어떻게 동의를 얻으며, 얼마나 오래 데이터베이스에 보관하고, 필요한 경우 누구와 공유하는지를 설명합니다.
 
-By using the platform and our services, you accept the practices described in this privacy policy.
-Your use of the platform is also subject to our terms and conditions.
-This privacy policy may change from time to time.
-Your continued use of the platform after we make changes to this privacy policy will be deemed acceptance of those changes, so please check this policy periodically for updates.
+플랫폼과 서비스를 사용함으로써, 귀하는 이 개인정보 처리방침에 설명된 관행에 동의하게 됩니다.
+플랫폼 사용에는 당사의 이용약관도 적용됩니다.
+이 개인정보 처리방침은 수시로 변경될 수 있습니다.
+개인정보 처리방침이 변경된 후에도 계속해서 플랫폼을 사용하는 것은 해당 변경사항에 대한 동의로 간주되므로, 주기적으로 이 방침을 확인해 주시기 바랍니다.
 
-## 1. Definitions
+## 1. 용어 정의
 
-In this privacy policy, the words “platform” refer to the application, website, and services offered by Speedetail together, unless referred to individually in the document, “we”, “us”, “our” and “Speedetail”, refer to Speedetail, and “you” and “user”, refer to you, the Speedetail user and client.
+본 개인정보 처리방침에서 "플랫폼"이란 문서에서 개별적으로 언급되지 않는 한 Speedetail이 제공하는 애플리케이션, 웹사이트 및 서비스를 통칭하며, "당사", "저희" 그리고 "Speedetail"은 Speedetail을 지칭하고, "귀하" 및 "사용자"는 Speedetail의 사용자이자 고객인 귀하를 지칭합니다.
 
-## 2. General Information
+## 2. 일반 정보
 
-The personal data of users that are collected and processed through:
+다음을 통해 수집 및 처리되는 사용자의 개인정보는:
 
-- Speedetail platform and services (client app for macOS, Windows, Linux, iOS or Android).
-- [https://www.speedetail.app](https://www.speedetail.app)
+- Speedetail 플랫폼 및 서비스 (macOS, Windows, iOS 또는 Android용 클라이언트 앱)
+- [https://www.speedetail.com](https://www.speedetail.com)
 
-will be under the responsibility and in charge of:
+다음의 책임과 관리 하에 있습니다:
 
-- Takuya Matsuyama
-- [contact@speedetail.app](mailto:contact@speedetail.app)
-- 1-11-2-601, Kyomachibori, Nishi, Osaka, Osaka, 550-0003, Japan
+- Sangdeok JUNG
+- [speedetail2@gmail.com](mailto:speedetail2@gmail.com)
+- 한국 서울특별시 구로구 도림로22길 8
 
-## 3. How We Obtain Your Consent
+## 3. 동의 획득 방법
 
-When you visit the website, use our services, purchase a subscription plan, use the Speedetail client application for macOS, Windows, Linux, iOS or Android, use our plugins, register as a user, contact us through our contact information and contact form, you consent to our collection, storage, and use of your information under the terms set out in this privacy policy.
+귀하가 웹사이트를 방문하거나, 서비스를 이용하거나, 구독 플랜을 구매하거나, macOS, Windows, iOS 또는 Android용 Speedetail 클라이언트 애플리케이션을 사용하거나, 사용자로 등록하거나, 당사의 연락처 정보 및 연락 양식을 통해 연락할 때, 본 개인정보 처리방침에 명시된 조건에 따라 귀하의 정보를 수집, 저장 및 사용하는 것에 동의하게 됩니다.
 
-## 4. How Does Speedetail Collect Data About Me?
+## 4. Speedetail은 어떻게 내 데이터를 수집하나요?
 
-Speedetail collects data about you:
+Speedetail은 다음과 같은 경우에 귀하의 데이터를 수집합니다:
 
-- when you browse the Speedetail website, [speedetail.app](https://www.speedetail.app)
-- when you create an Speedetail account or update your account
-- when you purchase a subscription plan
-- when you sign up for and use our services
-- when you use the Speedetail client app for macOS, Windows, Linux, iOS or Android
-- when you use our plugins
-- when you send support, privacy, legal, and other requests to us
-- when working with and researching current and potential customers
-- when you use [`ipm` command](/reference/extend-with-plugins) to publish plugins for Speedetail
-- when you post topics or comments on the [Speedetail forum](https://forum.speedetail.app)
-- when you join our Discord server
+- Speedetail 웹사이트 [www.speedetail.com](https://www.speedetail.com)를 탐색할 때
+- Speedetail 계정을 생성하거나 계정을 업데이트할 때
+- 구독 플랜을 구매할 때
+- 서비스에 가입하고 이용할 때
+- macOS, Windows, iOS 또는 Android용 Speedetail 클라이언트 앱을 사용할 때
+- 지원, 개인정보, 법률 및 기타 요청을 보낼 때
+- 현재 및 잠재 고객과 협력하고 조사할 때
 
-When researching potential customers, we sometimes search the public World Wide Web or paid business databases. Otherwise, we don't buy or receive data about you from data brokers or other private services.
+잠재 고객을 조사할 때, 당사는 때때로 공개된 월드 와이드 웹이나 유료 비즈니스 데이터베이스를 검색합니다. 그 외에는 데이터 브로커나 기타 민간 서비스로부터 귀하에 대한 데이터를 구매하거나 받지 않습니다.
 
-## 5. What Data Does Speedetail Collect About Me, and Why?
+## 5. Speedetail은 나의 어떤 데이터를 수집하고, 그 이유는 무엇인가요?
 
-### 5.1. Speedetail Collects Note Data
+### 5.1. Speedetail은 할일 & 일정 데이터를 수집합니다
 
-When you add notes, notebooks, tags, and attachment files on the Speedetail client apps, Speedetail stores them in your local devices and the Speedetail servers.
-The data is associated with your Speedetail account.
-When the data is stored in the Speedetail server, Speedetail encrypts it in transit and at rest so that other people, including the server administrators, cannot see the contents of the data.
-The Speedetail server uses the data to provide data synchronization functionality across your devices.
-You can disable this functionality from [Preferences](/reference/note-synchronization).
-The client apps keep the data in your local storage to provide quick offline access to the data.
-The client apps don't encrypt the data at rest in local to provide quick search functionality.
+Speedetail 클라이언트 앱에서 할일, 일정을 추가하면 Speedetail은 이를 사용자의 로컬 기기와 Speedetail 서버에 저장합니다.
+이 데이터는 사용자의 Speedetail 계정과 연결됩니다.
+데이터가 Speedetail 서버에 저장될 때, Speedetail은 전송 중이나 저장 시에 데이터를 암호화하여 서버 관리자를 포함한 다른 사람들이 데이터의 내용을 볼 수 없도록 합니다.
+Speedetail 서버는 이 데이터를 사용하여 여러 기기 간의 데이터 동기화 기능을 제공합니다.
+이 기능은 클라이언트 앱 내 동기화 환경설정에서 비활성화할 수 있습니다.
+클라이언트 앱은 데이터에 빠르게 오프라인으로 접근할 수 있도록 로컬 저장소에 데이터를 보관합니다.
+클라이언트 앱은 빠른 검색 기능을 제공하기 위해 로컬에 저장된 데이터를 암호화하지 않습니다.
 
-### 5.2. Speedetail Collects Data About How You Use Speedetail Service
+### 5.2. Speedetail은 서비스 사용 방식에 대한 데이터를 수집합니다
 
-When you use the Speedetail client apps, the Speedetail website, or the `ipm` command, Speedetail logs data that might be identified to you:
+Speedetail 클라이언트 앱, Speedetail 웹사이트를 사용할 때, Speedetail은 사용자를 식별할 수 있는 다음과 같은 데이터를 기록합니다:
 
-- a random, unique identifier
-- the version of the Speedetail app, and the operating system you are using
-- network request data, such as the date and time, your IP address, and the URL
-- number of notes, notebooks, tags, files, and the total data size of them
+- 무작위로 생성된 고유 식별자
+- Speedetail 앱 버전 및 사용 중인 운영체제
+- 날짜, 시간, IP 주소, URL과 같은 네트워크 요청 데이터
+- 할일, 일정의 수량 및 전체 데이터 크기
 
-Speedetail uses this data to:
+Speedetail은 이 데이터를 다음과 같은 목적으로 사용합니다:
 
-- keep our service working quickly and reliably
-- debug and develop our apps and website
-- defend Speedetail service from abuse and technical attacks
-- compile statistics on plugin usage and popularity
-- improve search results on the website
-- improve usability of our apps
+- 서비스를 빠르고 안정적으로 유지
+- 앱과 웹사이트의 디버깅 및 개발
+- 악용과 기술적 공격으로부터 Speedetail 서비스 보호
+- 웹사이트 검색 결과 개선
+- 앱의 사용성 개선
 
-Speedetail usually deletes log entries with identifiable information within a few weeks, but may preserve logs longer, as needed in specific cases, like investigations of specific incidents.
+Speedetail은 일반적으로 식별 가능한 정보가 포함된 로그 항목을 몇 주 내에 삭제하지만, 특정 사건 조사와 같은 특별한 경우에는 더 오래 보관할 수 있습니다.
 
-### 5.3. Speedetail Collects Data About How You Use the Website
+### 5.3. Speedetail은 웹사이트 사용 방식에 대한 데이터를 수집합니다
 
-When you visit [speedetail.app](https://speedetail.app), [my.speedetail.app](https://my.speedetail.app), [docs.speedetail.app](https://docs.speedetail.app), [forum.speedetail.app](https://forum.speedetail.app), and other Speedetail websites, Speedetail uses cookies, server logs, and other methods to collect data about what pages you visit, and when. Speedetail also collects technical information about the software and computer you use, such as:
+[speedetail.com](https://www.speedetail.com) 및 기타 Speedetail 웹사이트를 방문할 때, Speedetail은 쿠키, 서버 로그 및 기타 방법을 사용하여 방문하는 페이지와 시간에 대한 데이터를 수집합니다. 또한 다음과 같은 기술적 정보를 수집합니다:
 
-- your IP address
-- your preferred language
-- the web browser software you use
-- the kind of computer you use
-- the website that referred you
+- IP 주소
+- 선호하는 언어
+- 사용 중인 웹 브라우저 소프트웨어
+- 사용 중인 컴퓨터 종류
+- 참조 웹사이트
 
-Speedetail uses data about how you use the website to:
+Speedetail은 웹사이트 사용 데이터를 다음과 같은 목적으로 사용합니다:
 
-- optimize the website, so that it's quick and easy to use
-- diagnose and debug technical errors
-- defend the website from abuse and technical attacks
-- compile statistics on package popularity
-- compile statistics on the kinds of software and computers visitors use
-- compile statistics on visitor searches and needs, to guide the development of new website pages and functionality
-- decide who to contact about product announcements, service changes, and new features
+- 웹사이트를 빠르고 사용하기 쉽게 최적화
+- 기술적 오류 진단 및 디버깅
+- 악용과 기술적 공격으로부터 웹사이트 보호
+- 패키지 인기도에 대한 통계 작성
+- 방문자가 사용하는 소프트웨어와 컴퓨터 종류에 대한 통계 작성
+- 새로운 웹페이지와 기능 개발을 위한 방문자 검색과 요구사항에 대한 통계 작성
+- 제품 공지, 서비스 변경, 새로운 기능에 대해 연락할 대상 결정
 
-Speedetail usually deletes website log entries with identifiable information within a few weeks, but keeps entries for visitors with Speedetail accounts longer.
-Speedetail reviews log entries for those users twice a year and deletes entries when they're no longer needed.
-Speedetail may preserve log entries for all kinds of visitors longer, as needed in specific cases, like the investigation of specific incidents.
-Speedetail stores aggregate statistics indefinitely, but those statistics don't include data identifiable to you personally.
+Speedetail은 일반적으로 식별 가능한 정보가 포함된 웹사이트 로그 항목을 몇 주 내에 삭제하지만, Speedetail 계정이 있는 방문자의 항목은 더 오래 보관합니다.
 
-### 5.4. Speedetail Collects Account Data
+<!-- Speedetail은 이러한 사용자의 로그 항목을 6개월마다 검토하여 더 이상 필요하지 않을 때 삭제합니다. -->
 
-Basically, Speedetail services require an Speedetail account. For example, you must have an Speedetail account to use the Speedetail client apps.
+특정 사건 조사와 같은 특별한 경우에는 모든 종류의 방문자에 대한 로그 항목을 더 오래 보관할 수 있습니다.
+Speedetail은 집계된 통계를 무기한 저장하지만, 이러한 통계에는 개인을 식별할 수 있는 데이터는 포함되지 않습니다.
 
-To create an Speedetail account, Speedetail requires a working email address. Speedetail uses this data to provide you access to features and identify you across Speedetail service, publicly and within Speedetail.
+### 5.4. Speedetail은 계정 데이터를 수집합니다
 
-You do not have to give your personal or legal name to create an Speedetail account. You can use a pseudonym instead. You can also open more than one account.
+기본적으로 Speedetail 유료 동기화 / 백업 서비스를 이용하기 위해서는 Speedetail 계정이 필요합니다. 예를 들어, Speedetail 클라이언트 앱을 사용하려면 Google 계정이 있어야 합니다.
 
-Speedetail publishes account data for the whole world to see on user shared notes like [this one](https://community.speedetail.app/note/d975606d93c067c5ef8d6adfb5db83b5/note:r1xTyulORf). Speedetail also publishes account data through [the Speedetail plugin registry](https://my.speedetail.app/plugins) if you have published plugins.
+Speedetail 계정을 만들기 위해서는 유효한 Google 이메일 주소가 필요합니다. Speedetail은 이 데이터를 사용하여 기능에 대한 접근을 제공하고 Speedetail 서비스 전반에서 사용자를 식별합니다.
 
-You don't have to give Speedetail a personal name or any social media names, and you can erase this data at any time.
+Speedetail 계정을 만들 때 실명이나 법적 이름을 제공할 필요는 없습니다. 대신 가명을 사용할 수 있으며, 여러 개의 계정을 만들 수도 있습니다.
 
-Speedetail uses your email to:
+<!-- 개인 이름이나 소셜 미디어 이름을 Speedetail에 제공할 필요는 없으며, 언제든지 이 데이터를 삭제할 수 있습니다. -->
 
-- confirm if your email address is correct to sign you up
-- notify you about your free trial expiring in 3 days
-- notify you about your free trial has expired
-- notify you about your payment failure
-- notify you about your account has been deactivated because of payment failure
-- invite you to our lounge where only paid users can access when you become a paid user
-- notify you about your annual subscription renewal 3 days before
-- contact you in special circumstances related to your account
-- contact you about support requests
-- contact you about legal requests, like DMCA takedown requests and privacy complaints
-- announce new Speedetail product offerings, service changes, and features
+Speedetail은 다음과 같은 목적으로 이메일을 사용합니다:
 
-Speedetail stores account data as long as the account stays open. When account data also appear in plugin data, Speedetail stores that data as long as it stores the plugin.
+- 가입 시 이메일 주소가 올바른지 확인
+- 무료 체험 기간이 3일 남았음을 알림
+- 무료 체험 기간이 만료되었음을 알림
+- 결제 실패에 대해 알림
+- 결제 실패로 인해 계정이 비활성화되었음을 알림
+- 유료 사용자가 되었을 때 유료 사용자만 접근할 수 있는 라운지에 초대
+- 연간 구독 갱신 3일 전 알림
+- 계정과 관련된 특별한 상황에 대해 연락
+- 지원 요청에 대해 연락
+- DMCA 테이크다운 요청 및 개인정보 불만과 같은 법적 요청에 대해 연락
+- 새로운 Speedetail 제품 제공, 서비스 변경 및 기능 안내
 
-### 5.5. Speedetail Collects Shared Note Data
+Speedetail은 계정이 유지되는 동안 계정 데이터를 저장합니다.
 
-When you [share notes](/reference/share-notes-on-the-web) to the World Wide Web, Speedetail collects the contents of the note without encryption, plus metadata, including your account data to make the note available to everyone, online.
+### 5.5. Speedetail은 결제 카드 데이터를 수집합니다
 
-You can unpublish your shared notes, erasing them from Speedetail's storage, when you no longer need them to share with others.
+무료 체험 기간이 만료된 후 Speedetail 서비스를 계속 사용하기 위해서는 결제 카드 데이터가 필요합니다. Speedetail 자체는 카드 결제에 필요한 정보를 수집하거나 저장하지 않습니다. 대신 [RevenueCat](https://www.revenuecat.com/)이 Speedetail을 대신하여 해당 데이터를 수집하고, Speedetail에게 결제와 구독을 생성할 수 있는 보안 토큰을 제공합니다. RevenueCat은 Apple App Store, Google Play Store 등의 앱스토어 결제 시스템과 통합되어 있어 안전한 결제 처리를 보장합니다.
 
-### 5.6. Speedetail Collects Plugin Data
+Speedetail은 결제 카드 데이터를 오직 Speedetail 서비스 요금 청구에만 사용합니다.
 
-When you use [`ipm publish`](https://developers.speedetail.app/guides/plugin-word-count#publishing) to publish plugins to the Speedetail plugin registry, Speedetail collects the contents of the plugin, plus metadata, including your account data.
+Speedetail은 유료 Speedetail 서비스를 사용하는 동안에만 결제 카드 데이터를 저장하도록 RevenueCat에 지시합니다.
 
-Speedetail uses data in plugins to provide those plugins to you and others who request them: when you publish a plugin to the Speedetail plugin registry, Speedetail makes the plugin and metadata available to everyone, online.
+### 5.6. Speedetail은 청구 주소를 수집합니다
 
-Making plugin data available to others allows them to download, build on, and depend on your work. In the vast majority of cases, Speedetail stores data in and metadata about every version of every plugin indefinitely, unless it's unpublished.
+한국에서는 Speedetail 서비스에 [부가가치세](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2227&cntntsId=7667)가 부과됩니다.
 
-In some cases, however, plugin publishers can unpublish packages, erasing them from the plugin registry. Erased plugins disappear completely from Speedetail's storage.
+<!-- 하지만 한국 외 지역에 거주하는 사람들은 부가가치세가 면제됩니다. -->
 
-### 5.7. Speedetail Collects Payment Card Data
+Speedetail은 사용자가 한국에 거주하는지 여부를 확인하기 위해 청구 주소를 수집합니다.
+이는 국세청의 요구사항입니다.
 
-To continue using Speedetail service after expiring free trial, Speedetail requires your payment card data. Speedetail itself does not collect or store enough information to charge your card itself. Rather, [Stripe](https://stripe.com/) collects that data on Speedetail's behalf, and gives Speedetail security tokens that allow Speedetail to create charges and subscriptions. Stripe meets the highest level of PCI compliance (Level 1). See more on their [Security page](https://stripe.com/docs/security/stripe).
+Speedetail은 이 정보를 RevenueCat에 안전하게 저장합니다.
 
-Speedetail uses your payment card data only to charge for Speedetail service.
+### 5.7. Speedetail은 서신 데이터를 수집합니다
 
-Speedetail instructs Stripe to store your payment card data only as long as you use paid Speedetail service.
+Speedetail은 사용자가 지원 요청, 법적 불만, 개인정보 문의, 비즈니스 문의를 보낼 때 관련 데이터를 수집합니다. 이러한 데이터에는 일반적으로 이름과 이메일 주소가 포함되며, 회사나 기타 소속 정보가 포함될 수 있습니다.
 
-### 5.8. Speedetail Collects Billing Address
+Speedetail은 다음과 같은 목적으로 연락처 데이터를 사용합니다:
 
-In Japan, there is [consumption tax](https://www.nta.go.jp/english/taxes/consumption_tax/01.htm) on Speedetail service.
-However, people who live outside Japan are exempt from consumption tax.
-Speedetail collects your billing address to ensure whether you live in Japan or not.
-This is required by the national tax agency Japan.
+- 응답 제공
+- 서신에 대한 종합 통계 작성
+- 지원 직원 및 기타 Speedetail 직원 교육
+- 응답하는 Speedetail 직원의 성과 검토
+- 법적 청구로부터 Speedetail 보호
 
-Speedetail stores it safely on Stripe.
+Speedetail은 이러한 목적에 유용한 기간 동안 서신을 저장합니다.
 
-### 5.9. Speedetail Collects Data About Correspondence
+## 6. 데이터 보관 기간
 
-Speedetail collects data about you when you send Speedetail support requests, legal complaints, privacy inquiries, and business inquiries. Those data usually include your name and email address, and may include your company or other affiliation.
+플랫폼을 통해 제공된 개인정보는 플랫폼에서 제공하는 기능을 제공하고 당사의 정당한 목적을 달성하는 데 필요한 기간 동안, 또는 사용자가 서비스 이용을 중단하거나 계정을 삭제하거나 데이터 삭제를 요청할 때까지 보관됩니다.
+사용자가 해당 처리에 동의한 경우, Speedetail은 동의가 철회되지 않는 한 개인정보를 더 오래 보관할 수 있습니다.
+또한 법적 의무 준수나 당국의 명령에 따라 필요한 경우 Speedetail은 개인정보를 더 오래 보관해야 할 수 있습니다.
+보관 기간이 만료되면 개인정보는 삭제됩니다.
+따라서 보관 기간이 만료된 후에는 접근권, 삭제권, 정정권 및 데이터 이동권을 행사할 수 없습니다.
 
-Speedetail uses contact data to:
+## 7. Speedetail은 내 데이터를 어디에 보관하나요?
 
-- respond to you
-- compile aggregate statistics about correspondence
-- train support staff and other Speedetail personnel
-- review the performance of Speedetail personnel who respond
-- defend Speedetail from legal claims
+Speedetail은 계정 데이터, 할일 데이터, 일정 데이터, 웹사이트 사용 데이터를 미국의 서버에 저장합니다.
+때때로 저는 이러한 데이터를 한국에 있는 제 개인 컴퓨터로 가져와서 사용합니다.
+저는 이 데이터를 서비스 개발, 디버깅 및 유지보수에 사용합니다.
+더 이상 필요하지 않을 때는 제 컴퓨터에서 데이터를 삭제합니다.
 
-Speedetail stores correspondence as long as it may be useful for these purposes.
+## 8. Speedetail은 EU 일반 데이터 보호 규정을 준수하나요?
 
-### 5.10. Speedetail Collects Discord Account Data
+Speedetail은 유럽연합의 일반 데이터 보호 규정(GDPR)인 [Regulation (EU) 2016/679](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG)에 따른 개인정보 보호 권리를 존중합니다.
+GDPR이 Speedetail에 요구하는 정보는 이 개인정보 처리방침의 질문과 답변 전반에서 찾을 수 있습니다.
+[접근](#how-can-i-access-data-about-me), [정정](#how-can-i-change-or-erase-data-about-me), [삭제](#how-can-i-change-or-erase-data-about-me), [데이터 이동](#how-can-i-access-data-about-me), [자동화된 의사결정에 대한 이의제기](#does-speedetail-make-automated-decisions-based-on-data-about-me)와 같은 특정 권리에 대한 정보도 마찬가지입니다.
 
-Speedetail collects data about your [Discord](https://discord.com/) account when you connect it to your Speedetail account. This includes your user ID, username, and avatar.
+GDPR은 전 세계 모든 사람에게 적용되지는 않습니다.
+하지만 Speedetail의 정책은 GDPR 적용 여부와 관계없이 모든 사용자에게 동일한 개인정보 정보, 통제 및 보호를 제공하기 위해 최선을 다하는 것입니다.
 
-Speedetail uses this data to:
+## 9. 내 데이터에 어떻게 접근할 수 있나요?
 
-- manage access to the Speedetail Discord server based on your Speedetail account status.
+<!-- [speedetail app](https://www.speedetail.com)의 계정 페이지에서 언제든지 계정 데이터에 접근할 수 있습니다. -->
 
-Speedetail stores this data as long as it is useful for these purposes.
+[www.speedetail.com](https://www.speedetail.com/download)에서 제공되는 macOS, Windows, iOS 및 Android용 클라이언트 앱을 통해 할일 & 일정 데이터에 접근할 수 있습니다.
 
-## 6. How Long We Keep Your Data
+<!-- 데스크톱 클라이언트 앱에서 모든 노트 데이터를 [JSON](https://www.json.org/) 또는 Markdown 형식으로 [내보낼 수 있습니다](/app-version/data-backup). -->
 
-Personal data provided by users through the platform will be retained for the time necessary to provide the functionalities available on the platform, to fulfill our legitimate purposes, or until the user stops using our services, closes the user account, or requests the deletion of their data.
-Speedetail may retain personal data for a longer period provided that the user has consented to such processing, as long as such consent is not withdrawn.
-In addition, Speedetail may be obliged to retain personal data for a longer period if this is necessary for compliance with a legal obligation or by order of an authority.
-Once the retention period has expired, the personal data will be deleted.
-Therefore, the right of access, the right of deletion, the right of rectification, and the right to data portability cannot be asserted after the retention period has expired.
+또한 [CouchDB](http://couchdb.apache.org/)와 호환되는 Data Access API를 통해 Speedetail 데이터베이스에 직접 접근할 수 있습니다.
 
-## 7. Where Does Speedetail Keep Data About Me?
+## 10. 내 데이터를 어떻게 변경하거나 삭제할 수 있나요?
 
-Speedetail stores account data, note data, data about website use, and plugins on servers in the United States of America.
-I sometimes retrieve those data to my personal computers in Japan.
-I use the data to develop, debug, and maintain the service.
-The data is erased from my computers when no longer needed.
+<!-- [speedetail app](https://www.speedetail.com)의 계정 설정 페이지에서 언제든지 계정 데이터와 결제 카드 데이터를 변경할 수 있습니다. -->
 
-## 8. Does Speedetail Comply with the EU General Data Protection Regulation?
+클라이언트 앱을 통해 언제든지 Speedetail 계정을 삭제할 수 있습니다.
+계정을 삭제하면 할일 & 일정 데이터가 삭제되는 프로세스가 시작됩니다.
+iOS 앱이나 Android 앱을 제거하면 기기에 저장된 데이터가 완전히 삭제됩니다.
+macOS, Windows용 데스크톱 앱을 제거할 때는 기기에서 데이터가 완전히 삭제되지 않습니다.
+앱이 데이터를 저장하는 다음 디렉토리에서 데이터를 찾아 삭제할 수 있습니다:
 
-Speedetail respects privacy rights under [Regulation (EU) 2016/679](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG), the European Union's General Data Protection Regulation (GDPR).
-Information that GDPR requires Speedetail to give can be found throughout these privacy questions and answers.
-So can information about specific rights, like [access](#how-can-i-access-data-about-me), [rectification](#how-can-i-change-or-erase-data-about-me), [erasure](#how-can-i-change-or-erase-data-about-me), [data portability](#how-can-i-access-data-about-me), and [objection to automated decision-making](#does-speedetail-make-automated-decisions-based-on-data-about-me).
+- macOS: `~/Library/Application Support/speedetail/`
+- Windows: `%APPDATA%/speedetail/`
 
-GDPR does not apply to everyone worldwide.
-But Speedetail's policy is to do its best to offer all users the same privacy information, control, and protections, whether GDPR applies to them or not.
+## 11. Speedetail은 내 데이터를 다른 사람과 공유하나요?
 
-## 9. How Can I Access Data About Me?
+Speedetail은 귀하의 정보를 다른 사람에게 판매하지 않습니다.
+하지만 Speedetail은 서비스 제공을 위해 다른 회사의 서비스를 사용합니다.
+이러한 서비스 중 일부는 자체 목적으로 귀하에 대한 데이터를 독립적으로 수집할 수 있습니다.
+모든 회사는 미국에 기반을 두고 있습니다.
 
-You can access your account data at any time by visiting your account page on [my.speedetail.app](https://my.speedetail.app).
+이러한 서비스 중 일부는 여러 웹사이트에서 귀하의 온라인 활동에 대한 정보를 수집하는 데 사용될 수 있습니다.
 
-You can access your note data from the client apps available on macOS, Windows, Linux, iOS, and Android which you can get at [my.speedetail.app](https://my.speedetail.app/download).
+### 11.1. Speedetail은 Firebase Analytics를 사용합니다
 
-You can [export all your note data](/reference/data-backup) in [JSON](https://www.json.org/) or Markdown format from our desktop client apps.
+Speedetail의 웹사이트 및 클라이언트 앱은 방문자에 대한 데이터를 수집하고 분석하기 위해 Firebase Analytics를 사용합니다.
+[기술적 구현에 대한 자세한 정보는 여기](https://firebase.google.com/docs/analytics)에서 확인할 수 있습니다.
 
-You can also access the Speedetail database directly via [the Data Access API](https://developers.speedetail.app/guides/access-the-local-database) which is compatible with [CouchDB](http://couchdb.apache.org/).
+<!-- Firebase Analytics를의 데이터 보호에 대한 자세한 정보는 [firebase.google.com/configure-data-collection](https://firebase.google.com/docs/analytics/configure-data-collection)에서 확인할 수 있습니다. -->
 
-## 10. How Can I Change or Erase Data About Me?
+### 11.2. Speedetail은 클라우드 컴퓨팅 플랫폼을 사용합니다
 
-You can change your account data and payment card data at any time by visiting your account settings page on [my.speedetail.app](https://my.speedetail.app).
+Speedetail은 전 세계 서비스 지역에 있는 [Amazon Web Services](https://aws.amazon.com/) 서버와 서비스를 사용하여 Speedetail 서비스를 제공합니다. [AWS의 개인정보 처리방침은 온라인](https://aws.amazon.com/privacy/)에서 확인할 수 있습니다.
 
-You can close your Speedetail account at any time through [my.speedetail.app](https://my.speedetail.app/account/delete).
-Closing your account starts a process of erasing Speedetail's records of your account data including notes, shared notes, notebooks, tags, and attachment files.
-Closing your account does not automatically erase plugins published under your account.
-You can unpublish plugins before closing your account with the `ipm unpublish` command.
-When you uninstall our iOS app or Android app, the data stored in your device is completely erased.
-When you uninstall our desktop app for macOS, Windows, or Linux, the data is not completely erased from your device.
-You can find the data which the app stores in the following directory and you can erase them:
+Speedetail은 미국의 서비스 지역에 있는 [Heroku](https://www.heroku.com/) 서버와 서비스를 사용하여 Speedetail 서비스를 제공합니다. [Heroku의 개인정보 처리방침은 온라인](https://www.salesforce.com/company/privacy/)에서 확인할 수 있습니다.
 
-- on macOS: `~/Library/Application Support/speedetail/`
-- on Windows: `%APPDATA%/speedetail/`
-- on Linux: `~/.config/speedetail/`
+Speedetail은 미국의 서비스 지역에 있는 [Firebase](https://www.digitalocean.com/) 서버와 서비스를 사용하여 [Speedetail 홈페이지](https://www.speedetail.com)을 제공합니다. [Firebase의 개인정보 처리방침은 온라인](https://firebase.google.com/support/privacy)에서 확인할 수 있습니다.
 
-Closing your account anonymizes your topics and comments posted on [forum.speedetail.app](https://forum.speedetail.app/).
-Your profile and IP address on the forum will be erased but your posts will remain because they would be helpful for other users.
-If you wish to delete them completely, email [contact@speedetail.app](mailto:contact@speedetail.app) and let us know which user needs to be erased.
+<!-- ### 11.3. Speedetail은 Papertrail을 사용합니다
 
-If you have questions or problems using the website or `ipm` command to change or delete data about you, email [contact@speedetail.app](mailto:contact@speedetail.app).
+Speedetail은 서버의 로그를 수집하기 위해 [Papertrail](https://papertrailapp.com/)을 사용합니다. [Papertrail의 개인정보 처리방침은 온라인](https://papertrailapp.com/info/privacy)에서 확인할 수 있습니다. -->
 
-## 11. Does Speedetail Share Data About Me with Others?
+### 11.3. Speedetail은 RevenueCat을 사용합니다
 
-Speedetail shares account data with others as mentioned in [the section about account data](#5-4-speedetail-collects-account-data).
+Speedetail은 인앱 결제와 구독 관리를 위해 [RevenueCat](https://www.revenuecat.com/)을 사용합니다. RevenueCat은 앱스토어 결제 시스템과 통합되어 결제 처리, 구독 관리, 청구 정보 수집을 수행합니다. [RevenueCat의 개인정보 처리방침은 온라인](https://www.revenuecat.com/privacy/)에서 확인할 수 있습니다.
 
-Speedetail does not sell information about you to others.
-However, Speedetail uses services provided by other companies to provide Speedetail service.
-Some of those services may collect data about you independently, for their own purposes.
-All of the companies are based in the United States.
+### 11.4. Speedetail은 RevenueCat을 사용합니다
 
-Some of these services may be used to collect information about your online activities across different websites.
+Speedetail은 인앱 결제 기능을 수행하기 위해 [RevenueCat](https://www.revenuecat.com/)을 사용합니다. [RevenueCat의 개인정보 처리방침은 온라인](https://www.revenuecat.com/privacy/)에서 확인할 수 있습니다.
 
-### 11.1. Speedetail Uses Fathom Analytics
+### 11.4. Speedetail은 Firebase를 사용합니다
 
-Speedetail's website uses Fathom Analytics to collect and analyze data about visitors to its websites.
-You can find more information about [the technical implementation here](https://usefathom.com/blog/anonymization).
-Further information on data protection at Fathom can be found at [usefathom.com/data](https://usefathom.com/data).
+Speedetail은 계정 관리를 위해 [Firebase](https://firebase.google.com/)를 사용합니다. [Firebase의 개인정보 처리방침은 온라인](https://firebase.google.com/support/privacy)에서 확인할 수 있습니다.
 
-### 11.2. Speedetail Uses Cloud Computing Platforms
+<!-- ### 11.4. Speedetail은 Mixpanel을 사용합니다
 
-Speedetail uses [Amazon Web Services](https://aws.amazon.com/) servers and services, in service regions all across the world, to power the Speedetail services. You can read [the privacy policy for AWS online](https://aws.amazon.com/privacy/).
+Speedetail은 웹사이트 방문자와 앱 사용 방식에 대한 데이터를 수집하고 분석하기 위해 [Mixpanel](https://mixpanel.com/)을 사용합니다. [Mixpanel의 개인정보 처리방침은 온라인](https://mixpanel.com/legal/privacy-policy/)에서 확인할 수 있습니다. [www.mixpanel.com/optout](https://www.mixpanel.com/optout)와 [my.speedetail.app/account/privacy](https://my.speedetail.app/account/privacy)를 방문하여 Mixpanel을 거부할 수 있습니다. 이러한 추적 데이터는 Speedetail 계정과 연결되지 않습니다. -->
 
-Speedetail uses [Heroku](https://www.heroku.com/) servers and services, in service regions in the United States of America, to power the Speedetail services. You can read [the privacy policy for Heroku online](https://www.salesforce.com/company/privacy/).
+<!-- ### 11.6. Speedetail은 Bugsnag을 사용합니다
 
-Speedetail uses [DigitalOcean](https://www.digitalocean.com/) servers and services, in service regions in the United States of America, to provide [the Speedetail forum](https://forum.speedetail.app/). You can read [the privacy policy for DigitalOcean online](https://www.digitalocean.com/legal/privacy/).
+Speedetail은 모바일 앱의 충돌 보고서와 오류 로그를 수집하기 위해 [Bugsnag](https://www.bugsnag.com/)을 사용합니다. 이러한 충돌 보고서에는 간단한 식별과 사고 관리를 위한 기술 정보가 포함됩니다. 이 데이터는 Speedetail 계정과 연결되지 않습니다. Bugsnag이 수집하는 정보 유형에 대한 자세한 내용은 [Bugsnag의 개인정보 처리방침 페이지](https://docs.bugsnag.com/legal/privacy-policy/)를 참조하시기 바랍니다. -->
 
-### 11.3. Speedetail Uses Papertrail
+<!-- ### 11.7. Speedetail은 Loops를 사용합니다
 
-Speedetail uses [Papertrail](https://papertrailapp.com/) to collect logs from its servers. You can read [the privacy policy for Papertrail online](https://papertrailapp.com/info/privacy).
+Speedetail은 뉴스레터와 기타 이메일 목록을 관리하기 위해 [Loops](https://loops.so/)를 사용합니다.
+Loops를 통해 보내는 메시지에는 Loops 자체 분석 외에 제3자 추적이 없습니다. Loops 분석은 메시지를 열거나 내부 링크를 클릭하는 구독자를 추적합니다 (추적을 원하지 않는 경우 이메일 클라이언트에서 외부 이미지 로딩을 비활성화하고 링크를 클릭하지 않거나 이메일 클라이언트가 제공하는 추적 차단기를 사용하세요).
 
-### 11.4. Speedetail Uses Stripe
+뉴스레터 하단에 있는 구독 취소 링크를 클릭하여 뉴스레터 구독을 취소할 수 있습니다. Loops의 개인정보 처리방침은 [여기](https://loops.so/privacy)에서 확인할 수 있습니다. -->
 
-Speedetail uses [Stripe](https://www.stripe.com/) to collect and use card payment data and billing information. You can read [the privacy policy for Stripe online](https://stripe.com/privacy).
+## 12. Speedetail은 내 데이터를 기반으로 자동화된 결정을 내리나요?
 
-### 11.5. Speedetail Uses Mixpanel
+아니요. Speedetail은 개인화나 리타게팅 목적으로 귀하의 데이터를 사용하지 않습니다.
 
-Speedetail uses [Mixpanel](https://mixpanel.com/) to collect and analyze data about visitors to its websites and how you use our apps. You can read [the privacy policy for Mixpanel online](https://mixpanel.com/legal/privacy-policy/). You can opt-out of Mixpanel by visiting this page: [www.mixpanel.com/optout](https://www.mixpanel.com/optout) and [my.speedetail.app/account/privacy](https://my.speedetail.app/account/privacy). Those tracking data are not associated with your Speedetail account.
+## 13. 개인정보 처리의 법적 근거
 
-### 11.6. Speedetail Uses Bugsnag
+당사는 일반 개인정보보호법(GDPR)에 명시된 다음과 같은 법적 근거에 따라 귀하의 개인정보를 처리합니다:
 
-Speedetail uses [Bugsnag](https://www.bugsnag.com/) to collect crash reports and error logs from our mobile apps. Those crash reports include your technical information for simpler identification and incident management. Those data are not associated with your Speedetail account. For more information on what type of information Bugsnag collects, please visit [the Privacy Policy page of Bugsnag](https://docs.bugsnag.com/legal/privacy-policy/).
+- **계약의 이행**: 당사는 서비스 제공 및 유지, 계정 관리, 결제 처리를 위해 귀하의 데이터를 처리합니다.
+- **동의**: 당사는 마케팅 커뮤니케이션 발송과 같은 특정 목적을 위해 귀하의 명시적 동의 하에 데이터를 처리합니다. 귀하는 언제든지 동의를 철회할 수 있습니다.
+- **법적 의무 준수**: 당사는 세금 및 규제 법률과 같은 법적 의무를 준수하기 위해 귀하의 데이터를 처리합니다.
+- **정당한 이익**: 당사는 귀하의 권리와 자유를 보호하면서 서비스 개선, 분석 수행, 사기 방지 및 고객과의 관계 관리를 위해 귀하의 데이터를 처리합니다.
+- **중대한 이익**: 예외적인 경우, 당사는 귀하 또는 다른 자연인의 중대한 이익을 보호하기 위해 귀하의 데이터를 처리합니다.
+- **공익**: 드물지만 공익적 업무 수행이나 공적 권한 행사에 필요한 경우 귀하의 데이터를 처리합니다.
 
-### 11.7. Speedetail Uses Loops
+## 14. 데이터 유출 통지
 
-Speedetail uses [Loops](https://loops.so/) to manage our newsletter and other email lists.
-There’s no third-party tracking in messages we send through Loops besides Loops' own analytics, which tracks subscribers who open a message or click the links inside (disable loading external images in your email client and don't click on the link, if you don't want it to be tracked or use tracking blockers supplied by your email client).
+사용자의 개인정보 기밀성이 침해되는 보안 사고가 발생한 경우, Speedetail은 영향을 받은 사용자에게 적시에 통지할 것을 약속합니다.
+이 통지는 사용자가 플랫폼에 제공한 연락 수단을 통해 이루어집니다.
+당사는 정보를 보호하고 귀하의 데이터 보안을 손상시키는 상황을 해결하기 위해 모든 합리적인 조치를 취할 것입니다.
 
-You can opt out of newsletter subscriptions by clicking the unsubscribe link provided at the end of the newsletter. Loops' privacy policy is [available here](https://loops.so/privacy).
+## 15. 국제 데이터 이전
 
-## 12. Does Speedetail Make Automated Decisions Based on Data About Me?
+플랫폼을 사용함으로써, 귀하는 개인정보 보호법이 다를 수 있는 출신국 외부에서 귀하의 개인정보가 이전되고 처리될 수 있다는 것에 동의합니다.
+이는 데이터가 해당 국가 외부에 위치한 서버에 저장될 수 있기 때문입니다.
+Speedetail은 국제 이전 중에 귀하의 데이터가 적용 가능한 개인정보 보호 기준에 따라 처리되고 적절히 보호되도록 필요한 조치를 취할 것을 약속합니다.
 
-No. Speedetail does not use your data for personalization or retargeting purposes.
+## 16. 귀하의 정보 보호
 
-## 13. Legal Basis for the Processing of Personal Data
+당사는 정당한 알 필요가 있고 당사의 개인정보 처리방침을 준수하는 외부 개인이나 서비스에만 귀하의 개인정보에 대한 접근 권한을 부여합니다.
+당사는 전송 중이나 저장 시 귀하의 개인정보를 보호하기 위해 업계에서 인정받는 보안 표준을 준수합니다.
+그러나 인터넷을 통한 전송이나 전자 저장 방식은 완벽하거나 100% 안전할 수 없다는 점에 유의해야 합니다.
+따라서 Speedetail은 상업적으로 실행 가능한 데이터 보호 방법을 구현하기 위해 노력하지만, 귀하의 개인정보에 대한 절대적인 보안을 보장할 수는 없습니다.
+당사는 귀하의 명시적 동의가 있거나 법률에 의해 요구되지 않는 한, 귀하의 개인정보를 무단 제3자에게 판매, 배포 또는 이전하지 않을 것을 약속합니다.
 
-We process your personal data in accordance with the following legal bases set out in the General Data Protection Regulation (GDPR):
+## 17. 귀하의 정보에 관한 권리
 
-- **Enforcement of an Agreement**: We process your data to provide and maintain our services, manage your account, and process payments.
-- **Consent**: We process your data with your explicit consent for specific purposes, such as sending marketing communications. You may withdraw your consent at any time.
-- **Compliance with Legal Obligations**: We process your data to comply with our legal obligations, such as tax and regulatory laws.
-- **Legitimate Interests**: We process your data to improve our services, perform analysis, prevent fraud, and manage our relationship with our clients, always protecting your rights and freedoms.
-- **Vital Interests**: In exceptional cases, we process your data to protect your vital interests or those of another natural person.
-- **Public Interest**: We process your data when it is necessary to fulfill a task of public interest or in the exercise of an official authority, although this is less common.
+당사 플랫폼을 통해 정보를 제공하는 사용자는 정보주체로서 자신의 정보에 대한 접근, 정정, 다운로드 또는 삭제할 권리가 있으며, 특정 정보 처리를 제한하고 반대할 권리도 있습니다.
+이러한 권리 중 일부는 일반적으로 적용되지만, 다른 일부는 특정 제한된 상황에서만 적용됩니다.
+이러한 권리는 다음과 같습니다:
 
-## 14. Data Breach Notifications
+- **접근 및 이동권**: 당사의 서버에 저장된 정보를 확인하고 알고 싶으시다면, 당사의 연락처를 통해 요청하실 수 있습니다.
+- **정정, 제한, 제약 및 삭제**: 귀하는 자신의 정보 대부분을 정정, 제한, 제약 또는 삭제할 수 있습니다.
+- **정보를 제공받을 권리**: 당사 플랫폼의 사용자는 요청 시 당사가 수집하는 데이터, 사용 방법, 보관 기간 및 제3자와의 공유 여부에 대해 안내받을 수 있습니다.
+- **반대**: 당사가 위에서 설명한 정당한 이익이나 공익을 위해 귀하의 데이터를 처리하는 경우, 귀하는 특정 상황에서 이러한 처리를 반대할 수 있습니다. 이러한 경우, 당사는 처리를 계속할 정당한 근거가 있거나 법적 사유로 필요한 경우를 제외하고는 귀하의 정보 처리를 중단할 것입니다.
+- **동의 철회**: 예를 들어, 귀하의 개인정보 처리 및 저장을 허용하기 위해 이전에 동의를 한 경우, 귀하는 언제든지 정보 처리 및 저장에 대한 동의를 철회할 권리가 있습니다. 예를 들어, 설정을 업데이트하여 동의를 철회할 수 있습니다. 특정 경우에는 당사가 법적 근거가 있거나 동의 철회가 특정 처리 활동에만 국한된 경우 동의 철회 후에도 귀하의 정보를 계속 처리할 수 있습니다.
+- **불만 제기**: 당사의 정보 사용에 대해 불만을 제기하고자 하는 경우(다른 권리를 침해하지 않고), 귀하는 현지 감독 기관에 불만을 제기할 권리가 있습니다. 사용자는 당사의 연락처 정보나 연락 페이지를 통해 이러한 모든 권리를 행사할 수 있습니다.
+- **자동화된 의사결정(프로파일링 포함)과 관련된 권리**: 사용자는 데이터가 불법적으로 처리되고 있다고 판단되는 경우 당사가 수행하는 자동화된 처리 활동의 사본을 요청할 수 있습니다.
 
-In the event of a security breach that compromises the confidentiality of the personal data of our users, Speedetail undertakes to notify those affected in a timely manner.
-This notification will be made through the means of contact that have been provided by the user on our platform.
-We will take all reasonable measures to protect the information and remedy any situation that compromises the security of your data.
+플랫폼을 통해 개인정보를 제공한 사용자나 보유자는 당사의 연락처 정보를 통해 요청을 보내어 언제든지 제한 없이 자신의 개인정보에 대한 이러한 권리를 행사할 수 있습니다.
+권리 행사 요청은 최대 30영업일 이내에 처리되고 답변될 것입니다.
 
-## 15. International Data Transfer
+## 18. 아동의 온라인 개인정보 보호
 
-By using our platform, you agree that your personal data may be transferred and processed outside your country of origin, where data protection laws may differ.
-This is because data may be stored on servers located outside the country.
-Speedetail is committed to taking the necessary steps to ensure that your data is treated in accordance with applicable privacy standards and is adequately protected during any international transfer.
+당사는 아동의 개인정보 보호와 관련된 국내외 데이터 보호 규정을 준수합니다.
+당사는 13세 미만 아동의 정보를 수집하지 않습니다.
+13세 미만의 아동이 당사에 개인정보를 제공한 사실을 알게 되면 즉시 해당 정보를 삭제하는 조치를 취할 것입니다.
 
-## 16. Protection of Your Information
+## 19. 제3자
 
-We grant access to your personal information only to those outside persons or services that have a legitimate need to know it and in accordance with our privacy policy.
-We adhere to industry-recognized security standards to protect your personal information, both during transmission and in storage.
-However, it is important to note that no method of transmission over the Internet or electronic storage is foolproof and 100% secure.
-Therefore, while we at Speedetail strive to implement commercially viable data protection methods, we cannot ensure absolute security of your personal information.
-We undertake not to sell, distribute, or transfer your personal data to unauthorized third parties, unless we have your explicit consent or are required by law to do so.
+이 개인정보 처리방침에 명시적으로 포함된 경우를 제외하고, 본 문서는 Speedetail이 귀하로부터 수집하는 정보의 사용과 공개에 대해서만 다룹니다.
+귀하가 다른 사용자나 Speedetail 공급업체 등 다른 사람에게 정보를 공개하는 경우, 귀하가 그들에게 공개한 정보의 사용이나 공개에 대해 다른 규칙이 적용될 수 있습니다.
+Speedetail은 제3자의 개인정보 처리방침을 통제하지 않으며, 귀하는 해당되는 경우 그러한 제3자의 개인정보 처리방침의 적용을 받습니다.
+Speedetail은 Speedetail 플랫폼에 연결되거나 플랫폼으로부터 연결되는 것을 포함하여 다른 인터넷 플랫폼의 개인정보 보호나 보안 관행에 대해 책임지지 않습니다.
+Speedetail 플랫폼을 통해 접근하는 제3자 웹사이트나 서비스의 개인정보 처리방침을 검토하시기 바랍니다.
 
-## 17. Your Rights Regarding Your Information
+## 20. 변경사항은 어떻게 알 수 있나요?
 
-Users who provide information through our platform, as data subjects, have the right to access, rectify, download, or delete their information, as well as to restrict and oppose certain processing of their information.
-While some of these rights apply generally, others only apply in certain limited circumstances.
-These rights are described below:
+Speedetail은 [Speedetail 블로그](https://blog.naver.com/speedetail)에서 다음 버전을 발표할 것입니다.
+그 사이에 Speedetail은 [개인정보 처리방침](https://www.speedetail.com/privacy) 페이지를 업데이트하여 연락처 정보와 사소한 변경사항을 공지 없이 업데이트할 수 있습니다.
+Speedetail은 향후 개인정보 처리방침 버전에서 변경사항을 공지하는 방식을 변경할 수 있습니다.
 
-- **Access and Portability**: To access and know what information is stored on our servers, you can send us your request through our contact information.
-- **Rectification, Restriction, Limitation, and Deletion**: You may also rectify, restrict, limit, or delete much of your information.
-- **Right to be Informed**: Users of our platform will be informed, upon request, about what data we collect, how it is used, how long it is kept, and whether it is shared with third parties.
-- **Object**: Where we process your data based on our legitimate interests, as explained above, or in the public interest, you may object to this processing in certain circumstances. In such cases, we will stop processing your information unless we have legitimate grounds to continue processing it or where necessary for legal reasons.
-- **Withdraw Consent**: Where you have previously given your consent, for example, to allow us to process and store your personal information, you have the right to withdraw your consent to the processing and storage of your information at any time. For example, you can withdraw your consent by updating your settings. In certain cases, we may continue to process your information after you have withdrawn your consent if we have a lawful basis for doing so or if your withdrawal of consent was limited to certain processing activities.
-- **Complaint**: If you wish to lodge a complaint about our use of your information (and without prejudice to any other rights you may have), you have the right to do so with your local supervisory authority. Users may exercise all of these rights by contacting us via the contact information or contact page.
-- **Rights Related to Automated Decision-Making, Including Profiling**: Users may request that we provide them with a copy of the automated processing activities we conduct if they believe that data is being unlawfully processed.
+## 21. Speedetail과 내 개인정보에 대해 누구에게 문의할 수 있나요?
 
-Users or holders of personal data provided through the platform may exercise these rights over their personal data at any time and without limitation by sending their request through our contact information.
-The request to exercise their rights will be attended and answered within a maximum period of 10 working days.
+다음 연락처로 문의나 불만사항을 보내실 수 있습니다:
 
-## 18. Protection of Children's Online Privacy
-
-We comply with national and international data protection regulations regarding the protection of children's personal data.
-We do not collect any information from children under the age of 13.
-If we become aware that a child under the age of 13 has provided us with personal information, we will take immediate steps to delete such information.
-
-## 19. Third Parties
-
-Except as expressly included in this privacy policy, this document addresses only the use and disclosure of information Speedetail collects from you.
-If you disclose your information to others, whether other users or Speedetail vendors, different rules may apply to their use or disclosure of the information you disclose to them.
-Speedetail does not control the privacy policies of third parties, and you are subject to the privacy policies of those third parties where applicable.
-Speedetail is not responsible for the privacy or security practices of another Internet platform, including those linked to or from the Speedetail platform.
-Please review the privacy policies of third-party websites or services that you access through the Speedetail platform.
-
-## 20. How Can I Find Out About Changes?
-
-Speedetail will announce the next version on [the Speedetail blog](https://blog.speedetail.app).
-In the meantime, Speedetail may update its contact information and minor changes by updating the page at [Privacy Policy](https://docs.speedetail.app/privacy), without an announcement.
-Speedetail may change how it announces changes in future privacy versions.
-
-You can review the history of changes in [the Git repository for Speedetail's documentation](https://github.com/speedetailapp/docs).
-
-## 21. Who Can I Contact About Speedetail and My Privacy?
-
-You can send questions or complaints to:
-
-- Takuya Matsuyama
-- [contact@speedetail.app](mailto:contact@speedetail.app)
-- 1-11-2-601, Kyomachibori, Nishi, Osaka, Osaka, 550-0003, Japan
+- Sangdeok JUNG
+- [speedetail@gmail.com](mailto:speedetail@gmail.com)
+- 서울특별시 구로구 도림로 22길 8

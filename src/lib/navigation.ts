@@ -3,160 +3,155 @@ export const navigation = [
     title: 'New to Speedetail',
     links: [
       {
-        title: 'Get started',
-        href: '/start-guide',
+        title: 'Speedetail이란?',
+        href: '/new-to-speedetail/meaning-of-speedetail',
+        cover: '/images/meaning-of-speedetail.png',
+      },
+      {
+        title: '왜 시간 관리를 하시나요?',
+        href: '/new-to-speedetail/why-do-you-live',
+        cover: '/images/why-do-you-live.png',
+      },
+      {
+        title: '왜 디테일이 중요한가요?',
+        href: '/new-to-speedetail/why-is-detail-important',
+        cover: '/images/why-is-detail-important.png',
+      },
+      {
+        title: '시간표에서 벗어나세요',
+        href: '/new-to-speedetail/leave-timetable',
+        cover: '/images/leave-timetable.png',
+      },
+      {
+        title: 'OneLine OneAction 적기',
+        href: '/new-to-speedetail/oneline-oneaction',
+        cover: '/images/oneline-oneaction.png',
+      },
+      {
+        title: '주도적으로 미루세요',
+        href: '/new-to-speedetail/postpone-tasks',
+        cover: '/images/postpone-tasks.png',
+      },
+    ],
+  },
+  {
+    title: 'Paper Version',
+    links: [
+      {
+        title: '시작하기',
+        href: '/paper-version/paper-start-guide',
         cover: '/images/quick-start-guide_cover.png',
       },
       {
-        title: 'How to write Markdown notes',
-        href: '/start-guide/how-to-write-markdown-notes',
-        cover: '/images/how-to-write-markdown-notes_cover.jpg',
+        title: '왜 A4용지 한 장인가요?',
+        href: '/paper-version/why-a4-one-page',
       },
       {
-        title: 'How to organize your notes',
-        href: '/start-guide/how-to-organize-notes',
-        cover: '/images/how-to-organize-notes_cover.jpg',
+        title: '[뒷면] 캘린더 작성 원리',
+        href: '/paper-version/calendar-writing-principle',
       },
       {
-        title: 'Issue-driven tech note-taking',
-        href: '/start-guide/issue-driven-note-taking',
-        cover: '/images/issue-driven-note-taking_cover_2.jpg',
+        title: '[앞면] 습관 관리 / 일 & 삶의 균형',
+        href: '/paper-version/weekly-worklife-balance',
       },
       {
-        title: 'Key note categories and examples for tech issues',
-        href: '/start-guide/key-note-categories-and-examples',
-        cover: '/images/key-note-categories_cover.png',
+        title: '사색볼펜의 색깔별 기능',
+        href: '/paper-version/color-function',
       },
       {
-        title: 'Take notes just as you breathe',
-        href: '/start-guide/low-friction-note-taking-system',
-        cover: '/images/foster-knowledge_cover.png',
+        title: '[앞면] 할일의 순서 잡기 원리',
+        href: '/paper-version/order-tasks',
       },
       {
-        title: 'Stay motivated and inspired',
-        href: '/start-guide/join-discord-server',
-        cover: '/images/join-discord-server_cover.jpg',
+        title: '[앞면] 할일을 미루는 방법',
+        href: '/paper-version/postpone-tasks',
+      },
+
+      {
+        title: "[앞면] '더블체크'를 통한 히스토리",
+        href: '/paper-version/double-check',
       },
       {
-        title: 'How tech notes can boost your productivity',
-        href: 'https://www.speedetail.app/note-taking-tips/',
-        cover: 'https://www.speedetail.app/og-cover-image_tips.jpg',
-      },
-      {
-        title: 'How to take notes while learning a new technology',
-        href: 'https://www.youtube.com/watch?v=RhuAn4uLVpc',
-        cover: '/images/link_youtube-2023-01-06.jpg',
+        title: '더 많은 사용법을 알아보세요',
+        href: 'https://www.youtube.com/watch?v=bQAtbxlZFyU&list=PLw8oFCVbjkPnjySbVFhNVdk7v22gg9mon',
       },
     ],
   },
   {
-    title: 'Basics',
+    title: 'App Version',
     links: [
       {
-        title: 'Main user interface',
-        href: '/reference/main-user-interface',
+        title: '시작하기',
+        href: '/app-version/app-start-guide',
+        cover: '/images/quick-start-guide_cover.png',
+      },
+      {
+        title: '메인 사용자 인터페이스',
+        href: '/app-version/main-user-interface',
         cover: '/images/basic-usage_cover.png',
       },
       {
-        title: 'Write notes',
-        href: '/reference/write-notes',
+        title: '할일 등록하기',
+        href: '/app-version/write-tasks',
       },
       {
-        title: 'Basic writing and formatting syntax',
-        href: '/writing/basic-writing-and-formatting-syntax',
-      },
-      { title: 'User data directory', href: '/reference/user-data-directory' },
-      { title: 'Data backup', href: '/reference/data-backup' },
-    ],
-  },
-  {
-    title: 'Note organization',
-    links: [
-      {
-        title: 'Organize notebooks',
-        href: '/reference/organize-notebooks',
+        title: '카테고리 & 태그',
+        href: '/app-version/organize-items',
       },
       {
-        title: 'Search and filter notes',
-        href: '/reference/search-and-filter-notes',
-      },
-      { title: 'Note statuses', href: '/reference/note-statuses' },
-      { title: 'Pin notes to the top', href: '/reference/pin-notes-to-top' },
-    ],
-  },
-  {
-    title: 'Customization',
-    links: [
-      { title: 'Customize keybindings', href: '/reference/key-customizations' },
-      {
-        title: 'Note synchronization',
-        href: '/reference/note-synchronization',
+        title: '검색과 필터링',
+        href: '/app-version/search-and-filter-items',
       },
       {
-        title: 'Extend with plugins',
-        href: '/reference/extend-with-plugins',
+        title: '데이터 백업 (Google Drive)',
+        href: '/app-version/data-backup',
       },
       {
-        title: 'Share notes on the web',
-        href: '/reference/share-notes-on-the-web',
-      },
-      {
-        title: 'Import notes from Evernote',
-        href: '/reference/import-from-evernote',
-      },
-      {
-        title: 'Use behind web proxy',
-        href: '/reference/use-behind-web-proxy',
+        title: '데이터 동기화',
+        href: '/app-version/data-synchronization',
       },
     ],
   },
   {
-    title: 'Advanced',
+    title: 'Support & Community',
     links: [
       {
-        title: 'Clip web pages from browser',
-        href: '/reference/clip-web-pages-from-browser',
+        title: '문제 해결',
+        href: '/app-version/troubleshooting',
       },
       {
-        title: 'Restore previous revisions of note',
-        href: '/reference/revision-history',
+        title: '자주 묻는 질문',
+        href: '/faq',
       },
       {
-        title: 'Resize images',
-        href: '/reference/resize-images',
+        title: '보안 정책',
+        href: '/security',
       },
       {
-        title: 'Integrate with Alfred',
-        href: '/reference/integrate-with-alfred',
+        title: '문의하기',
+        href: '/contact',
+      },
+      {
+        title: '후원하기',
+        href: '/donation',
       },
     ],
   },
   {
-    title: 'Troubleshooting',
+    title: 'Legal',
     links: [
       {
-        title: 'Troubleshooting',
-        href: '/reference/troubleshooting',
+        title: '서비스 이용 약관',
+        href: '/terms',
       },
       {
-        title: 'Recover lost password',
-        href: '/reference/recover-password',
+        title: '개인정보 처리방침',
+        href: '/privacy',
       },
       {
-        title: 'Salvage data from local database',
-        href: '/reference/salvage-data-from-local-database',
+        title: '전자상거래 정보 고지',
+        href: '/notation',
       },
-    ],
-  },
-  {
-    title: 'About',
-    links: [
-      { title: 'Frequently asked questions', href: '/faq' },
-      { title: 'How secure is Speedetail?', href: '/security' },
-      { title: 'Contact the author', href: '/contact' },
-      { title: 'Terms of Service', href: '/terms' },
-      { title: 'Privacy Policy', href: '/privacy' },
-      { title: '特定商取引法に基づく表記', href: '/notation' },
     ],
   },
 ]

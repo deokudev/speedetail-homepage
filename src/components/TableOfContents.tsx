@@ -11,7 +11,9 @@ export function TableOfContents({
 }: {
   tableOfContents: Array<Section>
 }) {
-  let [currentSection, setCurrentSection] = useState(tableOfContents[0]?.id)
+  let [currentSection, setCurrentSection] = useState(
+    tableOfContents[0]?.id ?? '',
+  )
 
   let getHeadings = useCallback((tableOfContents: Array<Section>) => {
     return tableOfContents
@@ -34,6 +36,8 @@ export function TableOfContents({
     let headings = getHeadings(tableOfContents)
     function onScroll() {
       let top = window.scrollY
+      if (headings.length === 0) return
+
       let current = headings[0].id
       for (let heading of headings) {
         if (top >= heading.top - 10) {
@@ -68,7 +72,7 @@ export function TableOfContents({
           <>
             <h2
               id="on-this-page-title"
-              className="font-proxyma text-md font-bold text-slate-900 dark:text-white"
+              className="text-md font-proxyma font-bold text-slate-900 dark:text-white"
             >
               On this page
             </h2>

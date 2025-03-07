@@ -13,10 +13,10 @@ import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
 import { Footer } from './Footer'
 
-function HomeIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
+function HeartIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
-    <svg aria-hidden="true" viewBox="0 0 24 24" {...props}>
-      <path d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2zm0 2.83L19.17 12h-1.67v8h-3v-6H9.5v6h-3v-8H4.83L12 4.83z" />
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
     </svg>
   )
 }
@@ -64,12 +64,8 @@ function Header() {
       </div>
       <div className="relative flex basis-0 items-center justify-end gap-5 sm:gap-7 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link
-          href="https://www.speedetail.com"
-          className="group"
-          aria-label="Speedetail"
-        >
-          <HomeIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
+        <Link href="/donation" className="group" aria-label="Speedetail">
+          <HeartIcon className="h-5 w-5 fill-red-500 group-hover:fill-red-600 dark:group-hover:fill-red-400" />
         </Link>
       </div>
     </header>

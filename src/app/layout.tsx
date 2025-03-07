@@ -26,11 +26,11 @@ const lexend = localFont({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Speedetail User Manual',
-    default: 'Speedetail User Manual',
+    template: '%s - Speedetail',
+    default: 'Speedetail - Swift Time Scheduler',
   },
   description:
-    'Help, tutorials & documentation on how to unleash your coding productivity with Speedetail',
+    'A4에 뽑아쓰는 자기주도 스케줄러 & 모바일 앱 [Self-Directed Scheduler for A4 Printing & Mobile App]',
 }
 
 export default function RootLayout({

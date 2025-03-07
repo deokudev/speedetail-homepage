@@ -23,14 +23,25 @@ export function Hero() {
               priority
             />
             <div className="relative">
-              <p className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display font-proxyma text-5xl tracking-tight text-transparent">
-                Help, tutorials & documentation.
+              <p className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display font-proxyma text-3xl tracking-tight text-transparent">
+                Live your life to the full.
               </p>
-              <p className="mt-3 font-proxyma text-2xl tracking-tight text-slate-400">
-                Learn how to unleash your coding productivity by taking and
-                organizing tech notes with Speedetail.
+              <p className="text-1xl mt-3 font-proxyma tracking-tight text-slate-400">
+                Speedetail 만의 특별한 시간관리 원칙으로
+                <br />
+                당신의 일상을 더 풍성하게 만듭니다.
               </p>
               <div className="lg: mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5 md:justify-center lg:grid-cols-3 lg:justify-start">
+                <Button
+                  variant="secondary"
+                  className="inline-flex items-center justify-center gap-2"
+                  onClick={() => {
+                    DownloadUtil.downloadExcelFile()
+                  }}
+                >
+                  <SvgIcon name="excel" />
+                  Excel
+                </Button>
                 <Button
                   href="https://play.google.com/store/apps/details?id=com.speedetail.speedetailapp&pcampaignid=web_share"
                   target="_blank"
@@ -66,16 +77,6 @@ export function Hero() {
                 >
                   <SvgIcon name="mac" />
                   Mac
-                </Button>
-                <Button
-                  variant="secondary"
-                  className="inline-flex items-center justify-center gap-2"
-                  onClick={() => {
-                    DownloadUtil.downloadExcelFile()
-                  }}
-                >
-                  <SvgIcon name="excel" />
-                  Excel
                 </Button>
               </div>
             </div>

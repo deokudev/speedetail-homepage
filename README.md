@@ -1,6 +1,6 @@
-# Speedetail User Manual
+# Speedetail Homepage
 
-<https://docs.speedetail.app/>
+<https://www.speedetail.com/>
 
 ## Stack
 

@@ -1,79 +1,58 @@
 ---
-title: 特定商取引法に基づく表記
+title: 전자상거래 정보 고지
 nextjs:
   metadata:
-    title: 特定商取引法に基づく表記
+    title: 전자상거래 정보 고지
 ---
 
-Act on specified commercial transactions
+## 사업자 정보
 
-## 事業者および運営責任者 / Seller and Operator
+- 상호명: Speedetail
+- 대표자: Hyeonchul LEE, Sangdeok JUNG
+  <!-- - 사업자등록번호: 000-00-00000 -->
+  <!-- - 통신판매업신고번호: 제0000-서울강남-0000호 -->
 
-松山 拓矢
+## 연락처
 
-## 所在地 / Address
+- 이메일: speedetail2@gmail.com
+- 사업장 소재지: 서울특별시 구로구
+<!-- - 고객센터: +82-10-0000-0000 -->
 
-個人事業主のため、請求があったら遅滞なく開示します
+전화 상담은 제공하지 않으며, 아래 페이지에서 문의 유형별 적절한 연락 방법을 확인해 주시기 바랍니다.
 
-I will disclose it promptly if requested because I am a sole proprietor.
+- [문의하기](/contact)
 
-## お問い合わせ / Contact
+## 결제 방법
 
-- Email: contact@speedetail.app
-- Tel: +815071086381
+- 신용카드
+- 체크카드
+- 간편결제 (카카오페이, 네이버페이 등)
 
-基本的に電話でのお問い合わせは受け付けておりません。
-以下のページから内容に応じた適切な連絡先をご利用ください。
+## 서비스 요금
 
-- [お問い合わせ方法一覧](/contact)
+모든 표시 가격은 부가가치세(VAT)를 포함한 금액입니다.
+서비스 이용을 위한 인터넷 통신비용은 사용자 부담입니다.
+자세한 요금제 정보는 App 내 가격 안내 화면에서 확인하실 수 있습니다.
 
-We do not accept inquiries by phone.
-Please use the appropriate contact information according to the content from the following page.
+## 서비스 제공 시기
 
-- [Contact Us](/contact)
+결제 완료 즉시 서비스 이용이 가능합니다.
 
-## 受付可能な決済手段 / Payment Methods
+## 청약철회 및 환불 정책
 
-クレジットカード / Credit Card
+- 디지털 콘텐츠의 특성상 서비스 개시 후에는 청약철회가 제한될 수 있습니다.
+- 당사의 중대한 귀책사유가 없는 경우, 이미 결제된 요금은 환불되지 않습니다.
+- 계정 삭제는 App 내 계정 설정 화면에서 언제든지 가능합니다.
 
-## 販売価格 / Price
+## 시스템 요구사항
 
-販売ページ及び購入手続きの画面において、消費税・手数料を含む価格で表示されています。
-本サービスの利用に必要となるインターネット通信料金はお客様のご負担となります。
-詳しくは[価格ページ](https://www.speedetail.app/pricing)をご覧ください。
-
-The price including consumption tax and fees is displayed on the sales page and purchase procedure screen.
-The internet communication fee required to use this service will be borne by the customer.
-For more information, please refer to the [pricing page](https://www.speedetail.app/pricing).
-
-## 提供時期 / Delivery Time
-
-お支払いが確認でき次第、すぐに利用できるようになります。
-
-We will offer the Service as soon as the payment transaction becomes complete.
-
-## お支払時期 / Payment Deadline
-
-利用料金のお支払いは利用期間ごとの前払いとし、お支払時期は初回を有料サービス登録時、以降は1ヶ月または1年ごとの同日となります（翌月または翌年に同日がない場合は、その月の末日となります）。 クレジットカード会社からお客様への請求時期は、お客様とクレジットカード会社との間の契約に基づきます。
-
-The payment of the usage fee is made in advance for each usage period, and the payment deadline is the first time you register for the paid service, and then every month or year on the same date (if there is no same date in the next month or year, it will be the last day of that month). The billing date from the credit card company to the customer is based on the contract between the customer and the credit card company.
-
-## 解約・返金について / Cancelling and Returning of Product(s)
-
-すでにお支払いが完了した代金については、当社に重大な過失がない限り返金することはできません。
-アカウントの削除は[こちら](https://my.speedetail.app/account/delete)からいつでも行えます。
-
-In principle, order cancelations and product returns or exchange are not accepted.
-You can delete your account from [here](https://my.speedetail.app/account/delete) anytime.
-
-## 利用環境 / Supported platforms
-
-お支払い前の試用期間にあらかじめご利用環境での動作をご確認ください。
-
-Please make sure that the app works on your environment before making a payment during the trial period.
+서비스 결제 전 무료 체험 기간 동안 시스템 호환성을 반드시 확인해 주시기 바랍니다.
 
 - macOS 12+
 - Windows 11+
-- Linux (Ubuntu 20.04+)
 - iOS 16+
 - Android 12+
+
+## 분쟁처리
+
+- 분쟁 발생 시 전자상거래법에 근거하여 소비자분쟁해결기준에 따라 처리됩니다.

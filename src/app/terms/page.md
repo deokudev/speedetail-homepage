@@ -1,78 +1,99 @@
 ---
-title: Terms of Service
+title: 서비스 이용약관
 nextjs:
   metadata:
-    title: Terms of Service
+    title: 서비스 이용약관
 ---
 
-These Terms of Service ("**Terms**") govern your access to and use of the services, including our various websites, APIs, email notifications, and applications (the "**Services**" or "**Speedetail**"), and any information, text, graphics, photos or other materials uploaded, downloaded or appearing on the Services (collectively referred to as "**Content**"). Speedetail is owned by Takuya Matsuyama, Osaka - Japan. (referred to as "**I**", "**Me**", "**Our**" or "**We**"). As a customer of this service you're a "**User**" or "**You**" according to this agreement. Your access to and use of the Services are conditioned on your acceptance of and compliance with these Terms. By accessing or using the Services you agree to be bound by these Terms.
+본 이용약관("**약관**")은 귀하의 서비스 접근 및 이용에 적용되며, 여기에는 당사의 웹사이트, API, 이메일 알림, 애플리케이션("**서비스**" 또는 "**Speedetail**")과 서비스에 업로드, 다운로드되거나 표시되는 모든 정보, 텍스트, 그래픽, 사진 또는 기타 자료(총칭하여 "**콘텐츠**")가 포함됩니다. Speedetail은 한국 서울의 Speedetail Team("**본인**", "**당사**", "**우리**")이 소유하고 있습니다. 본 서비스의 고객으로서 귀하는 본 계약에 따라 "**사용자**" 또는 "**귀하**"로 지칭됩니다. 서비스에 대한 귀하의 접근 및 이용은 본 약관의 수락 및 준수를 전제로 합니다. 서비스에 접근하거나 이용함으로써 귀하는 본 약관에 구속되는 것에 동의합니다.
 
-We reserve the right to update and change these Terms of Service without notice. Any new features that augment or enhance the current Service, including the release of new tools and resources, shall be subject to the Terms of Service. Continued use of the Service after any such changes shall constitute your consent to such changes. You can review the most current version of the Terms of Service at any time at: https://docs.speedetail.app/terms
+당사는 사전 통지 없이 본 이용약관을 업데이트하고 변경할 권리를 보유합니다. 새로운 도구와 리소스의 출시를 포함하여 현재 서비스를 보강하거나 향상시키는 모든 새로운 기능은 본 이용약관의 적용을 받습니다. 그러한 변경 이후에도 서비스를 계속 이용하는 것은 해당 변경사항에 대한 귀하의 동의를 구성합니다. 귀하는 언제든지 https://www.speedetail.com/terms에서 최신 버전의 이용약관을 검토할 수 있습니다.
 
-Violation of any of the terms below will result in the termination of your Account. While Speedetail prohibits such conduct and Content on the Service, you understand and agree that Speedetail cannot be responsible for the Content posted on the Service and you nonetheless may be exposed to such materials. You agree to use the Service at your own risk.
+아래의 약관을 위반하는 경우 귀하의 계정이 해지됩니다. Speedetail은 서비스상의 그러한 행위와 콘텐츠를 금지하지만, 귀하는 Speedetail이 서비스에 게시된 콘텐츠에 대해 책임을 질 수 없으며 그러한 자료에 노출될 수 있다는 것을 이해하고 동의합니다. 귀하는 자신의 책임 하에 서비스를 이용하는 것에 동의합니다.
 
-## Account Registration and Passwords
+## 계정 등록 및 비밀번호
 
-1. You may be required to create an account with Speedetail in order to access certain Services. It is a condition of your use of the Services that all the information you provide on the Services is correct, current and complete. We reserve the right to disable any user account, at any time in our sole discretion for any or no reason, including if, in our opinion, you have failed to comply with any provision of these Terms.
-2. You are responsible for safeguarding the password that you use in association with your account and for any activities or actions performed under your account. We recommend that you use "strong" passwords (passwords that use a combination of upper and lower case letters, numbers and symbols) with your account and that you logout from your account at the end of every session. Speedetail cannot and will not be liable for any loss or damage arising from your failure to comply with the above. You agree to notify Speedetail immediately at [contact@speedetail.app](mailto:contact@speedetail.app) of any actual or suspected unauthorized use of your account or any other breach of security known by you.
-3. You are responsible for remembering the password that you use in association with your account. You understand that Speedetail encrypts [your note data](/privacy/#speedetail-collects-note-data) [at rest based on the password](/security#end-to-end-encryption) and it is not able to restore the data without the password.
-4. Your login may only be used by one person - a single login shared by multiple people is not permitted. You may create separate logins for as many people as you'd like.
-5. You may not use the Service for any illegal purpose or to violate any laws in your jurisdiction (including but not limited to copyright laws).
+1. 특정 서비스에 접근하기 위해 Speedetail 계정을 만들어야 할 수 있습니다. 서비스에서 귀하가 제공하는 모든 정보가 정확하고, 최신이며, 완전해야 하는 것이 서비스 이용의 조건입니다. 당사는 단독 재량으로 언제든지 어떤 이유로든 또는 이유 없이 사용자 계정을 비활성화할 권리를 보유하며, 여기에는 귀하가 본 약관의 조항을 준수하지 않았다고 판단되는 경우가 포함됩니다.
 
-## Privacy
+2. 귀하는 계정과 관련하여 사용하는 비밀번호를 보호하고 귀하의 계정에서 수행되는 모든 활동이나 조치에 대해 책임을 집니다. 당사는 계정에 "강력한" 비밀번호(대소문자, 숫자, 기호를 조합한 비밀번호)를 사용하고 매 세션이 끝날 때마다 로그아웃할 것을 권장합니다. Speedetail은 위의 사항을 준수하지 않아 발생하는 손실이나 손해에 대해 책임을 지지 않습니다. 귀하는 계정의 무단 사용이나 기타 보안 위반이 실제로 발생했거나 의심되는 경우 즉시 [speedetail2@gmail.com](mailto:speedetail2@gmail.com)으로 Speedetail에 통지하는 것에 동의합니다.
 
-1. Any information that you provide to Speedetail is subject to our [Privacy Policy](/privacy), which governs our collection and use of your information. You understand that through your use of the Services you consent to the collection and use (as set forth in the Privacy Policy) of this information, including the transfer of this information to Japan and/or other countries for storage, processing and use by Speedetail.
-2. As part of providing you the Services, we may need to provide you with certain communications, such as service announcements and administrative messages. These communications are considered part of the Services and your Speedetail account, which you may not be able to opt-out from receiving.
+3. 귀하는 계정과 관련된 비밀번호를 기억할 책임이 있습니다. Speedetail이 [귀하의 할일&일정 데이터](/privacy/#speedetail-collects-note-data)를 [비밀번호 기반으로 암호화](/security#end-to-end-encryption)하며 비밀번호 없이는 데이터를 복구할 수 없다는 것을 이해합니다.
 
-## Payment and Refunds Terms
+4. 하나의 로그인은 한 사람만 사용할 수 있으며 - 여러 사람이 단일 로그인을 공유하는 것은 허용되지 않습니다. 원하는 만큼 여러 사람을 위한 별도의 로그인을 만들 수 있습니다.
 
-1. The Service is offered with a 30-day free trial. You will only be able to continue using the Service by paying in advance for additional usage. If you fail to pay for additional usage, your account will be frozen and inaccessible until payment is made.
-2. There will be no refunds or credits for partial months of service.
-3. All fees are exclusive of all taxes, levies, or duties imposed by taxing authorities. If your billing address is in Japan, you shall be responsible for payment of a consumption tax.
-4. The credit card that you provided will automatically be charged the new rate on your next billing cycle when your billing status changes.
-5. If you switch a plan to another one with different billing cycle (e.g., from a monthly plan to a yearly plan), the billing date becomes the date of the switch. By default, Speedetail prorates subscription costs in this case.
+5. 귀하는 불법적인 목적으로 또는 관할 지역의 법률(저작권법을 포함하되 이에 국한되지 않음)을 위반하기 위해 서비스를 사용할 수 없습니다.
 
-## API Terms
+## 개인정보 보호
 
-Users may access their Service data via the Application Program Interface ("**API**"). Any use of the API, including use of the API through a third-party product that accesses the Service, is bound by the terms of this agreement plus the following specific terms:
+1. 귀하가 Speedetail에 제공하는 모든 정보는 당사의 [개인정보 보호정책](/privacy)의 적용을 받으며, 이는 귀하의 정보 수집 및 사용을 규율합니다. 귀하는 서비스 이용을 통해 이 정보의 수집 및 사용(개인정보 보호정책에 명시된 대로)에 동의하며, 여기에는 Speedetail에 의한 저장, 처리 및 사용을 위해 이 정보를 한국 및/또는 기타 국가로 전송하는 것이 포함된다는 것을 이해합니다.
 
-1. You expressly understand and agree that we shall not be liable for any damages or losses resulting from your use of the API or third-party products that access data via the API.
-2. Abuse or excessively frequent requests to the Service via the API may result in the temporary or permanent suspension of your account's access to the API. We, in its sole discretion, will determine abuse or excessive usage of the API. We will make a reasonable attempt via email to warn the account owner prior to suspension.
+2. 서비스 제공의 일환으로, 당사는 서비스 공지사항 및 관리 메시지와 같은 특정 통신을 제공해야 할 수 있습니다. 이러한 통신은 서비스와 귀하의 Speedetail 계정의 일부로 간주되며, 수신 거부가 불가능할 수 있습니다.
 
-## Cancellation and Termination
+## 결제 및 환불 조건
 
-1. You are solely responsible for properly canceling your account. An email or phone request to cancel your account is not considered cancellation. You can cancel your account at any time by visiting your account page on [my.speedetail.app](https://my.speedetail.app/account/delete).
-2. All of your content will be immediately be inaccessible from the Service upon cancellation. This information can not be recovered once it has been permanently deleted.
-3. If you cancel the Service before the end of your current paid up month, your cancellation will take effect immediately, and you will not be charged again.
-4. We, in its sole discretion, have the right to suspend or terminate your account and refuse any and all current or future use of the Service for any reason at any time. Such termination of the Service will result in the deactivation or deletion of your Account or your access to your Account, and the forfeiture and relinquishment of all content in your account. We reserve the right to refuse service to anyone for any reason at any time.
-5. We will terminate your account after 6 months since it has been deactivated due to no successful payments to the Service.
+<!-- 1. 서비스는 30일 무료 체험판으로 제공됩니다. 추가 사용을 위해 선불로 지불해야만 서비스를 계속 이용할 수 있습니다. 추가 사용에 대한 결제를 하지
+않으면 결제가 이루어질 때까지 계정이 동결되어 접근할 수 없게 됩니다. -->
 
-## Modifications to the Service and Prices
+1. 서비스의 기본 기능은 무료로 제공되며, 고급 기능("**Pro 기능**")은 유료 구독을 통해 이용할 수 있습니다. Pro 기능을 이용하기 위해서는 선불로 구독료를 지불해야 합니다.
 
-1. We reserve the right at any time and from time to time to modify or discontinue, temporarily or permanently, any part of the Service with or without notice.
-2. Prices of all Services are subject to change upon 30 days notice from us. Such notice may be provided at any time by posting the changes to the [Speedetail site](https://speedetail.app/) or the Service itself.
-3. We shall not be liable to you or to any third party for any modification, price change, suspension or discontinuance of the Service.
+2. 서비스의 부분적인 월 사용에 대해서는 환불이나 크레딧이 제공되지 않습니다.
 
-## Copyright and Content Ownership
+3. 모든 요금은 과세 당국이 부과하는 모든 세금, 부과금 또는 관세를 제외한 금액입니다. 청구 주소가 한국인 경우 부가가치세 납부 책임이 있습니다.
 
-1. All content posted on the Service is must comply with Japan copyright law.
-2. We claim no intellectual property rights over the material you provide to the Service. All materials uploaded remain yours.
-3. We do not pre-screen content, but reserves the right (but not the obligation) in their sole discretion to refuse or remove any content that is available via the Service.
-4. The look and feel of the Service is copyright© Takuya Matsuyama. All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML, CSS, JavaScript, or visual design elements without express written permission from the Company.
+4. 청구 상태가 변경되면 다음 청구 주기에 제공한 신용카드로 새로운 요금이 자동으로 청구됩니다.
 
-## General Conditions
+5. 다른 청구 주기가 있는 플랜으로 전환할 경우(예: 월간 플랜에서 연간 플랜으로), 청구일은 전환일이 됩니다. 기본적으로 Speedetail은 이 경우 구독 비용을 일할 계산합니다.
 
-1. Your use of the Service is at your sole risk. The service is provided on an “as is” and “as available” basis.
-2. Technical support is only provided via email.
-3. You understand that we use third party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and related technology required to run the Service.
-4. You must not crack the Service.
-5. You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, or access to the Service without the express written permission by us.
-6. We may, but have no obligation to, remove content and accounts that we determine in our sole discretion are unlawful or violates any party’s intellectual property or these Terms of Service.
-7. Verbal, physical, written or other abuse (including threats of abuse or retribution) of any Service customer will result in immediate account termination.
-8. We reserve the right to temporarily disable your account if your usage significantly exceeds the average usage of other Service customers. Of course, we'll reach out to the account owner before taking any action except in rare cases where the level of use may negatively impact the performance of the Service for other customers.
-9. We do not warrant that (i) the service will meet your specific requirements, (ii) the service will be uninterrupted, timely, secure, or error-free, (iii) the results that may be obtained from the use of the service will be accurate or reliable, (iv) the quality of any products, services, information, or other material purchased or obtained by you through the service will meet your expectations, and (v) any errors in the Service will be corrected.
-10. You expressly understand and agree that we shall not be liable for any direct, indirect, incidental, special, consequential or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data or other intangible losses (even if we have been advised of the possibility of such damages), resulting from: (i) the use or the inability to use the service; (ii) the cost of procurement of substitute goods and services resulting from any goods, data, information or services purchased or obtained or messages received or transactions entered into through or from the service; (iii) unauthorized access to or alteration of your transmissions or data; (iv) statements or conduct of any third party on the service; (v) or any other matter relating to the service.
-11. The failure of us to exercise or enforce any right or provision of the Terms of Service shall not constitute a waiver of such right or provision. The Terms of Service constitutes the entire agreement between you and us and govern your use of the Service, superseding any prior agreements between you and us (including, but not limited to, any prior versions of the Terms of Service).
-12. Questions about the Terms of Service should be sent to [contact@speedetail.app](mailto:contact@speedetail.app).
+## 취소 및 해지
 
-The end.
+1. 귀하는 계정을 적절히 취소할 전적인 책임이 있습니다. 이메일이나 전화로 계정 취소를 요청하는 것은 취소로 간주되지 않습니다. [speedetail app](https://www.speedetail.com/)의 계정 페이지를 접속하여 언제든지 계정을 취소할 수 있습니다.
+
+2. 취소 시 모든 콘텐츠는 즉시 서비스에서 접근할 수 없게 됩니다. 영구 삭제된 정보는 복구할 수 없습니다.
+
+3. 현재 지불된 월의 종료 전에 서비스를 취소하는 경우, 취소는 즉시 효력이 발생하며 더 이상 요금이 청구되지 않습니다.
+
+4. 당사는 단독 재량으로 언제든지 어떤 이유로든 귀하의 계정을 중단하거나 해지하고 서비스의 현재 및 향후 사용을 거부할 권리가 있습니다. 이러한 서비스 해지는 귀하의 계정 비활성화 또는 삭제나 계정 접근 권한의 상실, 그리고 계정의 모든 콘텐츠의 포기 및 양도를 초래할 것입니다. 당사는 언제든지 어떤 이유로든 누구에게든 서비스 제공을 거부할 권리를 보유합니다.
+
+5. 서비스에 대한 성공적인 결제가 없는 상태로 6개월이 경과한 후에는 귀하의 계정을 해지할 것입니다.
+
+## 서비스 및 가격의 수정
+
+1. 당사는 통지 여부와 관계없이 언제든지 일시적으로 또는 영구적으로 서비스의 일부를 수정하거나 중단할 권리를 보유합니다.
+
+2. 모든 서비스의 가격은 당사로부터 30일 전 통지로 변경될 수 있습니다. 이러한 통지는 [Speedetail 사이트](https://www.speedetail.com/) 또는 서비스 자체에 변경사항을 게시함으로써 언제든지 제공될 수 있습니다.
+
+3. 당사는 서비스의 수정, 가격 변경, 중단 또는 중지에 대해 귀하나 제3자에게 책임을 지지 않습니다.
+
+## 저작권 및 콘텐츠 소유권
+
+1. 서비스에 게시된 모든 콘텐츠는 한국 저작권법을 준수해야 합니다.
+
+2. 당사는 귀하가 서비스에 제공하는 자료에 대한 지적재산권을 주장하지 않습니다. 업로드된 모든 자료는 귀하의 소유로 남습니다.
+
+3. 당사는 콘텐츠를 사전 검열하지 않지만, 서비스를 통해 제공되는 모든 콘텐츠를 단독 재량으로 거부하거나 제거할 권리(의무는 아님)를 보유합니다.
+
+## 일반 조건
+
+1. 서비스 사용에 대한 위험은 전적으로 귀하가 부담합니다. 서비스는 "있는 그대로" 그리고 "이용 가능한 대로" 제공됩니다.
+
+2. 기술 지원은 이메일을 통해서만 제공됩니다.
+
+3. 당사가 서비스 운영에 필요한 하드웨어, 소프트웨어, 네트워킹, 저장소 및 관련 기술을 제공하기 위해 제3자 공급업체와 호스팅 파트너를 사용한다는 것을 귀하는 이해합니다.
+
+4. 귀하는 서비스를 해킹해서는 안 됩니다.
+
+5. 당사의 명시적인 서면 허가 없이 서비스의 어떤 부분도 복제, 복사, 판매, 재판매하거나 이용할 수 없습니다.
+
+6. 당사는 불법이거나 당사자의 지적재산권 또는 본 이용약관을 위반한다고 단독 재량으로 판단하는 콘텐츠와 계정을 제거할 수 있지만, 그러한 의무는 없습니다.
+
+7. 서비스 고객에 대한 언어적, 물리적, 서면 또는 기타 학대(학대나 보복의 위협 포함)는 즉각적인 계정 해지를 초래할 것입니다.
+
+8. 귀하의 사용량이 다른 서비스 고객의 평균 사용량을 크게 초과하는 경우 당사는 귀하의 계정을 일시적으로 비활성화할 권리를 보유합니다. 물론, 서비스 성능에 부정적인 영향을 미칠 수 있는 드문 경우를 제외하고는 조치를 취하기 전에 계정 소유자에게 연락할 것입니다.
+
+9. 당사는 다음 사항을 보증하지 않습니다: (i) 서비스가 귀하의 특정 요구사항을 충족할 것, (ii) 서비스가 중단되지 않고, 적시에, 안전하게 또는 오류 없이 제공될 것, (iii) 서비스 사용으로 얻을 수 있는 결과가 정확하거나 신뢰할 수 있을 것, (iv) 서비스를 통해 구매하거나 획득한 제품, 서비스, 정보 또는 기타 자료의 품질이 귀하의 기대를 충족할 것, (v) 서비스의 오류가 수정될 것.
+
+10. 귀하는 당사가 다음으로 인한 직접적, 간접적, 부수적, 특별, 결과적 또는 징벌적 손해배상에 대해 책임을 지지 않는다는 것을 명시적으로 이해하고 동의합니다(당사가 그러한 손해의 가능성을 통보받은 경우에도): (i) 서비스의 사용 또는 사용 불능, (ii) 서비스를 통해 또는 서비스로부터 구매하거나 획득한 상품, 데이터, 정보 또는 서비스, 수신한 메시지, 또는 체결된 거래로 인한 대체 상품 및 서비스의 조달 비용, (iii) 귀하의 전송 또는 데이터에 대한 무단 접근이나 변경, (iv) 서비스상의 제3자의 진술이나 행위, (v) 또는 서비스와 관련된 기타 모든 사항.
+
+11. 당사가 본 이용약관의 어떤 권리나 조항을 행사하거나 집행하지 않는 것이 해당 권리나 조항의 포기를 구성하지는 않습니다. 본 이용약관은 귀하와 당사 간의 완전한 합의를 구성하며 서비스 사용에 관한 귀하와 당사 간의 이전 합의(이용약관의 이전 버전을 포함하되 이에 국한되지 않음)를 대체합니다.
+
+12. 이용약관에 대한 문의사항은 [speedetail2@gmail.com](mailto:speedetail2@gmail.com)으로 보내주시기 바랍니다.

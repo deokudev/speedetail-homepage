@@ -1,149 +1,104 @@
 ---
-title: Frequently asked questions
+title: 자주 묻는 질문
 nextjs:
   metadata:
-    title: Frequently asked questions
-    description: Common questions and solutions for frequently encountered issues, offering quick help and insights
+    title: 자주 묻는 질문
+    description: 자주 발생하는 문제에 대한 일반적인 질문과 해결책을 제공하여 빠른 도움과 통찰을 제공합니다
 ---
 
 ![FAQ #cover](/images/faq.svg)
 
-## What platforms does Speedetail run on?
+## Speedetail App은 어떤 플랫폼에서 실행되나요?
 
-Speedetail is available for macOS 10.13 or later, Windows 8.1 or later, and Ubuntu Linux 18.04 or later.
-Mobile app is also available for iOS 15.6+ and Android 14.0+.
+Speedetail App은 macOS 10.13 이상, Windows 8.1 이상에서 사용할 수 있습니다.
+모바일 앱은 iOS 15.6+ 및 Android 14.0+ 에서 사용 가능합니다.
 
-## Can I sync my data with DropBox, GoogleDrive, etc?
+## GoogleDrive 등과 데이터 동기화가 가능한가요?
 
-No. You can only sync your data with a server compatible with CouchDB.
-Read the [documentation](/reference/note-synchronization#how-to-set-up-your-own-sync-server) to learn how to set up your own sync server.
+아니요. CouchDB와 호환되는 서버로만 데이터를 동기화할 수 있습니다.
+자체 동기화 서버 설정 방법은 [문서](/app-version/data-synchronization#how-to-set-up-your-own-sync-server)를 참조하세요.
 
-We’re delivering stable smooth experience to our users.
-That’s why we don’t want to defocus on support of different platforms.
+## 왜 Google 로그인만 지원하나요?
 
-## I don’t trust anyone with my note. Can I run Speedetail server myself?
+Google 로그인은 가장 안정적이고 편리한 인증 방법입니다.
+저희는 사용자에게 안정적이고 원활한 경험을 제공하고 있습니다.
+그래서 다양한 플랫폼 지원에 집중력을 분산시키고 싶지 않습니다.
 
-Yes!
-See the [documentation](/reference/note-synchronization#how-to-set-up-your-own-sync-server) for full instructions on setting up the sync server on your local machine.
-Or you can simply use it in offline by setting from preferences.
+## 데이터 백업은 어떻게 하나요?
 
-## Why don't you support WYSIWYG or rich text editor?
+앱의 데이터 백업 메뉴에서, Google Drive에 업로드하여 백업할 수 있습니다.
 
-No. Because Speedetail is for people who like writing Markdown in plain text.
-That allows the app to provide special features like [vim](https://my.speedetail.app/plugins/vim) keybindings.
-Providing both will end up becoming bad UX.
+## 내 할일을 누구에게도 맡기지 못하겠어요. Speedetail 서버를 직접 운영할 수 있나요?
 
-## Why don't you target non-programmers? You will attract more customers.
+네!
+로컬 머신에서 동기화 서버를 설정하는 방법은 [문서](/app-version/data-synchronization#how-to-set-up-your-own-sync-server)를 참조하세요.
+또는 환경설정에서 오프라인 모드로 설정하여 사용할 수 있습니다.
 
-No. Speedetail should be simple and clean.
-It will never be feature-fat like a Swiss army knife.
+## 계정을 삭제하려면 어떻게 해야 하나요?
 
-## How can I delete my account?
+모바일 앱의 계정 설정에서 계정을 삭제할 수 있습니다.
+개인정보를 포함한 모든 데이터는 즉시 영구적으로 삭제됩니다.
 
-You can delete your account from [here](https://my.speedetail.app/account/delete).
-You data including personal information will be deleted immediately and permanently.
+## 데이터를 삭제하지 않고 계정을 비활성화할 수 있나요?
 
-If you wish to delete your account but you forgot your password, you can delete it by receiving a link via email from [here](https://my.speedetail.app/forgot-password).
+아니요.
+Speedetail은 벤처 캐피탈의 지원을 받는 스타트업이 아니기 때문에, 결제 없이 사용자의 데이터를 보관할 예산이 없습니다.
 
-## Can I deactivate my account without deleting data?
+## 평생 라이선스를 받을 수 있나요?
 
-No.
-Since Speedetail is not a VC-backed startup, we don't have a budget for keeping your data without your payments.
+아니요. 평생 가격 책정은 지속 가능하지 않기 때문입니다.
+평생 가격 책정을 제공하는 유사한 앱들이 있다는 것을 알고 있지만, 장기적인 비즈니스에는 적합하지 않습니다.
+특히 할일/일정 관리 앱의 경우 매일 많은 할일/일정을 저장하게 되므로 지속 가능성이 매우 중요합니다.
 
-## I forgot my password. How to reset my password?
+## Windows Defender가 `Setup.exe`를 바이러스 위협으로 격리했어요
 
-Speedetail cannot reset your password for security reason.
-Please read [how to recover your password](/reference/recover-password).
+이는 오탐입니다.
+저희 `Setup.exe`는 [Electron](https://www.electronjs.org/)으로 생성되었으며, 이를 사용하여 빌드된 앱들은 가끔 오탐으로 바이러스 위협으로 격리되는 경우가 있습니다.
+`Setup.exe`에 대한 정책 예외를 추가하거나 프로세스 자체를 화이트리스트에 추가해야 합니다.
 
-### If you think you remember your password
+## 데이터베이스 로드 실패로 데스크톱 앱이 실행되지 않아요
 
-If you believe you know your password, but it isn’t accepted, try these steps:
+`Failed to load database` 오류가 발생하는 경우, 다른 Speedetail 인스턴스가 실행 중이지 않은지 확인하세요.
+오류가 계속되면 로컬 데이터가 손상되었거나 누락되었을 수 있습니다.
 
-- Make sure you’re typing lowercase and uppercase letters correctly. If Caps Lock is turned on, the password field shows a Caps Lock symbol ⇪.
-- Try older passwords. If you’re able to log in to Speedetail with your old password, you can then change your password.
-- Type your password in another app, like a text editor, so you can see that you’ve entered it correctly. Then copy and paste it into Speedetail.
-- If you use multiple languages, make sure you’re using the correct keyboard layout when you enter your password.
-- Make sure you’re typing correct email address.
+## 결제
 
-## I don't remember my password but can I delete my account?
+### 플랜을 취소하려면 어떻게 해야 하나요?
 
-Yes, you can delete your account by receiving a link via email from [here](https://my.speedetail.app/forgot-password).
+구독은 구매한 스토어의 설정에서 관리할 수 있습니다:
 
-## Do you offer student/teacher discounts?
+- iOS: [App Store 구독 관리](https://support.apple.com/ko-kr/HT202039)
+- Android: [Google Play 구독 관리](https://support.google.com/googleplay/answer/7018481)
 
-No.
+구독을 취소하면 현재 구독 기간이 끝날 때까지 서비스를 계속 이용할 수 있습니다.
+구독이 만료되면 생성된 모든 할일과 일정이 영구적으로 삭제됩니다.
 
-## Any chance to get a lifetime license?
+### 다음 결제일 전에 플랜을 변경하면 어떻게 되나요?
 
-No. Because lifetime pricing is not sustainable.
-We know there are similar apps with lifetime pricing out there, but it doesn't work for long-running business.
-The sustainability is crucial especially for note-taking apps because you will store a lot of notes in them day by day.
+월간 플랜에서 연간 플랜으로 전환하면 새로운 구독이 즉시 시작되며, 남은 기간에 대해 비례 할인된 금액이 적용됩니다.
+앱스토어나 구글 플레이를 통한 구독의 경우 해당 스토어의 정책을 따릅니다.
 
-## Where are my local data and config files?
+### 어떤 결제 수단을 사용할 수 있나요?
 
-Please check out [this page about the user data directory](/reference/user-data-directory).
+- iOS: Apple의 App Store 결제
+- Android: Google Play 결제
 
-## `Setup.exe` gets quarantined as a virus threat by Windows Defender
+### PayPal이나 다른 결제 수단으로 결제할 수 있나요?
 
-It is false positive.
-Our `Setup.exe` is generated with [Squirrel](https://github.com/Squirrel/Squirrel.Windows) and apps built with it sometimes get quarantined as a virus threat which is false positive.
-You’ll either have to add a policy exclusion for the `Setup.exe` runs from or whitelist the process itself.
-[Lean more about this issue on our forum](https://forum.speedetail.app/t/download-failed-setup-exe-contained-a-virus-and-was-deleted/961).
+현재는 앱스토어와 구글 플레이 결제만 지원합니다.
 
-## Desktop app won't launch because it fails to load database
+### 결제 정보는 안전한가요?
 
-If you are getting an error saying `Failed to load database`, please make sure that other Speedetail instance is not running.
-If you still get the error, your local data might be corrupt or missing.
-Please try moving [your local data](#where-are-my-local-data-and-config-files-) to other place and launch it again.
+모든 결제는 Apple App Store와 Google Play Store의 안전한 결제 시스템을 통해 처리됩니다.
+Speedetail은 사용자의 결제 정보를 직접 저장하거나 처리하지 않습니다.
 
-## Is it possible to attach files to a note?
+### 결제가 실패하면 어떻게 되나요?
 
-No. Speedetail only supports attaching images.
-Please upload files to a cloud storage service and paste the URLs of them to the note.
+결제 실패 시 앱스토어나 구글 플레이에서 알림을 보내드립니다.
+결제 정보를 업데이트하지 않으면 구독이 자동으로 취소됩니다.
 
-## Billing
+### 계정이 비활성화되면 어떻게 되나요?
 
-### How do I cancel my plan?
-
-You can cancel your subscription by deleting your account through [the Account page](https://my.speedetail.app/account/delete).
-Please keep in mind that all created notes and uploaded images will be deleted forever.
-Since Speedetail is not like a big company, we don't have a budget for keeping your data without your payments.
-
-If you purchased a subscription in the iOS app, please check out [the Apple documentation here](https://support.apple.com/en-us/HT202039).
-
-### What happens if I change my plan before my next billing date?
-
-If you switch from a monthly plan to a yearly plan, the billing date becomes the date of the switch. By default, Speedetail prorates subscription costs. Please read the [Stripe's documentation](https://stripe.com/docs/subscriptions/upgrading-downgrading) for more detail.
-
-### What payment methods are available?
-
-We can accept credit and debit card payment with Visa, MasterCard, and American Express via [Stripe](https://stripe.com/).
-
-### Can I pay with PayPal, WebMoney, Alipay, WeChat Pay, or other payment methods?
-
-No. Since Speedetail is a small business by a single developer, it is too hard to support various payment methods.
-
-### Is it secure to send my card information?
-
-We use [Stripe.com](https://stripe.com/) for online payments. Stripe has been audited by a PCI-certified auditor and is certified to [PCI Service Provider Level 1](http://www.visa.com/splisting/searchGrsp.do?companyNameCriteria=stripe). This is the most stringent level of certification available in the payments industry. We never send and store your credit/debit card information to Speedetail server.
-
-Learn more: [Security at Stripe](https://stripe.com/docs/security/stripe)
-
-### What happens if the free trial expired without adding my payment information?
-
-Your account will be deactivated and you are no longer able to add/edit/remove your notes. But you can still access your data stored in local with the app in read-only mode.
-
-### What happens if the payment failed?
-
-The payment fails if you have canceled your card, the card may have expired, or the payment might be declined by the bank for some other reason. Then we will send you an email notification. Speedetail will retry failed payments up to three times:
-
-- 1st failed attempt: Retry 3 days after the previous attempt
-- 2nd failed attempt: Retry 5 days after the previous attempt
-- 3rd failed attempt: Retry 7 days after the previous attempt
-- Then finally: Cancel your subscription and deactivate your account
-
-### What happens if my account has been deactivated?
-
-Your data is kept stored on the Speedetail server.
-You can't access your notes while deactivated.
-You can re-activate your account anytime.
+구독이 만료되면 데이터 동기화가 중단되며, 새로운 할일이나 일정을 추가해도 동기화가 이루어지지 않습니다.
+기존 데이터는 30일간 보관되며, 이 기간 내에 구독을 갱신하면 모든 데이터에 다시 접근할 수 있습니다.
+30일이 지나면 모든 데이터가 영구적으로 삭제됩니다.

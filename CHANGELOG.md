@@ -9,3 +9,14 @@
   - change header
   - add download buttons
   - change hero section
+
+## 2025-03-07
+
+- Bugfix
+  - fix table of contents
+- Content Update
+  - add paper version
+  - add app version
+- Remove Unused Content
+  - remove unused images
+  - remove unused pages

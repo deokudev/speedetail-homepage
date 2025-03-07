@@ -31,8 +31,8 @@ const nodes = {
       let attributes = node.transformAttributes(config)
       let children = node.transformChildren(config)
       let text = children.filter((child) => typeof child === 'string').join(' ')
-      let id = attributes.id ?? slugify(text)
-
+      // let id = attributes.id ?? slugify(text)
+      let id = attributes.id ?? text
       return new Tag(
         `h${node.attributes.level}`,
         { ...attributes, id },
