@@ -267,12 +267,18 @@ const SearchInput = forwardRef<
           autocompleteState.status === 'stalled' ? 'pr-11' : 'pr-4',
         )}
         {...inputProps}
+        // info: android 한글 한글자만 입력됨 이슈로 수정
+        onChange={(e) => {
+          e.preventDefault()
+        }}
+        onInput={(e) => {
+          autocomplete.setQuery((e.target as HTMLInputElement).value)
+        }}
         onKeyDown={(event) => {
           if (
             event.key === 'Escape' &&
             !autocompleteState.isOpen &&
-            autocompleteState.query === '' &&
-            !event.nativeEvent.isComposing
+            autocompleteState.query === ''
           ) {
             // In Safari, closing the dialog with the escape key can sometimes cause the scroll position to jump to the
             // bottom of the page. This is a workaround for that until we can figure out a proper fix in Headless UI.
@@ -281,8 +287,6 @@ const SearchInput = forwardRef<
             }
 
             onClose()
-          } else {
-            inputProps.onKeyDown(event)
           }
         }}
       />

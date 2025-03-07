@@ -10,9 +10,11 @@ nextjs:
 
 ## 종이 버전
 
-### Excel 템플릿
+### Excel 양식
 
-[Excel 템플릿 양식 요청하기](https://docs.google.com/forms/d/e/1FAIpQLSdg7ezwFzc9g4KrI0tu59ypNkS9zXbAtaosefhxghWRcgrvFQ/viewform)
+Excel A4 템플릿은 메인 페이지에서 다운로드하실 수 있습니다.
+
+[메인 페이지로 이동하기](/)
 
 ## 모바일 앱
 
