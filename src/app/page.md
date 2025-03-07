@@ -4,7 +4,7 @@ title:
 
 {% quick-links %}
 
-{% quick-link title="Start guide" icon="installation" href="/start-guide" description="스피디테일의 기본 사용법과 주요 기능을 빠르게 익혀보세요" /%}
+{% quick-link title="Start guide" icon="installation" href="/new-to-speedetail/meaning-of-speedetail" description="스피디테일의 기본 사용법과 주요 기능을 빠르게 익혀보세요" /%}
 
 {% quick-link title="Blog" icon="presets" href="https://blog.naver.com/speedetail" description="스피디테일의 최신 소식과 유용한 정보를 확인하세요" /%}
 
