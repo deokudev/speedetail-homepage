@@ -3,11 +3,6 @@
     "public": "out",
     "redirects": [
       {
-        "source": "/:path*",
-        "destination": "/:path*/",
-        "type": 301
-      },
-      {
         "source": "/donate",
         "destination": "/donation/",
         "type": 301
