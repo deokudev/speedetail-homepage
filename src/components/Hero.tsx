@@ -5,6 +5,7 @@ import { HeroBackground } from '@/components/HeroBackground'
 import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
 import heroImage from '@/images/hero.png'
+import { DownloadUtil } from '@/utils/download.util'
 
 export function Hero() {
   return (
@@ -39,6 +40,7 @@ export function Hero() {
                       'https://docs.google.com/forms/d/e/1FAIpQLSdg7ezwFzc9g4KrI0tu59ypNkS9zXbAtaosefhxghWRcgrvFQ/viewform',
                       '_blank',
                     )
+                    DownloadUtil.downloadExcelFile()
                   }}
                 >
                   <SvgIcon name="excel" />
@@ -109,7 +111,6 @@ export function Hero() {
               <Image
                 src={heroImage}
                 alt="A dog hacking Speedetail"
-                unoptimized
                 priority
                 className="scale-150"
               />
