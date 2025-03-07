@@ -41,6 +41,7 @@ export function DocsLayout({
                   width={1024}
                   height={576}
                   className="mb-6 rounded-lg border"
+                  unoptimized
                 />
               )
             )}

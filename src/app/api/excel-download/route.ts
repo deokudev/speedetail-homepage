@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { DownloadUtil } from '@/utils/download.util'
 
+// firebase 정적 호스팅 모드에서는 사용 불가
 export async function GET(request: Request) {
   try {
     // URL 객체를 사용하여 쿼리 파라미터 추출

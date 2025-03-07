@@ -67,6 +67,14 @@ const nextConfig = {
       // },
     ]
   },
+  // info : Firebase Hosting 적용을 위한 설정
+  output: 'export',
+  images: {
+    // info : Firebase Hosting 적용을 위해 필요
+    unoptimized: true, // 정적 내보내기를 위해 필요
+    // 외부 이미지를 사용하는 경우 도메인 추가
+    domains: ['www.speedetail.com', 'speedetail-home.web.app'],
+  },
 }
 
 export default withSearch(

@@ -6,6 +6,7 @@
     "dev": "NODE_ENV=development next dev",
     "build": "NODE_ENV=production npm run generate-routes-json && next build",
     "start": "NODE_ENV=production next start",
+    "deploy": "NODE_ENV=production npm run generate-routes-json && next build && firebase deploy",
     "lint": "next lint",
     "generate-routes-json": "tsc src/lib/navigation.ts --outDir . && node ./generate-routes-json.js && rm ./navigation.js"
   },

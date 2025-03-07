@@ -10,6 +10,7 @@ export function Logo(props: React.ComponentPropsWithoutRef<'div'>) {
         width={40}
         height={40}
         className={props.className}
+        unoptimized
       />
     </div>
   )

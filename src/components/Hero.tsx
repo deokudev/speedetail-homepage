@@ -109,6 +109,7 @@ export function Hero() {
               <Image
                 src={heroImage}
                 alt="A dog hacking Speedetail"
+                unoptimized
                 priority
                 className="scale-150"
               />
