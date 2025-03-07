@@ -33,6 +33,21 @@ const nextConfig = {
     return config
   },
   pageExtensions: ['js', 'jsx', 'md', 'ts', 'tsx'],
+  // Old Homepage Url Redirect
+  async redirects() {
+    return [
+      {
+        source: '/donate',
+        destination: '/donation',
+        permanent: true, // 301 리다이렉트
+      },
+      // {
+      //   source: '/blog/:slug',
+      //   destination: '/posts/:slug', // 동적 경로도 지원
+      //   permanent: true,
+      // },
+    ]
+  },
 }
 
 export default withSearch(

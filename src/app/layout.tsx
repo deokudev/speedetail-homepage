@@ -31,6 +31,11 @@ export const metadata: Metadata = {
   },
   description:
     'A4에 뽑아쓰는 자기주도 스케줄러 & 모바일 앱 [Self-Directed Scheduler for A4 Printing & Mobile App]',
+  alternates: {
+    types: {
+      'application/rss+xml': '/feed.xml',
+    },
+  },
 }
 
 export default function RootLayout({
@@ -44,6 +49,14 @@ export default function RootLayout({
       className={clsx('h-full antialiased', inter.variable, lexend.variable)}
       suppressHydrationWarning
     >
+      <head>
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Speedetail RSS Feed"
+          href="/feed.xml"
+        />
+      </head>
       <body className="flex min-h-full bg-white dark:bg-slate-900">
         <Fathom />
         <Redirects />
