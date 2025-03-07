@@ -271,7 +271,8 @@ const SearchInput = forwardRef<
           if (
             event.key === 'Escape' &&
             !autocompleteState.isOpen &&
-            autocompleteState.query === ''
+            autocompleteState.query === '' &&
+            !event.nativeEvent.isComposing
           ) {
             // In Safari, closing the dialog with the escape key can sometimes cause the scroll position to jump to the
             // bottom of the page. This is a workaround for that until we can figure out a proper fix in Headless UI.
