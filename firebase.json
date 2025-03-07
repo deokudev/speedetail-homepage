@@ -1,11 +1,29 @@
 {
   "hosting": {
     "public": "out",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
+    "redirects": [
+      {
+        "source": "/donate",
+        "destination": "/donation",
+        "type": 301
+      },
+      {
+        "source": "/ko-kr/privacy-homepage",
+        "destination": "/privacy",
+        "type": 301
+      },
+      {
+        "source": "/ko-kr/privacy",
+        "destination": "/privacy",
+        "type": 301
+      },
+      {
+        "source": "/ko-kr/terms-of-service",
+        "destination": "/terms",
+        "type": 301
+      }
+    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   },
   "headers": [
     {

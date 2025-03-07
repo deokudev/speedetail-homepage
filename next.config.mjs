@@ -41,11 +41,6 @@ const nextConfig = {
         permanent: true, // 301 리다이렉트
       },
       {
-        source: '/download-api',
-        destination: '/api/excel-download',
-        permanent: true,
-      },
-      {
         source: '/ko-kr/privacy-homepage',
         destination: '/privacy',
         permanent: true,
