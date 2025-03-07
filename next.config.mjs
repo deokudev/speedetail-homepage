@@ -70,6 +70,8 @@ const nextConfig = {
     // 외부 이미지를 사용하는 경우 도메인 추가
     domains: ['www.speedetail.com', 'speedetail-home.web.app'],
   },
+  // info : Firebase Hosting 적용을 위해 필요
+  trailingSlash: true,
 }
 
 export default withSearch(
