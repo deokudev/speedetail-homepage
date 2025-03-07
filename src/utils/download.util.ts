@@ -90,7 +90,35 @@ export namespace DownloadUtil {
   export const downloadExcelFile = async (
     excelType: 'wide' | 'narrow' = 'wide',
   ) => {
-    const { data, downloadFileName } = await downloadExcelFileBuffer(excelType)
+    const fileName =
+      excelType === 'wide'
+        ? 'speedetail_wide_template.xlsx'
+        : 'speedetail_narrow_template.xlsx'
+    const filePath = `files/${fileName}`
+
+    // 상대경로 필요
+    const response = await fetch(filePath)
+    const fileData = await response.arrayBuffer()
+
+    const workbook = new Workbook()
+    await workbook.xlsx.load(fileData)
+
+    const yearlySheet = workbook.getWorksheet('speedetail_yearly')
+    modifyYearlySheet(yearlySheet)
+
+    const monthlySheet = workbook.getWorksheet('speedetail_monthly')
+    modifyMonthlySheet(monthlySheet)
+
+    const weeklySheet = workbook.getWorksheet('speedetail_weekly')
+    modifyWeeklySheet(weeklySheet, excelType)
+
+    const downloadFileName =
+      excelType === 'wide'
+        ? `speedetail_${getCurrentMonday()}_이번주의핵심과업을적으세요_wide.xlsx`
+        : `speedetail_${getCurrentMonday()}_이번주의핵심과업을적으세요_narrow.xlsx`
+
+    // 파일 저장
+    const data = await workbook.xlsx.writeBuffer()
     const blob = new Blob([data], {
       type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
     })
