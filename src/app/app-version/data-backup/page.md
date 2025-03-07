@@ -3,7 +3,7 @@ title: 데이터 백업
 nextjs:
   metadata:
     title: 데이터 백업
-    description: Speedetail 데이터를 지속적으로 백업하기
+    description: Speedetail App 데이터 백업 방법
 ---
 
 > 우리는 완벽한 인간이 아니며, 그런 척할 필요도 없습니다. 다만 우리가 될 수 있는 최선의 모습이 되는 것이 필요할 뿐입니다.

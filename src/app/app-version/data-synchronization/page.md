@@ -3,7 +3,7 @@ title: 할일 & 일정 동기화
 nextjs:
   metadata:
     title: 할일 & 일정 동기화
-    description: 클라우드 기반 노트 데이터 동기화
+    description: Speedetail App 할일 & 일정 동기화
 ---
 
 Speedetail App을 사용하면 클라우드를 통해 여러 컴퓨터 간에 노트를 동기화할 수 있습니다.

@@ -3,7 +3,7 @@ title: 할일과 일정 정리하기
 nextjs:
   metadata:
     title: 할일과 일정 정리하기
-    description: Speedetail에서 할일과 일정을 관리하는 방법
+    description: Speedetail App 할일과 일정 정리 방법
 ---
 
 Speedetail에서는 할일과 일정을 체계적으로 관리할 수 있도록 카테고리와 태그 기능을 제공합니다.

@@ -41,37 +41,56 @@ export namespace DownloadUtil {
     return `${formattedStartDate}` // Return the date range as a string
   }
 
-  export const downloadExcelFile = async (
+  export const downloadExcelFileBuffer = async (
     excelType: 'wide' | 'narrow' = 'wide',
   ) => {
     const fileName =
       excelType === 'wide'
         ? 'speedetail_wide_template.xlsx'
         : 'speedetail_narrow_template.xlsx'
-    const filePath = `files/${fileName}`
+    const filePath = `/files/${fileName}`
 
-    const response = await fetch(filePath)
-    const fileData = await response.arrayBuffer()
+    try {
+      const baseUrl =
+        process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+      const fileUrl = `${baseUrl}${filePath}`
 
-    const workbook = new Workbook()
-    await workbook.xlsx.load(fileData)
+      const response = await fetch(fileUrl)
+      if (!response.ok) {
+        throw new Error('템플릿 파일을 찾을 수 없습니다')
+      }
+      const fileData = await response.arrayBuffer()
 
-    const yearlySheet = workbook.getWorksheet('speedetail_yearly')
-    modifyYearlySheet(yearlySheet)
+      const workbook = new Workbook()
+      await workbook.xlsx.load(fileData)
 
-    const monthlySheet = workbook.getWorksheet('speedetail_monthly')
-    modifyMonthlySheet(monthlySheet)
+      const yearlySheet = workbook.getWorksheet('speedetail_yearly')
+      modifyYearlySheet(yearlySheet)
 
-    const weeklySheet = workbook.getWorksheet('speedetail_weekly')
-    modifyWeeklySheet(weeklySheet, excelType)
+      const monthlySheet = workbook.getWorksheet('speedetail_monthly')
+      modifyMonthlySheet(monthlySheet)
 
-    const downloadFileName =
-      excelType === 'wide'
-        ? `speedetail_${getCurrentMonday()}_이번주의핵심과업을적으세요_wide.xlsx`
-        : `speedetail_${getCurrentMonday()}_이번주의핵심과업을적으세요_narrow.xlsx`
+      const weeklySheet = workbook.getWorksheet('speedetail_weekly')
+      modifyWeeklySheet(weeklySheet, excelType)
 
-    // 파일 저장
-    const data = await workbook.xlsx.writeBuffer()
+      const downloadFileName =
+        excelType === 'wide'
+          ? `speedetail_${getCurrentMonday()}_이번주의핵심과업을적으세요_wide.xlsx`
+          : `speedetail_${getCurrentMonday()}_이번주의핵심과업을적으세요_narrow.xlsx`
+
+      // 파일 저장
+      const data = await workbook.xlsx.writeBuffer()
+      return { data, downloadFileName }
+    } catch (error) {
+      console.error('파일 다운로드 중 오류 발생:', error)
+      throw error
+    }
+  }
+
+  export const downloadExcelFile = async (
+    excelType: 'wide' | 'narrow' = 'wide',
+  ) => {
+    const { data, downloadFileName } = await downloadExcelFileBuffer(excelType)
     const blob = new Blob([data], {
       type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
     })

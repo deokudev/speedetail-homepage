@@ -3,7 +3,7 @@ title: 할일 등록하기
 nextjs:
   metadata:
     title: 할일 등록하기
-    description: Speedetail에서 노트 작성하는 방법
+    description: Speedetail App 할일 등록 방법
 ---
 
 할일은 Speedetail의 핵심 요소입니다. 할일에 대한 모든 CRUD 작업(생성, 읽기, 수정, 삭제)을 수행할 수 있으며, 복제하고 다양한 형식으로 내보낼 수 있습니다.

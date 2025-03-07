@@ -1,9 +1,9 @@
 ---
-title: Speedetail 인터페이스 익히기
+title: 인터페이스 익히기
 nextjs:
   metadata:
-    title: 기본 사용법
-    description: Speedetail 사용 방법
+    title: 인터페이스 익히기
+    description: Speedetail App 인터페이스 설명
 ---
 
 ## 메인 사용자 인터페이스

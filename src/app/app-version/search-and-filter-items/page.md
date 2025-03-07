@@ -1,9 +1,9 @@
 ---
-title: 노트 검색 및 필터링
+title: 할일 & 일정 검색 및 필터링
 nextjs:
   metadata:
-    title: 노트 검색 및 필터링
-    description: 노트를 빠르게 검색하는 방법
+    title: 할일 & 일정 검색 및 필터링
+    description: Speedetail App 할일 & 일정 검색 및 필터링
 ---
 
 Speedetail은 필요한 내용을 빠르게 찾을 수 있는 검색 기능을 제공합니다. 모든 할일 & 일정에서 내용을 검색하거나 특정 카테고리, 라벨로 검색 범위를 좁힐 수 있습니다.

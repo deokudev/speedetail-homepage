@@ -1,4 +1,3 @@
-import { createLoader } from 'simple-functional-loader'
 import withMarkdoc from '@markdoc/next.js'
 
 import withSearch from './src/markdoc/search.mjs'
@@ -40,6 +39,26 @@ const nextConfig = {
         source: '/donate',
         destination: '/donation',
         permanent: true, // 301 리다이렉트
+      },
+      {
+        source: '/download-api',
+        destination: '/api/excel-download',
+        permanent: true,
+      },
+      {
+        source: '/ko-kr/privacy-homepage',
+        destination: '/privacy',
+        permanent: true,
+      },
+      {
+        source: '/ko-kr/privacy',
+        destination: '/privacy',
+        permanent: true,
+      },
+      {
+        source: '/ko-kr/terms-of-service',
+        destination: '/terms',
+        permanent: true,
       },
       // {
       //   source: '/blog/:slug',

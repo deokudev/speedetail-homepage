@@ -4,12 +4,9 @@ coverImage: '/images/quick-start-guide_cover.png'
 nextjs:
   metadata:
     title: 시작하기
-    description: Speedetail 빠른 시작 가이드
+    description: Speedetail App 빠른 시작 가이드
     openGraph:
-      images:
-        [
-          'https://speedetail-user-guide.vercel.app/images/quick-start-guide_cover.png',
-        ]
+      images: ['https://www.speedetail.com/images/quick-start-guide_cover.png']
 ---
 
 ## Speedetail은 두 가지 방식으로 제공됩니다.

@@ -5,7 +5,6 @@ import { HeroBackground } from '@/components/HeroBackground'
 import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
 import heroImage from '@/images/hero.png'
-import { DownloadUtil } from '@/utils/download.util'
 
 export function Hero() {
   return (
@@ -36,7 +35,10 @@ export function Hero() {
                   variant="secondary"
                   className="inline-flex items-center justify-center gap-2"
                   onClick={() => {
-                    DownloadUtil.downloadExcelFile()
+                    window.open(
+                      'https://docs.google.com/forms/d/e/1FAIpQLSdg7ezwFzc9g4KrI0tu59ypNkS9zXbAtaosefhxghWRcgrvFQ/viewform',
+                      '_blank',
+                    )
                   }}
                 >
                   <SvgIcon name="excel" />

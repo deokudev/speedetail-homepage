@@ -3,7 +3,7 @@ title: 문제 해결
 nextjs:
   metadata:
     title: 문제 해결
-    description: 로그인 문제와 동기화 어려움 등 일반적인 문제에 대한 해결책과 팁
+    description: Speedetail App 문제 해결
 ---
 
 ## 로그인할 수 없음 / 동기화가 작동하지 않음
