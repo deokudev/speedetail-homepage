@@ -36,6 +36,16 @@ export const metadata: Metadata = {
       'application/rss+xml': '/feed.xml',
     },
   },
+  openGraph: {
+    images: [
+      {
+        url: '/images/hero.png', // 공유용 대표 이미지 지정
+        width: 1200,
+        height: 630,
+        alt: 'Speedetail Preview',
+      },
+    ],
+  },
 }
 
 export default function RootLayout({
