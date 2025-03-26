@@ -86,6 +86,14 @@ export const navigation = [
         cover: '/images/quick-start-guide_cover.png',
       },
       {
+        title: '한 눈에 보는 튜토리얼(PC)',
+        href: '/app-version/tutorial-overview-pc',
+      },
+      {
+        title: '한 눈에 보는 튜토리얼(모바일)',
+        href: '/app-version/tutorial-overview-mobile',
+      },
+      {
         title: '메인 사용자 인터페이스',
         href: '/app-version/main-user-interface',
         cover: '/images/basic-usage_cover.png',
