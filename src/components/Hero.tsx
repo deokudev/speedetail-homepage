@@ -65,7 +65,7 @@ export function Hero() {
                   iOS
                 </Button>
                 <Button
-                  href=""
+                  href="https://firebasestorage.googleapis.com/v0/b/speedetail-home.firebasestorage.app/o/Speedetail%20Setup%202.0.0.exe?alt=media&token=56bbb524-b72d-4d46-a779-bc249fe67bf9"
                   target="_blank"
                   variant="secondary"
                   className="inline-flex items-center justify-center gap-2"
@@ -74,13 +74,22 @@ export function Hero() {
                   Windows
                 </Button>
                 <Button
-                  href=""
+                  href="https://firebasestorage.googleapis.com/v0/b/speedetail-home.firebasestorage.app/o/Speedetail-2.0.0-arm64.dmg?alt=media&token=3522c2d8-7739-4757-b4b6-692c3a8c60c1"
                   target="_blank"
                   variant="secondary"
                   className="inline-flex items-center justify-center gap-2"
                 >
                   <SvgIcon name="mac" />
-                  Mac
+                  Mac(Silicon)
+                </Button>
+                <Button
+                  href="https://firebasestorage.googleapis.com/v0/b/speedetail-home.firebasestorage.app/o/Speedetail-2.0.0.dmg?alt=media&token=66f12bc7-851c-4552-a348-b4cc6c6960b7"
+                  target="_blank"
+                  variant="secondary"
+                  className="inline-flex items-center justify-center gap-2"
+                >
+                  <SvgIcon name="mac" />
+                  Mac(Intel)
                 </Button>
               </div>
             </div>
