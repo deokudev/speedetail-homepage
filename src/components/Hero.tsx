@@ -65,7 +65,7 @@ export function Hero() {
                   iOS
                 </Button>
                 <Button
-                  href="https://firebasestorage.googleapis.com/v0/b/speedetail-home.firebasestorage.app/o/Speedetail%20Setup%202.0.0.exe?alt=media&token=56bbb524-b72d-4d46-a779-bc249fe67bf9"
+                  href="https://firebasestorage.googleapis.com/v0/b/speedetail-home.firebasestorage.app/o/Speedetail%20Setup%202.0.1.exe?alt=media&token=d96be220-e337-4b8e-9f7e-7b0177cf120b"
                   target="_blank"
                   variant="secondary"
                   className="inline-flex items-center justify-center gap-2"
@@ -74,7 +74,7 @@ export function Hero() {
                   Windows
                 </Button>
                 <Button
-                  href="https://firebasestorage.googleapis.com/v0/b/speedetail-home.firebasestorage.app/o/Speedetail-2.0.0-arm64.dmg?alt=media&token=3522c2d8-7739-4757-b4b6-692c3a8c60c1"
+                  href="https://firebasestorage.googleapis.com/v0/b/speedetail-home.firebasestorage.app/o/Speedetail-2.0.1-arm64.dmg?alt=media&token=1121037c-278b-4a44-b0c1-e0b9cf72d472"
                   target="_blank"
                   variant="secondary"
                   className="inline-flex items-center justify-center gap-2"
@@ -83,7 +83,7 @@ export function Hero() {
                   Mac(Silicon)
                 </Button>
                 <Button
-                  href="https://firebasestorage.googleapis.com/v0/b/speedetail-home.firebasestorage.app/o/Speedetail-2.0.0.dmg?alt=media&token=66f12bc7-851c-4552-a348-b4cc6c6960b7"
+                  href="https://firebasestorage.googleapis.com/v0/b/speedetail-home.firebasestorage.app/o/Speedetail-2.0.1.dmg?alt=media&token=004f5070-1798-4746-bc52-3e29a2ff6d81"
                   target="_blank"
                   variant="secondary"
                   className="inline-flex items-center justify-center gap-2"
