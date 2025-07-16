@@ -27,7 +27,7 @@ _TEAM SPEEDETAIL 드림._
 
 **감사한 마음을 전하고 싶으실 때:**
 
-- 💳 계좌이체: `카카오뱅크 3333-19-7653226 (예금주: SPEEDETAIL[정상*])`
+- 💳 계좌이체: `카카오뱅크 3333-19-552035 (예금주: SPEEDETAIL[이현*])`
 - ☕ 기부를 원하시면 아래의 버튼을 클릭해주세요:
 
 [![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/default-yellow.png)](https://www.buymeacoffee.com/speedetail)
