@@ -20,3 +20,7 @@
 - Remove Unused Content
   - remove unused images
   - remove unused pages
+
+## 2025-07-16
+- Content Update
+  - change donate account
